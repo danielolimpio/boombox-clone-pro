@@ -4,23 +4,23 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Sidebar = () => {
   const leaderboard = [
-    { name: "Sarah Miller", points: "15,234", avatar: "SM" },
-    { name: "John Doe", points: "12,890", avatar: "JD" },
-    { name: "Emma Wilson", points: "11,456", avatar: "EW" },
-    { name: "Mike Chen", points: "9,823", avatar: "MC" },
-    { name: "Lisa Park", points: "8,567", avatar: "LP" },
+    { name: "Ana Silva", points: "15.234", avatar: "AS" },
+    { name: "João Santos", points: "12.890", avatar: "JS" },
+    { name: "Maria Costa", points: "11.456", avatar: "MC" },
+    { name: "Pedro Lima", points: "9.823", avatar: "PL" },
+    { name: "Carla Souza", points: "8.567", avatar: "CS" },
   ];
 
   const trending = [
-    { title: "25 Amazing Facts You Didn't Know", image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=100&h=100&fit=crop" },
-    { title: "Audio Picked From Soundcloud", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=100&h=100&fit=crop" },
-    { title: "Things Can You Powerfully Say", image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&h=100&fit=crop" },
+    { title: "25 Fatos Incríveis Que Você Não Sabia", image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=100&h=100&fit=crop" },
+    { title: "Áudios Escolhidos do Soundcloud", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=100&h=100&fit=crop" },
+    { title: "Coisas Que Você Pode Dizer Com Poder", image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&h=100&fit=crop" },
   ];
 
   return (
     <aside className="space-y-6">
       <div className="bg-card rounded-lg p-6 border">
-        <h3 className="font-bold text-lg mb-4">Weekly Leaderboard</h3>
+        <h3 className="font-bold text-lg mb-4">Ranking Semanal</h3>
         <div className="space-y-3">
           {leaderboard.map((user, index) => (
             <div key={index} className="flex items-center gap-3">
@@ -39,13 +39,13 @@ const Sidebar = () => {
 
       <div className="bg-muted rounded-lg p-8 border-2 border-dashed flex items-center justify-center text-muted-foreground">
         <div className="text-center">
-          <p className="font-semibold">Ad Space</p>
+          <p className="font-semibold">Espaço Publicitário</p>
           <p className="text-sm">300 x 250</p>
         </div>
       </div>
 
       <div className="bg-card rounded-lg p-6 border">
-        <h3 className="font-bold text-lg mb-4">Trending</h3>
+        <h3 className="font-bold text-lg mb-4">Em Alta</h3>
         <div className="space-y-3">
           {trending.map((post, index) => (
             <div key={index} className="flex items-start gap-3">
@@ -62,31 +62,31 @@ const Sidebar = () => {
       </div>
 
       <div className="bg-card rounded-lg p-6 border">
-        <h3 className="font-bold text-lg mb-4">Featured Author</h3>
+        <h3 className="font-bold text-lg mb-4">Autor em Destaque</h3>
         <div className="text-center space-y-4">
           <Avatar className="h-24 w-24 mx-auto">
             <AvatarImage src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" />
-            <AvatarFallback>JS</AvatarFallback>
+            <AvatarFallback>RS</AvatarFallback>
           </Avatar>
           <div>
-            <h4 className="font-bold">John Smith</h4>
-            <p className="text-sm text-muted-foreground">Content Creator</p>
+            <h4 className="font-bold">Roberto Silva</h4>
+            <p className="text-sm text-muted-foreground">Criador de Conteúdo</p>
           </div>
           <p className="text-sm text-muted-foreground">
-            Passionate writer and storyteller sharing amazing content daily.
+            Escritor apaixonado e contador de histórias compartilhando conteúdo incrível diariamente.
           </p>
           <div className="flex justify-center gap-6 text-sm">
             <div>
-              <p className="font-bold">57,504</p>
-              <p className="text-muted-foreground">Points</p>
+              <p className="font-bold">57.504</p>
+              <p className="text-muted-foreground">Pontos</p>
             </div>
             <div>
               <p className="font-bold">234</p>
               <p className="text-muted-foreground">Posts</p>
             </div>
             <div>
-              <p className="font-bold">21,300</p>
-              <p className="text-muted-foreground">Reads</p>
+              <p className="font-bold">21.300</p>
+              <p className="text-muted-foreground">Leituras</p>
             </div>
           </div>
           <div className="flex justify-center gap-3">
@@ -110,7 +110,7 @@ const Sidebar = () => {
       </div>
 
       <div className="bg-card rounded-lg p-6 border">
-        <h3 className="font-bold text-lg mb-4">Find Us On</h3>
+        <h3 className="font-bold text-lg mb-4">Encontre-nos Em</h3>
         <div className="flex justify-center gap-3">
           <Button variant="outline" size="icon">
             <Facebook className="h-5 w-5" />

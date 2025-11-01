@@ -7,16 +7,16 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">Recent Comments</h3>
+            <h3 className="font-bold text-lg mb-4">Comentários Recentes</h3>
             <div className="space-y-3 text-sm text-background/80">
-              <p>Sarah on "Amazing Facts About Wildlife"</p>
-              <p>Mike on "Best Music Festivals 2024"</p>
-              <p>Emma on "Photography Tips for Beginners"</p>
+              <p>Ana em "Fatos Incríveis Sobre a Vida Selvagem"</p>
+              <p>João em "Melhores Festivais de Música 2025"</p>
+              <p>Maria em "Dicas de Fotografia Para Iniciantes"</p>
             </div>
           </div>
 
           <div className="text-center">
-            <h3 className="font-bold text-lg mb-4">Join Our Community</h3>
+            <h3 className="font-bold text-lg mb-4">Junte-se à Nossa Comunidade</h3>
             <div className="flex justify-center gap-3 mb-4">
               <Button variant="outline" size="icon" className="bg-background/10 border-background/20 hover:bg-background/20">
                 <Facebook className="h-5 w-5" />
@@ -34,9 +34,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-bold text-lg mb-4">Disclaimer</h3>
+            <h3 className="font-bold text-lg mb-4">Aviso Legal</h3>
             <p className="text-sm text-background/80">
-              All content is for entertainment purposes. Views expressed are those of the authors.
+              Todo o conteúdo é para fins de entretenimento. As opiniões expressas são dos autores.
             </p>
           </div>
         </div>
@@ -44,12 +44,12 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <div className="flex gap-6">
-              <a href="#" className="hover:text-primary transition-colors">Community</a>
-              <a href="#" className="hover:text-primary transition-colors">Contact Us</a>
-              <a href="#" className="hover:text-primary transition-colors">Privacy</a>
-              <a href="#" className="hover:text-primary transition-colors">Terms</a>
+              <a href="#" className="hover:text-primary transition-colors">Comunidade</a>
+              <a href="#" className="hover:text-primary transition-colors">Contato</a>
+              <a href="#" className="hover:text-primary transition-colors">Privacidade</a>
+              <a href="#" className="hover:text-primary transition-colors">Termos</a>
             </div>
-            <p className="text-background/60">© 2025 All Rights Reserved</p>
+            <p className="text-background/60">© 2025 eFuxico - Todos os Direitos Reservados</p>
           </div>
         </div>
       </div>

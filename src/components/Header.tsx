@@ -1,11 +1,11 @@
-import { Menu, Search, User, ShoppingCart, Moon, Share2, Zap } from "lucide-react";
+import { Menu, Search, User, ShoppingCart, Moon, Share2, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const categories = [
-    "Art", "Animals", "Audio", "Big Stories", "Books", "Business", "Buzz",
-    "Celebrity", "Entertainment", "Geeky", "Health", "Ideas", "Life",
-    "Movies", "Music", "Parents", "Podcasts", "Politics", "Puzzles", "Rewind"
+    "Arte", "Animais", "Áudio", "Grandes Histórias", "Livros", "Negócios", "Buzz",
+    "Celebridades", "Entretenimento", "Geek", "Saúde", "Ideias", "Vida",
+    "Filmes", "Música", "Pais", "Podcasts", "Política", "Enigmas", "Retrospectiva"
   ];
 
   return (
@@ -18,23 +18,23 @@ const Header = () => {
                 <Menu className="h-5 w-5" />
               </Button>
               <div className="flex items-center gap-2 font-bold text-2xl">
-                <Zap className="h-6 w-6 text-secondary" fill="currentColor" />
-                BUZZFEED
+                <MessageCircle className="h-6 w-6 text-secondary" fill="currentColor" />
+                EFUXICO
               </div>
             </div>
 
             <nav className="hidden md:flex items-center gap-6">
               <a href="#" className="flex items-center gap-2 hover:opacity-80">
-                Latest
+                Recentes
               </a>
               <a href="#" className="flex items-center gap-2 hover:opacity-80">
-                Trending
+                Tendências
               </a>
               <a href="#" className="flex items-center gap-2 hover:opacity-80">
                 Hot
               </a>
               <a href="#" className="flex items-center gap-2 hover:opacity-80">
-                Popular
+                Populares
               </a>
             </nav>
 
@@ -55,7 +55,7 @@ const Header = () => {
                 <User className="h-5 w-5" />
               </Button>
               <Button className="hidden md:flex bg-foreground text-background hover:bg-foreground/90">
-                COMPOSE
+                PUBLICAR
               </Button>
             </div>
           </div>

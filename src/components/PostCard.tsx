@@ -71,7 +71,7 @@ const PostCard = ({
         )}
 
         <p className="text-sm text-muted-foreground">
-          by <span className="text-foreground">{author}</span> • {date}
+          por <span className="text-foreground">{author}</span> • {date}
         </p>
       </div>
     </article>

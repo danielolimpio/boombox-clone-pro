@@ -12,89 +12,89 @@ const Index = () => {
 
   const posts = [
     {
-      title: "25 Amazing Facts You Didn't Know About Wild Animals",
-      author: "Sarah Miller",
-      date: "2 days ago",
-      views: "12.5K",
+      title: "25 Fatos Incríveis Que Você Não Sabia Sobre Animais Selvagens",
+      author: "Ana Silva",
+      date: "há 2 dias",
+      views: "12,5K",
       votes: "432",
       image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&h=600&fit=crop",
-      category: "ANIMALS",
-      description: "Discover fascinating facts about wildlife that will blow your mind.",
+      category: "ANIMAIS",
+      description: "Descubra fatos fascinantes sobre a vida selvagem que vão explodir sua mente.",
       reaction: "😱",
       large: true,
     },
     {
-      title: "Things Can You Powerfully Say Instead of 'I Don't Know'",
-      author: "John Doe",
-      date: "1 day ago",
-      views: "8.3K",
+      title: "Coisas Que Você Pode Dizer Ao Invés de 'Eu Não Sei'",
+      author: "João Santos",
+      date: "há 1 dia",
+      views: "8,3K",
       votes: "256",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
-      category: "LIFE",
+      category: "VIDA",
       reaction: "🤔",
     },
     {
-      title: "Audio Picked From Soundcloud Best of 2024",
-      author: "Mike Chen",
-      date: "3 days ago",
-      views: "15.2K",
+      title: "Áudios Escolhidos do Soundcloud Melhores de 2025",
+      author: "Pedro Lima",
+      date: "há 3 dias",
+      views: "15,2K",
       votes: "589",
       image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
-      category: "MUSIC",
+      category: "MÚSICA",
       reaction: "🎵",
     },
     {
-      title: "Share Everything You Wanted to Know About Love But Were Too Afraid to Ask",
-      author: "Emma Wilson",
-      date: "4 days ago",
-      views: "9.7K",
+      title: "Tudo Que Você Queria Saber Sobre Amor Mas Tinha Medo de Perguntar",
+      author: "Maria Costa",
+      date: "há 4 dias",
+      views: "9,7K",
       votes: "324",
       image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=300&fit=crop",
-      category: "LIFE",
+      category: "VIDA",
       reaction: "❤️",
     },
     {
-      title: "Images Girl in Nigeria Sitting on the Boat",
-      author: "Lisa Park",
-      date: "5 days ago",
-      views: "6.8K",
+      title: "Imagens de Garota na Nigéria Sentada no Barco",
+      author: "Carla Souza",
+      date: "há 5 dias",
+      views: "6,8K",
       votes: "198",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop",
-      category: "PHOTOS",
+      category: "FOTOS",
     },
     {
-      title: "Write Up/Sit Down and Asked Dad: Father's Day Interview",
-      author: "David Lee",
-      date: "1 week ago",
-      views: "11.2K",
+      title: "Entrevista Especial: Conversando Com o Pai no Dia dos Pais",
+      author: "Roberto Silva",
+      date: "há 1 semana",
+      views: "11,2K",
       votes: "445",
       image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=400&h=300&fit=crop",
-      category: "FAMILY",
+      category: "FAMÍLIA",
     },
     {
-      title: "Video: Busy City Himalayas Lights Christmas Streets",
-      author: "Anna Smith",
-      date: "1 week ago",
-      views: "18.9K",
+      title: "Vídeo: Luzes Natalinas nas Ruas dos Himalaias",
+      author: "Juliana Oliveira",
+      date: "há 1 semana",
+      views: "18,9K",
       votes: "723",
       image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
-      category: "TRAVEL",
+      category: "VIAGEM",
       reaction: "✨",
     },
     {
-      title: "Guen 110: The Best Places On Camping Around the World",
-      author: "Tom Brown",
-      date: "2 weeks ago",
-      views: "7.5K",
+      title: "Os 10 Melhores Lugares Para Acampar Ao Redor do Mundo",
+      author: "Carlos Mendes",
+      date: "há 2 semanas",
+      views: "7,5K",
       votes: "267",
       image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop",
-      category: "TRAVEL",
+      category: "VIAGEM",
     },
     {
-      title: "Quiz 110: The Best Places On Camping Around the World",
-      author: "Rachel Green",
-      date: "2 weeks ago",
-      views: "13.4K",
+      title: "Quiz: Os Melhores Destinos de Camping do Planeta",
+      author: "Fernanda Alves",
+      date: "há 2 semanas",
+      views: "13,4K",
       votes: "512",
       image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400&h=300&fit=crop",
       category: "QUIZ",
@@ -126,7 +126,7 @@ const Index = () => {
                 className="gap-2"
               >
                 <ChevronLeft className="h-5 w-5" />
-                Previous
+                Anterior
               </Button>
               
               <div className="flex items-center gap-2">
@@ -147,7 +147,7 @@ const Index = () => {
                 className="gap-2 bg-primary hover:bg-primary/90"
                 onClick={() => setPage(page + 1)}
               >
-                Next
+                Próximo
                 <ChevronRight className="h-5 w-5" />
               </Button>
             </div>
