@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
@@ -9,8 +9,11 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   const [page, setPage] = useState(1);
+  const [posts, setPosts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
+  const observerTarget = useRef(null);
 
-  const posts = [
+  const initialPosts = [
     {
       title: "25 Fatos Incríveis Que Você Não Sabia Sobre Animais Selvagens",
       author: "Ana Silva",
@@ -102,6 +105,48 @@ const Index = () => {
     },
   ];
 
+  const loadMorePosts = useCallback(() => {
+    if (loading) return;
+    
+    setLoading(true);
+    
+    setTimeout(() => {
+      const newPosts = initialPosts.map((post, index) => ({
+        ...post,
+        title: `${post.title} - Página ${posts.length / initialPosts.length + 1}`,
+      }));
+      
+      setPosts(prevPosts => [...prevPosts, ...newPosts]);
+      setLoading(false);
+    }, 800);
+  }, [loading, posts.length]);
+
+  useEffect(() => {
+    setPosts(initialPosts);
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting && !loading) {
+          loadMorePosts();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    const currentTarget = observerTarget.current;
+    if (currentTarget) {
+      observer.observe(currentTarget);
+    }
+
+    return () => {
+      if (currentTarget) {
+        observer.unobserve(currentTarget);
+      }
+    };
+  }, [loadMorePosts, loading]);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -113,19 +158,28 @@ const Index = () => {
           <div className="lg:col-span-2">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {posts.map((post, index) => (
-                <PostCard key={index} {...post} />
+                <PostCard key={`${index}-${post.title}`} {...post} />
               ))}
             </div>
 
-            <div className="flex items-center justify-center gap-4">
+            <div ref={observerTarget} className="flex items-center justify-center py-8">
+              {loading && (
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-primary"></div>
+                  <span>Carregando mais posts...</span>
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center justify-center gap-4 mt-8">
               <Button
                 size="lg"
                 variant="outline"
                 onClick={() => setPage(Math.max(1, page - 1))}
                 disabled={page === 1}
-                className="gap-2"
+                className="gap-2 h-14 px-8 text-lg font-semibold"
               >
-                <ChevronLeft className="h-5 w-5" />
+                <ChevronLeft className="h-6 w-6" />
                 Anterior
               </Button>
               
@@ -136,6 +190,7 @@ const Index = () => {
                     variant={page === p ? "default" : "outline"}
                     size="icon"
                     onClick={() => setPage(p)}
+                    className="h-12 w-12 text-base"
                   >
                     {p}
                   </Button>
@@ -144,11 +199,11 @@ const Index = () => {
 
               <Button
                 size="lg"
-                className="gap-2 bg-primary hover:bg-primary/90"
+                className="gap-2 bg-primary hover:bg-primary/90 h-14 px-8 text-lg font-semibold"
                 onClick={() => setPage(page + 1)}
               >
                 Próximo
-                <ChevronRight className="h-5 w-5" />
+                <ChevronRight className="h-6 w-6" />
               </Button>
             </div>
           </div>

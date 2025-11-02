@@ -1,5 +1,6 @@
 import { Menu, Search, User, ShoppingCart, Moon, Share2, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const categories = [
@@ -17,13 +18,16 @@ const Header = () => {
               <Button variant="ghost" size="icon">
                 <Menu className="h-5 w-5" />
               </Button>
-              <div className="flex items-center gap-2 font-bold text-2xl">
+              <Link to="/" className="flex items-center gap-2 font-bold text-2xl hover:opacity-80">
                 <MessageCircle className="h-6 w-6 text-secondary" fill="currentColor" />
                 EFUXICO
-              </div>
+              </Link>
             </div>
 
             <nav className="hidden md:flex items-center gap-6">
+              <Link to="/" className="flex items-center gap-2 hover:opacity-80">
+                Home
+              </Link>
               <a href="#" className="flex items-center gap-2 hover:opacity-80">
                 Recentes
               </a>
@@ -36,6 +40,9 @@ const Header = () => {
               <a href="#" className="flex items-center gap-2 hover:opacity-80">
                 Populares
               </a>
+              <Link to="/contato" className="flex items-center gap-2 hover:opacity-80">
+                Contato
+              </Link>
             </nav>
 
             <div className="flex items-center gap-2">
@@ -66,13 +73,13 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-6 h-12 text-sm whitespace-nowrap">
             {categories.map((cat) => (
-              <a
+              <Link
                 key={cat}
-                href="#"
+                to={`/categoria/${cat.toLowerCase().replace(/ /g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 {cat}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

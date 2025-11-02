@@ -1,11 +1,12 @@
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background mt-12">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="font-bold text-lg mb-4">Comentários Recentes</h3>
             <div className="space-y-3 text-sm text-background/80">
@@ -34,6 +35,17 @@ const Footer = () => {
           </div>
 
           <div>
+            <h3 className="font-bold text-lg mb-4">Navegação</h3>
+            <div className="space-y-2 text-sm text-background/80">
+              <Link to="/" className="block hover:text-primary transition-colors">Home</Link>
+              <a href="#" className="block hover:text-primary transition-colors">Recentes</a>
+              <a href="#" className="block hover:text-primary transition-colors">Tendências</a>
+              <a href="#" className="block hover:text-primary transition-colors">Hot</a>
+              <a href="#" className="block hover:text-primary transition-colors">Populares</a>
+            </div>
+          </div>
+
+          <div>
             <h3 className="font-bold text-lg mb-4">Aviso Legal</h3>
             <p className="text-sm text-background/80">
               Todo o conteúdo é para fins de entretenimento. As opiniões expressas são dos autores.
@@ -44,8 +56,9 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <div className="flex gap-6">
+              <Link to="/" className="hover:text-primary transition-colors">Home</Link>
               <a href="#" className="hover:text-primary transition-colors">Comunidade</a>
-              <a href="#" className="hover:text-primary transition-colors">Contato</a>
+              <Link to="/contato" className="hover:text-primary transition-colors">Contato</Link>
               <a href="#" className="hover:text-primary transition-colors">Privacidade</a>
               <a href="#" className="hover:text-primary transition-colors">Termos</a>
             </div>
