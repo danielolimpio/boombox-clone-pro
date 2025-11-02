@@ -38,10 +38,10 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Navegação</h3>
             <div className="space-y-2 text-sm text-background/80">
               <Link to="/" className="block hover:text-primary transition-colors">Home</Link>
-              <a href="#" className="block hover:text-primary transition-colors">Recentes</a>
-              <a href="#" className="block hover:text-primary transition-colors">Tendências</a>
-              <a href="#" className="block hover:text-primary transition-colors">Hot</a>
-              <a href="#" className="block hover:text-primary transition-colors">Populares</a>
+              <Link to="/recentes" className="block hover:text-primary transition-colors">Recentes</Link>
+              <Link to="/tendencias" className="block hover:text-primary transition-colors">Tendências</Link>
+              <Link to="/hot" className="block hover:text-primary transition-colors">Hot</Link>
+              <Link to="/populares" className="block hover:text-primary transition-colors">Populares</Link>
             </div>
           </div>
 
@@ -57,12 +57,20 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <div className="flex gap-6">
               <Link to="/" className="hover:text-primary transition-colors">Home</Link>
-              <a href="#" className="hover:text-primary transition-colors">Comunidade</a>
+              <Link to="/recentes" className="hover:text-primary transition-colors">Recentes</Link>
+              <Link to="/tendencias" className="hover:text-primary transition-colors">Tendências</Link>
+              <Link to="/hot" className="hover:text-primary transition-colors">Hot</Link>
+              <Link to="/populares" className="hover:text-primary transition-colors">Populares</Link>
               <Link to="/contato" className="hover:text-primary transition-colors">Contato</Link>
-              <a href="#" className="hover:text-primary transition-colors">Privacidade</a>
-              <a href="#" className="hover:text-primary transition-colors">Termos</a>
+              <Link to="/privacidade" className="hover:text-primary transition-colors">Privacidade</Link>
+              <Link to="/termos" className="hover:text-primary transition-colors">Termos</Link>
             </div>
-            <p className="text-background/60">© 2025 eFuxico - Todos os Direitos Reservados</p>
+            <p className="text-background/60">
+              © Copyright 2025 | eFuxico | Todos os Direitos Reservados | Desenvolvido por{" "}
+              <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                DanielOlimpio
+              </a>
+            </p>
           </div>
         </div>
       </div>

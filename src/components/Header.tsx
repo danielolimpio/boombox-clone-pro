@@ -1,4 +1,4 @@
-import { Menu, Search, User, ShoppingCart, Moon, Share2, MessageCircle } from "lucide-react";
+import { Menu, Search, Moon, MessageCircle, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -28,41 +28,43 @@ const Header = () => {
               <Link to="/" className="flex items-center gap-2 hover:opacity-80">
                 Home
               </Link>
-              <a href="#" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/recentes" className="flex items-center gap-2 hover:opacity-80">
                 Recentes
-              </a>
-              <a href="#" className="flex items-center gap-2 hover:opacity-80">
+              </Link>
+              <Link to="/tendencias" className="flex items-center gap-2 hover:opacity-80">
                 Tendências
-              </a>
-              <a href="#" className="flex items-center gap-2 hover:opacity-80">
+              </Link>
+              <Link to="/hot" className="flex items-center gap-2 hover:opacity-80">
                 Hot
-              </a>
-              <a href="#" className="flex items-center gap-2 hover:opacity-80">
+              </Link>
+              <Link to="/populares" className="flex items-center gap-2 hover:opacity-80">
                 Populares
-              </a>
+              </Link>
               <Link to="/contato" className="flex items-center gap-2 hover:opacity-80">
                 Contato
               </Link>
             </nav>
 
             <div className="flex items-center gap-2">
-              <Button variant="ghost" size="icon">
+              <div className="hidden md:flex items-center gap-1 mr-2">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Facebook className="h-4 w-4" />
+                </Button>
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Instagram className="h-4 w-4" />
+                </Button>
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Twitter className="h-4 w-4" />
+                </Button>
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Youtube className="h-4 w-4" />
+                </Button>
+              </div>
+              <Button variant="ghost" size="icon" onClick={() => document.documentElement.classList.toggle('dark')}>
                 <Moon className="h-5 w-5" />
               </Button>
               <Button variant="ghost" size="icon">
-                <Share2 className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon">
                 <Search className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hidden md:flex">
-                <ShoppingCart className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="hidden md:flex">
-                <User className="h-5 w-5" />
-              </Button>
-              <Button className="hidden md:flex bg-foreground text-background hover:bg-foreground/90">
-                PUBLICAR
               </Button>
             </div>
           </div>
