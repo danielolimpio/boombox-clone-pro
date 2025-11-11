@@ -47,9 +47,14 @@ const Footer = () => {
 
           <div>
             <h3 className="font-bold text-lg mb-4">Aviso Legal</h3>
-            <p className="text-sm text-background/80">
+            <p className="text-sm text-background/80 mb-4">
               Todo o conteúdo é para fins de entretenimento. As opiniões expressas são dos autores.
             </p>
+            <div className="space-y-2 text-sm text-background/80">
+              <p><strong>Telefone:</strong> (12) 98251-9116</p>
+              <p><strong>E-mail:</strong> contato@efuxico.com.br</p>
+              <p><strong>Endereço:</strong> A. Julia Freire, 1200 - João Pessoa - PB</p>
+            </div>
           </div>
         </div>
 
@@ -57,10 +62,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <div className="flex gap-6">
               <Link to="/" className="hover:text-primary transition-colors">Home</Link>
-              <Link to="/recentes" className="hover:text-primary transition-colors">Recentes</Link>
-              <Link to="/tendencias" className="hover:text-primary transition-colors">Tendências</Link>
-              <Link to="/hot" className="hover:text-primary transition-colors">Hot</Link>
-              <Link to="/populares" className="hover:text-primary transition-colors">Populares</Link>
               <Link to="/contato" className="hover:text-primary transition-colors">Contato</Link>
               <Link to="/privacidade" className="hover:text-primary transition-colors">Privacidade</Link>
               <Link to="/termos" className="hover:text-primary transition-colors">Termos</Link>

@@ -75,7 +75,7 @@ const Header = () => {
 
       <div className="bg-background border-b overflow-x-auto">
         <div className="container mx-auto px-4">
-          <div className="flex items-center gap-6 h-12 text-sm whitespace-nowrap">
+          <div className="flex items-center justify-center gap-6 h-12 text-sm whitespace-nowrap">
             {categories.map((cat) => (
               <Link
                 key={cat}

@@ -15,7 +15,8 @@ const Popular = () => {
       date: "Há 1 dia",
       views: "15234",
       votes: "2891",
-      category: "Celebridades"
+      category: "CELEBRIDADES",
+      tags: ["popular", "famosos", "destaque"]
     },
     {
       id: 2,
@@ -25,7 +26,8 @@ const Popular = () => {
       date: "Há 2 dias",
       views: "12456",
       votes: "2347",
-      category: "Entretenimento"
+      category: "ENTRETENIMENTO",
+      tags: ["popular", "destaque", "leitura"]
     },
     {
       id: 3,
@@ -35,7 +37,30 @@ const Popular = () => {
       date: "Há 3 dias",
       views: "10987",
       votes: "1923",
-      category: "Tendências"
+      category: "CURIOSIDADES",
+      tags: ["sucesso", "popular", "viral"]
+    },
+    {
+      id: 4,
+      title: "Quiz Mais Feito do Mês",
+      image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
+      author: "Paula Lima",
+      date: "Há 4 dias",
+      views: "9876",
+      votes: "1789",
+      category: "QUESTIONÁRIOS",
+      tags: ["quiz", "popular", "teste"]
+    },
+    {
+      id: 5,
+      title: "Tecnologia Que Todos Querem Conhecer",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      author: "João Santos",
+      date: "Há 5 dias",
+      views: "8765",
+      votes: "1654",
+      category: "TECNOLOGIA",
+      tags: ["tech", "popular", "inovação"]
     },
   ]);
 
@@ -53,7 +78,7 @@ const Popular = () => {
       <Header />
       
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-2">Populares</h1>
+        <h1 className="text-4xl font-extrabold mb-2">Populares</h1>
         <p className="text-muted-foreground mb-8">Os posts mais lidos e curtidos</p>
         
         <div className="flex gap-8">

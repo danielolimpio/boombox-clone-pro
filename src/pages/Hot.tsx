@@ -15,7 +15,8 @@ const Hot = () => {
       date: "Há 1 hora",
       views: "8923",
       votes: "1456",
-      category: "Hot"
+      category: "CELEBRIDADES",
+      tags: ["polêmica", "hot", "escândalo"]
     },
     {
       id: 2,
@@ -25,7 +26,8 @@ const Hot = () => {
       date: "Há 2 horas",
       views: "7654",
       votes: "1234",
-      category: "Celebridades"
+      category: "ENTRETENIMENTO",
+      tags: ["escândalo", "revelação", "bombástico"]
     },
     {
       id: 3,
@@ -35,7 +37,30 @@ const Hot = () => {
       date: "Há 3 horas",
       views: "6789",
       votes: "1098",
-      category: "Buzz"
+      category: "CURIOSIDADES",
+      tags: ["hot", "trending", "polêmico"]
+    },
+    {
+      id: 4,
+      title: "Polêmica: Quiz Divide Opiniões",
+      image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
+      author: "Carlos Mendes",
+      date: "Há 4 horas",
+      views: "5432",
+      votes: "987",
+      category: "QUESTIONÁRIOS",
+      tags: ["quiz", "polêmica", "debate"]
+    },
+    {
+      id: 5,
+      title: "Tecnologia Controversa Gera Debate",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      author: "Ana Costa",
+      date: "Há 5 horas",
+      views: "4876",
+      votes: "876",
+      category: "TECNOLOGIA",
+      tags: ["tech", "polêmica", "debate"]
     },
   ]);
 
@@ -53,7 +78,7 @@ const Hot = () => {
       <Header />
       
       <main className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-2">Hot 🔥</h1>
+        <h1 className="text-4xl font-extrabold mb-2">Hot 🔥</h1>
         <p className="text-muted-foreground mb-8">O conteúdo mais quente e polêmico</p>
         
         <div className="flex gap-8">

@@ -29,29 +29,135 @@ const Category = () => {
 
   const categoryName = categoryNames[slug || ""] || "Categoria";
 
-  const posts = [
-    {
-      title: "Novidades Incríveis da Categoria " + categoryName,
-      author: "Ana Silva",
-      date: "há 2 dias",
-      views: "12,5K",
-      votes: "432",
-      image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&h=600&fit=crop",
-      category: categoryName.toUpperCase(),
-      description: "Descubra as últimas novidades sobre " + categoryName.toLowerCase() + ".",
-      reaction: "😱",
-    },
-    {
-      title: "Top 10 " + categoryName + " de 2025",
-      author: "João Santos",
-      date: "há 1 dia",
-      views: "8,3K",
-      votes: "256",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
-      category: categoryName.toUpperCase(),
-      reaction: "🤔",
-    },
-  ];
+  const getCategoryPosts = () => {
+    const allPosts: { [key: string]: any[] } = {
+      "curiosidades": [
+        {
+          title: "25 Fatos Incríveis Que Você Não Sabia Sobre o Universo",
+          author: "Ana Silva",
+          date: "há 2 dias",
+          views: "12,5K",
+          votes: "432",
+          image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&h=600&fit=crop",
+          category: "CURIOSIDADES",
+          description: "Descubra fatos fascinantes sobre o universo que vão explodir sua mente.",
+          reaction: "😱",
+          tags: ["ciência", "espaço", "fatos"],
+        },
+        {
+          title: "10 Curiosidades Sobre Animais Que Você Nunca Imaginou",
+          author: "Roberto Silva",
+          date: "há 1 semana",
+          views: "11,2K",
+          votes: "445",
+          image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=400&h=300&fit=crop",
+          category: "CURIOSIDADES",
+          reaction: "🤯",
+          tags: ["animais", "natureza", "curiosidades"],
+        },
+      ],
+      "celebridades": [
+        {
+          title: "Vida Secreta das Celebridades Brasileiras em 2025",
+          author: "João Santos",
+          date: "há 1 dia",
+          views: "8,3K",
+          votes: "256",
+          image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+          category: "CELEBRIDADES",
+          reaction: "🤔",
+          tags: ["famosos", "brasil", "novidades"],
+        },
+        {
+          title: "Entrevista Exclusiva: Anitta Fala Sobre Novos Projetos",
+          author: "Juliana Oliveira",
+          date: "há 1 semana",
+          views: "18,9K",
+          votes: "723",
+          image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
+          category: "CELEBRIDADES",
+          reaction: "✨",
+          tags: ["anitta", "música", "entrevista"],
+        },
+      ],
+      "entretenimento": [
+        {
+          title: "Melhores Séries e Filmes de 2025 Para Maratonar",
+          author: "Pedro Lima",
+          date: "há 3 dias",
+          views: "15,2K",
+          votes: "589",
+          image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop",
+          category: "ENTRETENIMENTO",
+          reaction: "🎵",
+          tags: ["streaming", "filmes", "séries"],
+        },
+        {
+          title: "Os 10 Melhores Festivais de Música do Brasil",
+          author: "Carlos Mendes",
+          date: "há 2 semanas",
+          views: "7,5K",
+          votes: "267",
+          image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop",
+          category: "ENTRETENIMENTO",
+          reaction: "🎸",
+          tags: ["música", "festivais", "eventos"],
+        },
+      ],
+      "questionarios": [
+        {
+          title: "Quiz: Que Tipo de Pessoa Você É?",
+          author: "Maria Costa",
+          date: "há 4 dias",
+          views: "9,7K",
+          votes: "324",
+          image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=300&fit=crop",
+          category: "QUESTIONÁRIOS",
+          reaction: "❤️",
+          tags: ["quiz", "personalidade", "teste"],
+        },
+        {
+          title: "Quiz: Descubra Seu Destino de Viagem Ideal",
+          author: "Fernanda Alves",
+          date: "há 2 semanas",
+          views: "13,4K",
+          votes: "512",
+          image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400&h=300&fit=crop",
+          category: "QUESTIONÁRIOS",
+          reaction: "🏕️",
+          tags: ["viagem", "quiz", "turismo"],
+        },
+      ],
+      "tecnologia": [
+        {
+          title: "5 Inovações Tecnológicas Que Vão Mudar o Mundo",
+          author: "Carla Souza",
+          date: "há 5 dias",
+          views: "6,8K",
+          votes: "198",
+          image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop",
+          category: "TECNOLOGIA",
+          reaction: "💡",
+          tags: ["inovação", "futuro", "tech"],
+        },
+        {
+          title: "Inteligência Artificial: O Futuro Chegou",
+          author: "Paulo Martins",
+          date: "há 3 dias",
+          views: "10,1K",
+          votes: "387",
+          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop",
+          category: "TECNOLOGIA",
+          reaction: "🤖",
+          tags: ["ia", "tecnologia", "inovação"],
+        },
+      ],
+    };
+
+    return allPosts[slug || ""] || [];
+  };
+
+  const posts = getCategoryPosts();
 
   return (
     <div className="min-h-screen bg-background">
