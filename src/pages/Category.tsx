@@ -12,26 +12,19 @@ const Category = () => {
   const [page, setPage] = useState(1);
 
   const categoryNames: { [key: string]: string } = {
+    "curiosidades": "Curiosidades",
     "celebridades": "Celebridades",
     "entretenimento": "Entretenimento",
-    "musica": "Música",
-    "vida": "Vida",
-    "animais": "Animais",
-    "arte": "Arte",
-    "audio": "Áudio",
-    "grandes-historias": "Grandes Histórias",
-    "livros": "Livros",
-    "negocios": "Negócios",
-    "buzz": "Buzz",
-    "geek": "Geek",
-    "saude": "Saúde",
-    "ideias": "Ideias",
-    "filmes": "Filmes",
-    "pais": "Pais",
-    "podcasts": "Podcasts",
-    "politica": "Política",
-    "enigmas": "Enigmas",
-    "retrospectiva": "Retrospectiva"
+    "questionarios": "Questionários",
+    "tecnologia": "Tecnologia"
+  };
+
+  const categoryDescriptions: { [key: string]: string } = {
+    "curiosidades": "Fatos surpreendentes que desafiam o senso comum — reais, mas quase inacreditáveis.",
+    "celebridades": "Histórias e atualizações sobre figuras famosas que você conhece (ou achava que conhecia).",
+    "entretenimento": "Conteúdos que marcaram ou estão marcando a cultura pop — com um toque além do óbvio.",
+    "questionarios": "Testes rápidos e divertidos para você se descobrir (ou se entreter por uns minutos).",
+    "tecnologia": "Inovações, invenções e ideias que moldam — ou tentam moldar — o nosso dia a dia."
   };
 
   const categoryName = categoryNames[slug || ""] || "Categoria";
@@ -65,7 +58,12 @@ const Category = () => {
       <Header />
       
       <main className="container mx-auto px-4 py-6">
-        <h1 className="text-4xl font-bold mb-8">{categoryName}</h1>
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold mb-4">{categoryName}</h1>
+          <p className="text-lg text-muted-foreground">
+            {categoryDescriptions[slug || ""] || ""}
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">

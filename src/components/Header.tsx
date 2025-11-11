@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const categories = [
-    "Arte", "Animais", "Áudio", "Grandes Histórias", "Livros", "Negócios", "Buzz",
-    "Celebridades", "Entretenimento", "Geek", "Saúde", "Ideias", "Vida",
-    "Filmes", "Música", "Pais", "Podcasts", "Política", "Enigmas", "Retrospectiva"
+    "Curiosidades",
+    "Celebridades", 
+    "Entretenimento",
+    "Questionários",
+    "Tecnologia"
   ];
 
   return (
