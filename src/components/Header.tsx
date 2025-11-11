@@ -27,22 +27,22 @@ const Header = () => {
             </div>
 
             <nav className="hidden md:flex items-center gap-6">
-              <Link to="/" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Home
               </Link>
-              <Link to="/recentes" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/recentes" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Recentes
               </Link>
-              <Link to="/tendencias" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/tendencias" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Tendências
               </Link>
-              <Link to="/hot" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/hot" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Hot
               </Link>
-              <Link to="/populares" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/populares" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Populares
               </Link>
-              <Link to="/contato" className="flex items-center gap-2 hover:opacity-80">
+              <Link to="/contato" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Contato
               </Link>
             </nav>
@@ -75,12 +75,12 @@ const Header = () => {
 
       <div className="bg-background border-b overflow-x-auto">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center gap-6 h-12 text-sm whitespace-nowrap">
+          <div className="flex items-center justify-center gap-8 h-14 text-base whitespace-nowrap">
             {categories.map((cat) => (
               <Link
                 key={cat}
                 to={`/categoria/${cat.toLowerCase().replace(/ /g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}
-                className="text-muted-foreground hover:text-foreground transition-colors"
+                className="text-muted-foreground hover:text-foreground transition-colors font-bold"
               >
                 {cat}
               </Link>
