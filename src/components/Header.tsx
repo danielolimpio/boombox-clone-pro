@@ -1,6 +1,7 @@
-import { Menu, Search, Moon, MessageCircle, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Menu, Search, Moon, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import logoEfuxico from "@/assets/efuxico-logo.png";
 
 const Header = () => {
   const categories = [
@@ -20,9 +21,8 @@ const Header = () => {
               <Button variant="ghost" size="icon">
                 <Menu className="h-5 w-5" />
               </Button>
-              <Link to="/" className="flex items-center gap-2 font-bold text-2xl hover:opacity-80">
-                <MessageCircle className="h-6 w-6 text-secondary" fill="currentColor" />
-                EFUXICO
+              <Link to="/" className="flex items-center gap-2 hover:opacity-80">
+                <img src={logoEfuxico} alt="eFuxico" className="h-10" />
               </Link>
             </div>
 
