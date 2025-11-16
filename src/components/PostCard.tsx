@@ -1,5 +1,6 @@
 import { Eye, ArrowUp, ArrowDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import AuthorBio from "@/components/AuthorBio";
 
 interface PostCardProps {
   title: string;
@@ -12,6 +13,7 @@ interface PostCardProps {
   description?: string;
   reaction?: string;
   large?: boolean;
+  showAuthor?: boolean;
 }
 
 const PostCard = ({
@@ -25,6 +27,7 @@ const PostCard = ({
   description,
   reaction,
   large = false,
+  showAuthor = false,
 }: PostCardProps) => {
   return (
     <article className={`group cursor-pointer ${large ? "col-span-2 row-span-2" : ""}`}>
@@ -74,6 +77,8 @@ const PostCard = ({
           por <span className="text-foreground">{author}</span> • {date}
         </p>
       </div>
+      
+      {showAuthor && <AuthorBio />}
     </article>
   );
 };

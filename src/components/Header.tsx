@@ -46,6 +46,9 @@ const Header = () => {
               <Link to="/" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Home
               </Link>
+              <Link to="/sobre" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
+                Sobre
+              </Link>
               <Link to="/recentes" className="flex items-center gap-2 hover:opacity-80 text-lg font-bold">
                 Recentes
               </Link>
