@@ -1,9 +1,25 @@
-import { Menu, Search, Moon, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Menu, Search, Moon, Sun, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import logoEfuxico from "@/assets/efuxico-logo.png";
 
 const Header = () => {
+  const [isDark, setIsDark] = useState(document.documentElement.classList.contains('dark'));
+
+  const toggleTheme = () => {
+    document.documentElement.classList.toggle('dark');
+    setIsDark(document.documentElement.classList.contains('dark'));
+  };
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    return () => observer.disconnect();
+  }, []);
+
   const categories = [
     "Curiosidades",
     "Celebridades", 
@@ -62,8 +78,8 @@ const Header = () => {
                   <Youtube className="h-4 w-4" />
                 </Button>
               </div>
-              <Button variant="ghost" size="icon" onClick={() => document.documentElement.classList.toggle('dark')}>
-                <Moon className="h-5 w-5" />
+              <Button variant="ghost" size="icon" onClick={toggleTheme}>
+                {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
               <Button variant="ghost" size="icon">
                 <Search className="h-5 w-5" />
