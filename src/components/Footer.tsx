@@ -54,6 +54,7 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Navegação</h3>
             <div className="space-y-2 text-sm text-background/80">
               <Link to="/" className="block hover:text-primary transition-colors">Home</Link>
+              <Link to="/sobre" className="block hover:text-primary transition-colors">Sobre</Link>
               <Link to="/recentes" className="block hover:text-primary transition-colors">Recentes</Link>
               <Link to="/tendencias" className="block hover:text-primary transition-colors">Tendências</Link>
               <Link to="/hot" className="block hover:text-primary transition-colors">Hot</Link>
@@ -78,6 +79,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <div className="flex gap-6">
               <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+              <Link to="/sobre" className="hover:text-primary transition-colors">Sobre</Link>
               <Link to="/contato" className="hover:text-primary transition-colors">Contato</Link>
               <Link to="/privacidade" className="hover:text-primary transition-colors">Privacidade</Link>
               <Link to="/termos" className="hover:text-primary transition-colors">Termos</Link>

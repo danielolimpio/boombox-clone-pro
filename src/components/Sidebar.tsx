@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Twitter, Youtube, Share2 } from "lucide-react";
+import { Facebook, Instagram, Share2, Globe } from "lucide-react";
+import { XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
@@ -65,11 +66,11 @@ const Sidebar = () => {
         <h3 className="font-bold text-lg mb-4">Autor em Destaque</h3>
         <div className="text-center space-y-4">
           <Avatar className="h-24 w-24 mx-auto">
-            <AvatarImage src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" />
-            <AvatarFallback>RS</AvatarFallback>
+            <AvatarImage src={new URL("@/assets/author-daniel.jpg", import.meta.url).href} />
+            <AvatarFallback>DO</AvatarFallback>
           </Avatar>
           <div>
-            <h4 className="font-bold">Roberto Silva</h4>
+            <h4 className="font-bold">Daniel Olimpio</h4>
             <p className="text-sm text-muted-foreground">Criador de Conteúdo</p>
           </div>
           <p className="text-sm text-muted-foreground">
@@ -90,20 +91,25 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="flex justify-center gap-3">
-            <Button variant="ghost" size="icon">
-              <Facebook className="h-4 w-4" />
+            <Button variant="ghost" size="icon" asChild>
+              <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer">
+                <Facebook className="h-4 w-4" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon">
-              <Twitter className="h-4 w-4" />
+            <Button variant="ghost" size="icon" asChild>
+              <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer">
+                <XIcon className="h-4 w-4" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon">
-              <Instagram className="h-4 w-4" />
+            <Button variant="ghost" size="icon" asChild>
+              <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer">
+                <Instagram className="h-4 w-4" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon">
-              <Share2 className="h-4 w-4" />
-            </Button>
-            <Button variant="ghost" size="icon">
-              <Youtube className="h-4 w-4" />
+            <Button variant="ghost" size="icon" asChild>
+              <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer">
+                <Globe className="h-4 w-4" />
+              </a>
             </Button>
           </div>
         </div>
@@ -112,20 +118,25 @@ const Sidebar = () => {
       <div className="bg-card rounded-lg p-6 border">
         <h3 className="font-bold text-lg mb-4">Encontre-nos Em</h3>
         <div className="flex justify-center gap-3">
-          <Button variant="outline" size="icon">
-            <Facebook className="h-5 w-5" />
+          <Button variant="outline" size="icon" asChild>
+            <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer">
+              <Facebook className="h-5 w-5" />
+            </a>
           </Button>
-          <Button variant="outline" size="icon">
-            <Instagram className="h-5 w-5" />
+          <Button variant="outline" size="icon" asChild>
+            <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer">
+              <Instagram className="h-5 w-5" />
+            </a>
           </Button>
-          <Button variant="outline" size="icon">
-            <Share2 className="h-5 w-5" />
+          <Button variant="outline" size="icon" asChild>
+            <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer">
+              <XIcon className="h-5 w-5" />
+            </a>
           </Button>
-          <Button variant="outline" size="icon">
-            <Twitter className="h-5 w-5" />
-          </Button>
-          <Button variant="outline" size="icon">
-            <Youtube className="h-5 w-5" />
+          <Button variant="outline" size="icon" asChild>
+            <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer">
+              <Globe className="h-5 w-5" />
+            </a>
           </Button>
         </div>
       </div>

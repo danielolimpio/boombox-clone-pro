@@ -13,6 +13,7 @@ import Recent from "./pages/Recent";
 import Trending from "./pages/Trending";
 import Hot from "./pages/Hot";
 import Popular from "./pages/Popular";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/tendencias" element={<Trending />} />
           <Route path="/hot" element={<Hot />} />
           <Route path="/populares" element={<Popular />} />
+          <Route path="/sobre" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
