@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import logoEfuxico from "@/assets/efuxico-logo.png";
 
 const Footer = () => {
   return (
@@ -17,6 +18,9 @@ const Footer = () => {
           </div>
 
           <div className="text-center">
+            <div className="flex justify-center mb-4">
+              <img src={logoEfuxico} alt="eFuxico" className="h-12" />
+            </div>
             <h3 className="font-bold text-lg mb-4">Junte-se à Nossa Comunidade</h3>
             <div className="flex justify-center gap-3 mb-4">
               <Button variant="outline" size="icon" className="bg-background/10 border-background/20 hover:bg-background/20">
