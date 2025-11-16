@@ -1,9 +1,21 @@
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import logoEfuxicoWhite from "@/assets/efuxico-logo-white.png";
+import logoEfuxicoDark from "@/assets/efuxico-logo-dark.png";
 
 const Footer = () => {
+  const [isDark, setIsDark] = useState(document.documentElement.classList.contains('dark'));
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <footer className="bg-foreground text-background mt-12">
       <div className="container mx-auto px-4 py-12">
@@ -19,7 +31,7 @@ const Footer = () => {
 
           <div className="text-center">
             <div className="flex justify-center mb-4">
-              <img src={logoEfuxicoWhite} alt="eFuxico" className="h-16" />
+              <img src={isDark ? logoEfuxicoDark : logoEfuxicoWhite} alt="eFuxico" className="h-16" />
             </div>
             <h3 className="font-bold text-lg mb-4">Junte-se à Nossa Comunidade</h3>
             <div className="flex justify-center gap-3 mb-4">
