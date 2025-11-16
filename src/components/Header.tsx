@@ -22,7 +22,7 @@ const Header = () => {
                 <Menu className="h-5 w-5" />
               </Button>
               <Link to="/" className="flex items-center gap-2 hover:opacity-80">
-                <img src={logoEfuxico} alt="eFuxico" className="h-10" />
+                <img src={logoEfuxico} alt="eFuxico" className="h-14" />
               </Link>
             </div>
 
