@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
@@ -9,6 +10,9 @@ import { Link } from "react-router-dom";
 import elianeImage from "@/assets/celebs/eliane-apresentadora.jpeg";
 
 const ElianeApresentadora = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -131,12 +135,12 @@ const ElianeApresentadora = () => {
                 <div className="mt-8 flex justify-between items-center">
                   <Link to="/giovanna-antonelli-antes-depois-maquiagem">
                     <Button variant="outline" size="lg">
-                      <ArrowLeft className="mr-2" /> Anterior: Giovanna Antonelli
+                      <ArrowLeft className="mr-2" /> Anterior
                     </Button>
                   </Link>
                   <Link to="/juliana-paes-antes-depois-maquiagem">
                     <Button size="lg" className="text-lg px-8 py-6">
-                      Próxima: Juliana Paes <ArrowRight className="ml-2" />
+                      Próximo <ArrowRight className="ml-2" />
                     </Button>
                   </Link>
                 </div>

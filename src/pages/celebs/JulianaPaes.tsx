@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
@@ -9,6 +10,9 @@ import { Link } from "react-router-dom";
 import julianaImage from "@/assets/celebs/juliana-paes.jpeg";
 
 const JulianaPaes = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -51,7 +55,7 @@ const JulianaPaes = () => {
                     <Button variant="outline"><ArrowLeft className="mr-2" /> Anterior</Button>
                   </Link>
                   <Link to="/ana-hickmann-antes-depois-maquiagem">
-                    <Button><ArrowRight className="ml-2" /> Próxima: Ana Hickmann</Button>
+                    <Button>Próximo <ArrowRight className="ml-2" /></Button>
                   </Link>
                 </div>
               </article>
