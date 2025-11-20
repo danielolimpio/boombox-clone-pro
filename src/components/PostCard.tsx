@@ -1,6 +1,7 @@
 import { Eye, ArrowUp, ArrowDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import AuthorBio from "@/components/AuthorBio";
+import { Link } from "react-router-dom";
 
 interface PostCardProps {
   title: string;
@@ -14,6 +15,7 @@ interface PostCardProps {
   reaction?: string;
   large?: boolean;
   showAuthor?: boolean;
+  link?: string;
 }
 
 const PostCard = ({
@@ -28,8 +30,9 @@ const PostCard = ({
   reaction,
   large = false,
   showAuthor = false,
+  link,
 }: PostCardProps) => {
-  return (
+  const CardContent = (
     <article className={`group cursor-pointer ${large ? "col-span-2 row-span-2" : ""}`}>
       <div className="relative overflow-hidden rounded-lg mb-3">
         <img
@@ -81,6 +84,12 @@ const PostCard = ({
       {showAuthor && <AuthorBio />}
     </article>
   );
+
+  if (link) {
+    return <Link to={link}>{CardContent}</Link>;
+  }
+
+  return CardContent;
 };
 
 export default PostCard;
