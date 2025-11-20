@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
@@ -8,6 +9,9 @@ import { Link } from "react-router-dom";
 import carolinaImage from "@/assets/celebs/carolina-ferraz.jpeg";
 
 const CarolinaFerraz = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -27,7 +31,7 @@ const CarolinaFerraz = () => {
                 
                 <div className="mt-8">
                   <Link to="/ana-hickmann-antes-depois-maquiagem">
-                    <Button variant="outline"><ArrowLeft className="mr-2" /> Anterior: Ana Hickmann</Button>
+                    <Button variant="outline"><ArrowLeft className="mr-2" /> Anterior</Button>
                   </Link>
                 </div>
               </article>

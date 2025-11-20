@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
@@ -9,6 +10,9 @@ import { Link } from "react-router-dom";
 import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
 
 const XuxaMeneghel = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -134,7 +138,7 @@ const XuxaMeneghel = () => {
                 <div className="mt-8 text-center">
                   <Link to="/sandy-cantora-antes-depois-maquiagem">
                     <Button size="lg" className="text-lg px-8 py-6">
-                      Próxima Celebridade: Sandy <ArrowRight className="ml-2" />
+                      Próximo <ArrowRight className="ml-2" />
                     </Button>
                   </Link>
                 </div>
