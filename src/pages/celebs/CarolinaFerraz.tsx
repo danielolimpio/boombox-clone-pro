@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
+import SocialShare from "@/components/SocialShare";
+import AuthorBio from "@/components/AuthorBio";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -29,6 +31,13 @@ const CarolinaFerraz = () => {
                 <h2 className="text-3xl font-bold mb-6 text-primary">#10 - Carolina Ferraz: Beleza Clássica</h2>
                 <img src={carolinaImage} alt="Carolina Ferraz" className="w-full rounded-lg mb-8" />
                 
+                <SocialShare 
+                  url="https://efuxico.com.br/carolina-ferraz-antes-depois-maquiagem"
+                  title="Carolina Ferraz Antes e Depois da Maquiagem"
+                />
+
+                <AuthorBio />
+
                 <div className="mt-8">
                   <Link to="/ana-hickmann-antes-depois-maquiagem">
                     <Button variant="outline"><ArrowLeft className="mr-2" /> Anterior</Button>

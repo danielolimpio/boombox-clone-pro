@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
+import SocialShare from "@/components/SocialShare";
+import AuthorBio from "@/components/AuthorBio";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowRight, ArrowLeft } from "lucide-react";

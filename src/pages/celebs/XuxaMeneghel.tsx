@@ -3,9 +3,11 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
+import SocialShare from "@/components/SocialShare";
+import AuthorBio from "@/components/AuthorBio";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
 
@@ -134,6 +136,13 @@ const XuxaMeneghel = () => {
                     </AccordionItem>
                   </Accordion>
                 </div>
+
+                <SocialShare 
+                  url="https://efuxico.com.br/xuxa-meneghel-antes-depois-maquiagem"
+                  title="Xuxa Meneghel Antes e Depois da Maquiagem"
+                />
+
+                <AuthorBio />
 
                 <div className="mt-8 text-center">
                   <Link to="/sandy-cantora-antes-depois-maquiagem">
