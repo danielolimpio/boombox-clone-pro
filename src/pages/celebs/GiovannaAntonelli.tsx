@@ -43,7 +43,7 @@ const GiovannaAntonelli = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    Giovanna Antonelli é uma das atrizes mais queridas da televisão brasileira, conhecida por sua beleza radiante e seu talento versátil. Aos 48 anos, a atriz continua deslumbrante e serve de inspiração para milhões de mulheres. Suas fotos sem maquiagem revelam uma pele impecável e uma beleza natural que conquista admiradores em todo o país.
+                    Giovanna Antonelli é uma das atrizes mais queridas da televisão brasileira, conhecida por sua beleza radiante e seu talento versátil. Aos 49 anos, a atriz continua deslumbrante e serve de inspiração para milhões de mulheres. Suas fotos sem maquiagem revelam uma pele impecável e uma beleza natural que conquista admiradores em todo o país.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">Beleza Natural e Autenticidade</h3>
@@ -86,7 +86,7 @@ const GiovannaAntonelli = () => {
                         Qual é a idade de Giovanna Antonelli?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Giovanna Antonelli nasceu em 18 de março de 1976, atualmente tem 48 anos. A atriz começou sua carreira ainda na adolescência e acumula mais de 30 anos de trabalho na televisão.
+                        Giovanna Antonelli nasceu em 18 de março de 1976, atualmente tem 49 anos. A atriz começou sua carreira ainda na adolescência e acumula mais de 30 anos de trabalho na televisão.
                       </AccordionContent>
                     </AccordionItem>
 

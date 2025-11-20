@@ -43,7 +43,7 @@ const LeticiaSpiller = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    Letícia Spiller é uma das atrizes mais admiradas da televisão brasileira, conhecida por seus papéis marcantes e sua beleza atemporal. Aos 50 anos, a atriz continua deslumbrante e inspira mulheres de todas as idades com sua aparência jovial e radiante. Suas fotos sem maquiagem revelam uma pele impecável e uma beleza natural que desafia o passar dos anos.
+                    Letícia Spiller é uma das atrizes mais admiradas da televisão brasileira, conhecida por seus papéis marcantes e sua beleza atemporal. Aos 52 anos, a atriz continua deslumbrante e inspira mulheres de todas as idades com sua aparência jovial e radiante. Suas fotos sem maquiagem revelam uma pele impecável e uma beleza natural que desafia o passar dos anos.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">O Segredo da Juventude</h3>
@@ -66,7 +66,7 @@ const LeticiaSpiller = () => {
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">Inspiração de Beleza Madura</h3>
                   <p className="text-lg leading-relaxed">
-                    Letícia Spiller se tornou referência de beleza para mulheres maduras que buscam envelhecer com graça e dignidade. A atriz compartilha regularmente suas rotinas de skincare e dicas de bem-estar com suas seguidoras. Ela defende que a beleza aos 50 anos é diferente da beleza aos 20, mas não menos válida ou admirável.
+                    Letícia Spiller se tornou referência de beleza para mulheres maduras que buscam envelhecer com graça e dignidade. A atriz compartilha regularmente suas rotinas de skincare e dicas de bem-estar com suas seguidoras. Ela defende que a beleza aos 52 anos é diferente da beleza aos 20, mas não menos válida ou admirável.
                   </p>
 
                   <p className="text-lg leading-relaxed">
@@ -86,7 +86,7 @@ const LeticiaSpiller = () => {
                         Qual é a idade de Letícia Spiller?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Letícia Spiller nasceu em 19 de junho de 1973, atualmente tem 51 anos. A atriz é frequentemente elogiada por sua aparência jovem e bem cuidada.
+                        Letícia Spiller nasceu em 19 de junho de 1973, atualmente tem 52 anos. A atriz é frequentemente elogiada por sua aparência jovem e bem cuidada.
                       </AccordionContent>
                     </AccordionItem>
 

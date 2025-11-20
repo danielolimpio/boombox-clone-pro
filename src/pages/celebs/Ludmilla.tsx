@@ -86,7 +86,7 @@ const Ludmilla = () => {
                         Qual é a idade de Ludmilla?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Ludmilla nasceu em 24 de abril de 1995, atualmente tem 29 anos. A cantora começou sua carreira muito jovem e já conquistou inúmeros prêmios e reconhecimentos na música brasileira.
+                        Ludmilla nasceu em 24 de abril de 1995, atualmente tem 30 anos. A cantora começou sua carreira muito jovem e já conquistou inúmeros prêmios e reconhecimentos na música brasileira.
                       </AccordionContent>
                     </AccordionItem>
 

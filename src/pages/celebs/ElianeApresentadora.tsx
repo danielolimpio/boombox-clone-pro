@@ -43,7 +43,7 @@ const ElianeApresentadora = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    Eliane é uma das apresentadoras mais elegantes e profissionais da televisão brasileira. Com uma carreira consolidada no jornalismo, ela se destaca não apenas pelo talento profissional, mas também por sua aparência impecável e sofisticada. Aos 53 anos, a apresentadora mantém uma beleza atemporal que inspira mulheres de todas as idades.
+                    Eliane é uma das apresentadoras mais elegantes e profissionais da televisão brasileira. Com uma carreira consolidada no jornalismo, ela se destaca não apenas pelo talento profissional, mas também por sua aparência impecável e sofisticada. Aos 54 anos, a apresentadora mantém uma beleza atemporal que inspira mulheres de todas as idades.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">Beleza Natural e Discrição</h3>
@@ -52,7 +52,7 @@ const ElianeApresentadora = () => {
                   </p>
 
                   <p className="text-lg leading-relaxed">
-                    Eliane é adepta de um estilo de vida saudável que reflete diretamente em sua aparência. A apresentadora pratica exercícios regularmente, mantém uma alimentação equilibrada e prioriza o sono adequado. Esses hábitos, combinados com sua genética favorável, contribuem para sua aparência jovial e radiante mesmo aos 50 anos.
+                    Eliane é adepta de um estilo de vida saudável que reflete diretamente em sua aparência. A apresentadora pratica exercícios regularmente, mantém uma alimentação equilibrada e prioriza o sono adequado. Esses hábitos, combinados com sua genética favorável, contribuem para sua aparência jovial e radiante mesmo aos 54 anos.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">O Visual Profissional Impecável</h3>
@@ -86,7 +86,7 @@ const ElianeApresentadora = () => {
                         Qual é a idade de Eliane?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Eliane nasceu em 14 de novembro de 1971, atualmente tem 53 anos. A apresentadora mantém uma aparência jovem e elegante que desafia sua idade cronológica.
+                        Eliane nasceu em 14 de novembro de 1971, atualmente tem 54 anos. A apresentadora mantém uma aparência jovem e elegante que desafia sua idade cronológica.
                       </AccordionContent>
                     </AccordionItem>
 

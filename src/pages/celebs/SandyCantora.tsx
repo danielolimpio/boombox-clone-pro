@@ -43,7 +43,7 @@ const SandyCantora = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    Sandy Leah Lima, conhecida artisticamente apenas como Sandy, conquistou o Brasil desde criança ao lado do irmão Junior. Hoje, aos 40 anos, a cantora é admirada não apenas pelo talento musical, mas também por sua beleza natural e elegante. Suas fotos sem maquiagem mostram uma mulher confiante e segura de sua beleza autêntica.
+                    Sandy Leah Lima, conhecida artisticamente apenas como Sandy, conquistou o Brasil desde criança ao lado do irmão Junior. Hoje, aos 42 anos, a cantora é admirada não apenas pelo talento musical, mas também por sua beleza natural e elegante. Suas fotos sem maquiagem mostram uma mulher confiante e segura de sua beleza autêntica.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">A Evolução da Beleza de Sandy</h3>
@@ -66,7 +66,7 @@ const SandyCantora = () => {
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">Inspiração de Beleza Natural</h3>
                   <p className="text-lg leading-relaxed">
-                    Sandy é prova viva de que é possível envelhecer com graça e naturalidade na indústria do entretenimento. Aos 40 anos, ela mantém uma pele viçosa e livre de imperfeições, resultado de cuidados constantes e uma vida equilibrada. A cantora pratica yoga regularmente, mantém uma alimentação saudável e prioriza o bem-estar mental.
+                    Sandy é prova viva de que é possível envelhecer com graça e naturalidade na indústria do entretenimento. Aos 42 anos, ela mantém uma pele viçosa e livre de imperfeições, resultado de cuidados constantes e uma vida equilibrada. A cantora pratica yoga regularmente, mantém uma alimentação saudável e prioriza o bem-estar mental.
                   </p>
 
                   <p className="text-lg leading-relaxed">
@@ -86,7 +86,7 @@ const SandyCantora = () => {
                         Qual é a idade de Sandy em 2025?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Sandy nasceu em 28 de janeiro de 1983, completando 42 anos em 2025. A cantora celebra seu aniversário sempre com posts emocionantes nas redes sociais.
+                        Sandy nasceu em 28 de janeiro de 1983, atualmente tem 42 anos. A cantora celebra seu aniversário sempre com posts emocionantes nas redes sociais.
                       </AccordionContent>
                     </AccordionItem>
 

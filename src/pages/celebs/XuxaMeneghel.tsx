@@ -46,7 +46,7 @@ const XuxaMeneghel = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    Maria da Graça Xuxa Meneghel, conhecida simplesmente como Xuxa, é um ícone da televisão brasileira que continua surpreendendo o público com sua beleza natural aos 60 anos. A apresentadora, que marcou a infância de milhões de brasileiros, sempre foi admirada por sua aparência radiante, e suas fotos sem maquiagem revelam uma beleza autêntica e impressionante.
+                    Maria da Graça Xuxa Meneghel, conhecida simplesmente como Xuxa, é um ícone da televisão brasileira que continua surpreendendo o público com sua beleza natural aos 62 anos. A apresentadora, que marcou a infância de milhões de brasileiros, sempre foi admirada por sua aparência radiante, e suas fotos sem maquiagem revelam uma beleza autêntica e impressionante.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">O Segredo da Beleza Atemporal</h3>
@@ -69,7 +69,7 @@ const XuxaMeneghel = () => {
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">Inspiração para Todas as Idades</h3>
                   <p className="text-lg leading-relaxed">
-                    Aos 60 anos, Xuxa continua sendo referência de beleza e estilo para mulheres de todas as idades. Sua abordagem equilibrada entre aceitar o envelhecimento natural e cuidar da aparência inspira milhões de seguidoras. A apresentadora defende que cada mulher deve se sentir confortável em sua própria pele, com ou sem maquiagem.
+                    Aos 62 anos, Xuxa continua sendo referência de beleza e estilo para mulheres de todas as idades. Sua abordagem equilibrada entre aceitar o envelhecimento natural e cuidar da aparência inspira milhões de seguidoras. A apresentadora defende que cada mulher deve se sentir confortável em sua própria pele, com ou sem maquiagem.
                   </p>
 
                   <p className="text-lg leading-relaxed">
@@ -89,7 +89,7 @@ const XuxaMeneghel = () => {
                         Qual é a idade real de Xuxa Meneghel?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Xuxa nasceu em 27 de março de 1963, atualmente tem 60 anos. A apresentadora sempre foi aberta sobre sua idade e defende o envelhecimento natural com dignidade.
+                        Xuxa nasceu em 27 de março de 1963, atualmente tem 62 anos. A apresentadora sempre foi aberta sobre sua idade e defende o envelhecimento natural com dignidade.
                       </AccordionContent>
                     </AccordionItem>
 

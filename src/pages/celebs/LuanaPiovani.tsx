@@ -43,7 +43,7 @@ const LuanaPiovani = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    Luana Piovani é conhecida por sua personalidade autêntica e sem filtros, tanto na vida pessoal quanto na profissional. A atriz, que conquistou o Brasil com seus papéis marcantes na televisão, também se destaca por sua beleza natural e por não ter medo de mostrar seu rosto sem maquiagem nas redes sociais. Aos 47 anos, Luana continua linda e radiante.
+                    Luana Piovani é conhecida por sua personalidade autêntica e sem filtros, tanto na vida pessoal quanto na profissional. A atriz, que conquistou o Brasil com seus papéis marcantes na televisão, também se destaca por sua beleza natural e por não ter medo de mostrar seu rosto sem maquiagem nas redes sociais. Aos 49 anos, Luana continua linda e radiante.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-6 mb-4">Autenticidade em Primeiro Lugar</h3>
@@ -86,7 +86,7 @@ const LuanaPiovani = () => {
                         Qual é a idade de Luana Piovani?
                       </AccordionTrigger>
                       <AccordionContent>
-                        Luana Piovani nasceu em 29 de agosto de 1976, atualmente tem 47 anos. A atriz é mãe de três filhos e vive em Portugal desde 2019.
+                        Luana Piovani nasceu em 29 de agosto de 1976, atualmente tem 49 anos. A atriz é mãe de três filhos e vive em Portugal desde 2019.
                       </AccordionContent>
                     </AccordionItem>
 
