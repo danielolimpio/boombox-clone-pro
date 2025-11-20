@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
+import SocialShare from "@/components/SocialShare";
+import AuthorBio from "@/components/AuthorBio";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowRight, ArrowLeft } from "lucide-react";
@@ -49,6 +51,13 @@ const JulianaPaes = () => {
                     </AccordionItem>
                   </Accordion>
                 </div>
+
+                <SocialShare 
+                  url="https://efuxico.com.br/juliana-paes-antes-depois-maquiagem"
+                  title="Juliana Paes Antes e Depois da Maquiagem"
+                />
+
+                <AuthorBio />
 
                 <div className="mt-8 flex justify-between">
                   <Link to="/eliane-apresentadora-antes-depois-maquiagem">

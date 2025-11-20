@@ -38,12 +38,6 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className="bg-muted rounded-lg p-8 border-2 border-dashed flex items-center justify-center text-muted-foreground">
-        <div className="text-center">
-          <p className="font-semibold">Espaço Publicitário</p>
-          <p className="text-sm">300 x 250</p>
-        </div>
-      </div>
 
       <div className="bg-card rounded-lg p-6 border">
         <h3 className="font-bold text-lg mb-4">Em Alta</h3>
