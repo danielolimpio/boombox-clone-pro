@@ -6,6 +6,7 @@ import ReactionBar from "@/components/ReactionBar";
 import PostCard from "@/components/PostCard";
 import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
+import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -20,7 +21,7 @@ const Index = () => {
       date: "há 1 hora",
       views: "25,8K",
       votes: "1,2K",
-      image: "https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=800&h=600&fit=crop",
+      image: xuxaImage,
       category: "CELEBRIDADES",
       description: "Veja a transformação incrível de 10 celebridades brasileiras antes e depois da maquiagem. Descubra os segredos de beleza de Xuxa, Sandy, Ludmilla e muito mais!",
       reaction: "💄",
