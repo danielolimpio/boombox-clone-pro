@@ -15,6 +15,20 @@ const Index = () => {
 
   const initialPosts = [
     {
+      title: "10 Celebridades Antes e Depois da Maquiagem",
+      author: "Daniel Olimpio",
+      date: "há 1 hora",
+      views: "25,8K",
+      votes: "1,2K",
+      image: "https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=800&h=600&fit=crop",
+      category: "CELEBRIDADES",
+      description: "Veja a transformação incrível de 10 celebridades brasileiras antes e depois da maquiagem. Descubra os segredos de beleza de Xuxa, Sandy, Ludmilla e muito mais!",
+      reaction: "💄",
+      large: true,
+      tags: ["celebridades", "maquiagem", "beleza"],
+      link: "/xuxa-meneghel-antes-depois-maquiagem",
+    },
+    {
       title: "25 Fatos Incríveis Que Você Não Sabia Sobre o Universo",
       author: "Ana Silva",
       date: "há 2 dias",
