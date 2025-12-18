@@ -7,6 +7,7 @@ import PostCard from "@/components/PostCard";
 import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
+import duploSentidoImage from "@/assets/duplo-sentido/duplo-01.jpg";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -15,6 +16,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "10 Fotos de Duplo Sentido que Vão Confundir Sua Mente",
+      author: "Daniel Olimpio",
+      date: "há 30 minutos",
+      views: "42,3K",
+      votes: "2,8K",
+      image: duploSentidoImage,
+      category: "CURIOSIDADES",
+      description: "Prepare-se para ver fotos que vão confundir completamente sua mente! Descubra a verdade por trás dessas ilusões de ótica incríveis que viralizaram na internet.",
+      reaction: "🤯",
+      large: true,
+      tags: ["curiosidades", "ilusão", "viral"],
+      link: "/foto-duplo-sentido-crianca-praia",
+    },
     {
       title: "10 Celebridades Antes e Depois da Maquiagem",
       author: "Daniel Olimpio",
