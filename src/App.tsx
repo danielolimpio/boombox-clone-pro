@@ -25,6 +25,16 @@ import ElianeApresentadora from "./pages/celebs/ElianeApresentadora";
 import JulianaPaes from "./pages/celebs/JulianaPaes";
 import AnaHickmann from "./pages/celebs/AnaHickmann";
 import CarolinaFerraz from "./pages/celebs/CarolinaFerraz";
+import DuploSentido01 from "./pages/duplo-sentido/DuploSentido01";
+import DuploSentido02 from "./pages/duplo-sentido/DuploSentido02";
+import DuploSentido03 from "./pages/duplo-sentido/DuploSentido03";
+import DuploSentido04 from "./pages/duplo-sentido/DuploSentido04";
+import DuploSentido05 from "./pages/duplo-sentido/DuploSentido05";
+import DuploSentido06 from "./pages/duplo-sentido/DuploSentido06";
+import DuploSentido07 from "./pages/duplo-sentido/DuploSentido07";
+import DuploSentido08 from "./pages/duplo-sentido/DuploSentido08";
+import DuploSentido09 from "./pages/duplo-sentido/DuploSentido09";
+import DuploSentido10 from "./pages/duplo-sentido/DuploSentido10";
 
 const queryClient = new QueryClient();
 
@@ -56,6 +66,16 @@ const App = () => (
           <Route path="/juliana-paes-antes-depois-maquiagem" element={<JulianaPaes />} />
           <Route path="/ana-hickmann-antes-depois-maquiagem" element={<AnaHickmann />} />
           <Route path="/carolina-ferraz-antes-depois-maquiagem" element={<CarolinaFerraz />} />
+          <Route path="/foto-duplo-sentido-crianca-praia" element={<DuploSentido01 />} />
+          <Route path="/foto-duplo-sentido-casal-barco" element={<DuploSentido02 />} />
+          <Route path="/foto-duplo-sentido-nado-sincronizado" element={<DuploSentido03 />} />
+          <Route path="/foto-duplo-sentido-jogador-basquete" element={<DuploSentido04 />} />
+          <Route path="/foto-duplo-sentido-fonte-parque" element={<DuploSentido05 />} />
+          <Route path="/foto-duplo-sentido-casal-sofa" element={<DuploSentido06 />} />
+          <Route path="/foto-duplo-sentido-grupo-amigos" element={<DuploSentido07 />} />
+          <Route path="/foto-duplo-sentido-telescopio" element={<DuploSentido08 />} />
+          <Route path="/foto-duplo-sentido-amigas-festa" element={<DuploSentido09 />} />
+          <Route path="/foto-duplo-sentido-selfie-espelho" element={<DuploSentido10 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
