@@ -8,6 +8,7 @@ import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
 import duploSentidoImage from "@/assets/duplo-sentido/duplo-01.jpg";
+import felinosImage from "@/assets/felinos/leopardo-nebuloso.jpg";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -16,6 +17,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "18 Espécies de Felinos ao Redor do Mundo — Incluindo as que Vivem no Brasil",
+      author: "Daniel Olimpio",
+      date: "há 15 minutos",
+      views: "58,7K",
+      votes: "3,5K",
+      image: felinosImage,
+      category: "ANIMAIS",
+      description: "Conheça 18 espécies fascinantes de felinos selvagens distribuídas pelo mundo, incluindo as que habitam o Brasil — do majestoso leopardo nebuloso ao pequeno gato chileno.",
+      reaction: "🐆",
+      large: true,
+      tags: ["animais", "felinos", "natureza"],
+      link: "/leopardo-nebuloso-felino-florestas-asiaticas",
+    },
     {
       title: "10 Fotos de Duplo Sentido que Vão Confundir Sua Mente",
       author: "Daniel Olimpio",
