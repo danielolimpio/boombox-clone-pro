@@ -35,6 +35,7 @@ import DuploSentido07 from "./pages/duplo-sentido/DuploSentido07";
 import DuploSentido08 from "./pages/duplo-sentido/DuploSentido08";
 import DuploSentido09 from "./pages/duplo-sentido/DuploSentido09";
 import DuploSentido10 from "./pages/duplo-sentido/DuploSentido10";
+import FelinosIndex from "./pages/felinos/FelinosIndex";
 import Felinos01LeopardoNebuloso from "./pages/felinos/Felinos01LeopardoNebuloso";
 import Felinos02GatoBravoDouradoAsia from "./pages/felinos/Felinos02GatoBravoDouradoAsia";
 import Felinos03GatoChileno from "./pages/felinos/Felinos03GatoChileno";
@@ -94,6 +95,7 @@ const App = () => (
           <Route path="/foto-duplo-sentido-telescopio" element={<DuploSentido08 />} />
           <Route path="/foto-duplo-sentido-amigas-festa" element={<DuploSentido09 />} />
           <Route path="/foto-duplo-sentido-selfie-espelho" element={<DuploSentido10 />} />
+          <Route path="/felinos" element={<FelinosIndex />} />
           <Route path="/leopardo-nebuloso-felino-florestas-asiaticas" element={<Felinos01LeopardoNebuloso />} />
           <Route path="/gato-bravo-dourado-asia-felino" element={<Felinos02GatoBravoDouradoAsia />} />
           <Route path="/gato-chileno-kodkod-felino" element={<Felinos03GatoChileno />} />
