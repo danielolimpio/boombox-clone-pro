@@ -38,7 +38,7 @@ const Felinos01LeopardoNebuloso = () => {
                   18 Espécies de Felinos ao Redor do Mundo — Incluindo as que Vivem no Brasil
                 </h1>
 
-                <div className="mb-8">
+                <div className="mb-6">
                   <img 
                     src={leopardoNebulosoImage} 
                     alt="Leopardo nebuloso exibindo seus caninos impressionantes" 
@@ -46,22 +46,7 @@ const Felinos01LeopardoNebuloso = () => {
                   />
                 </div>
 
-                <div className="bg-muted p-4 rounded-lg mb-6">
-                  <p className="text-lg leading-relaxed text-foreground">
-                    Se você já observou seu gato doméstico espreitar um brinquedo com olhos fixos, músculos em tensão e um silêncio absoluto antes do ataque, saiba que está diante de um comportamento ancestral: o mesmo instinto que guia tigres nas selvas da Ásia ou onças nos corações da Amazônia. Apesar das diferenças de escala, os gatos que dividem nossas casas compartilham cerca de 96% do seu DNA com os maiores felinos selvagens, herança de uma linhagem evolutiva que remonta a mais de 25 milhões de anos.
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground mt-4">
-                    Ao longo desse tempo, os felinos se espalharam por quase todos os cantos do planeta — da África aos desertos da Ásia, das florestas tropicais da América do Sul às montanhas geladas da Sibéria —, adaptando-se a ambientes dos mais diversos, com exceção apenas da Antártida. Eles variam impressionantemente em tamanho, comportamento e habitat: há espécies menores que um coelho doméstico e outras capazes de derrubar presas maiores que um coelho doméstico e outras capazes de derrubar presas maiores que elas mesmas.
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground mt-4">
-                    Reverenciados como deuses no Egito Antigo, temidos como feras lendárias em culturas indígenas e celebrados hoje como ícones da vida selvagem, os felinos sempre exerceram um fascínio profundo sobre os seres humanos. Dotados de sentidos extremamente apurados, reflexos relâmpago e uma capacidade quase sobrenatural de se mover sem serem notados, esses animais são o auge da eficiência predatória na natureza.
-                  </p>
-                  <p className="text-lg leading-relaxed text-foreground mt-4">
-                    Neste artigo, você vai conhecer 18 espécies de felinos distribuídas pelo mundo, com destaque especial para aquelas que chamam o Brasil de lar — desde os majestosos habitantes do Pantanal até os tímidos moradores da Mata Atlântica.
-                  </p>
-                </div>
-                
-                <h2 className="text-2xl md:text-3xl font-bold mb-6 text-primary">
+                <h2 className="text-2xl md:text-3xl font-bold mb-4 text-primary">
                   #1 - Leopardo Nebuloso: O Misterioso Predador das Copas
                 </h2>
 
@@ -78,23 +63,27 @@ const Felinos01LeopardoNebuloso = () => {
 
                 <div className="prose max-w-none text-foreground space-y-4">
                   <p className="text-lg leading-relaxed">
-                    O leopardo nebuloso representa uma das espécies de felinos mais enigmáticas e fascinantes do planeta. Habitante das densas florestas tropicais e subtropicais do Sudeste Asiático, este predador médio desenvolveu adaptações extraordinárias que o transformaram em um verdadeiro mestre da vida arbórea. Seu nome deriva das manchas em formato de nuvem que adornam sua pelagem, criando um padrão único e hipnotizante que serve como camuflagem perfeita entre as folhagens e sombras da floresta.
+                    Se você já observou seu gato doméstico espreitar um brinquedo com olhos fixos e silêncio absoluto antes do ataque, saiba que está diante de um comportamento ancestral compartilhado com os maiores felinos selvagens. Gatos domésticos dividem cerca de 96% do DNA com seus primos selvagens, herança de uma linhagem evolutiva que remonta a mais de 25 milhões de anos.
                   </p>
 
                   <p className="text-lg leading-relaxed">
-                    Uma das características mais impressionantes do leopardo nebuloso são seus caninos, que proporcionalmente ao tamanho do corpo são os maiores entre todos os felinos vivos. Esses dentes podem medir até 4 centímetros de comprimento, rivalizando com os extintos tigres-dente-de-sabre em termos proporcionais. Essa dentição especializada permite que o animal capture e abata presas de forma extremamente eficiente, incluindo macacos, aves, esquilos e pequenos cervídeos que compartilham seu habitat nas copas das árvores.
+                    O leopardo nebuloso representa uma das espécies mais enigmáticas do planeta. Habitante das densas florestas tropicais do Sudeste Asiático, este predador desenvolveu adaptações extraordinárias para a vida arbórea. Seu nome deriva das manchas em formato de nuvem que adornam sua pelagem, criando camuflagem perfeita entre as folhagens da floresta.
                   </p>
 
                   <p className="text-lg leading-relaxed">
-                    A agilidade do leopardo nebuloso nas árvores é verdadeiramente extraordinária. Suas patas possuem articulações extremamente flexíveis que permitem rotação completa, possibilitando que desça de troncos de cabeça para baixo como um esquilo. A cauda longa e grossa funciona como balancim durante suas acrobacias aéreas, e suas garras afiadas proporcionam aderência excepcional em superfícies verticais. Pesquisadores já documentaram esses felinos pendurados em galhos apenas pelas patas traseiras enquanto manipulavam presas com as dianteiras.
+                    Uma característica impressionante são seus caninos — proporcionalmente os maiores entre todos os felinos vivos, podendo medir até 4 centímetros. Essa dentição permite capturar presas como macacos, aves e pequenos cervídeos nas copas das árvores com eficiência extraordinária.
                   </p>
 
                   <p className="text-lg leading-relaxed">
-                    Infelizmente, o leopardo nebuloso enfrenta sérias ameaças à sua sobrevivência. A destruição das florestas para agricultura e urbanização reduziu drasticamente seu habitat natural. Além disso, a caça ilegal para o comércio de peles e partes do corpo para medicina tradicional representa uma pressão constante sobre as populações selvagens. Atualmente, a espécie é classificada como vulnerável pela União Internacional para a Conservação da Natureza, com estimativas sugerindo que menos de dez mil indivíduos adultos sobrevivam na natureza.
+                    Sua agilidade nas árvores é verdadeiramente notável. Patas com articulações extremamente flexíveis permitem rotação completa, possibilitando descer troncos de cabeça para baixo como esquilos. A cauda longa funciona como balancim durante acrobacias aéreas, e as garras afiadas proporcionam aderência excepcional em superfícies verticais.
                   </p>
 
                   <p className="text-lg leading-relaxed">
-                    Os esforços de conservação para proteger o leopardo nebuloso incluem a criação de áreas protegidas, programas de reprodução em cativeiro e campanhas de conscientização junto às comunidades locais. Algumas instituições zoológicas ao redor do mundo mantêm populações cativas como seguro genético para a espécie, embora a reprodução em cativeiro seja desafiadora devido ao comportamento agressivo dos machos durante o acasalamento. O futuro deste felino misterioso depende diretamente da preservação das florestas asiáticas e do combate efetivo ao tráfico de animais silvestres.
+                    Infelizmente, a espécie enfrenta sérias ameaças. A destruição de florestas para agricultura reduziu drasticamente seu habitat, enquanto a caça ilegal para comércio de peles pressiona as populações selvagens. Classificado como vulnerável, estima-se que menos de dez mil indivíduos adultos sobrevivam na natureza.
+                  </p>
+
+                  <p className="text-lg leading-relaxed">
+                    Os esforços de conservação incluem áreas protegidas, programas de reprodução em cativeiro e campanhas de conscientização. O futuro deste felino misterioso depende diretamente da preservação das florestas asiáticas e do combate ao tráfico de animais silvestres. Nesta série de artigos, você conhecerá 18 espécies fascinantes, incluindo as que habitam o Brasil.
                   </p>
                 </div>
 
