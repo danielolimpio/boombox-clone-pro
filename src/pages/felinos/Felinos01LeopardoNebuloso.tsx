@@ -6,7 +6,7 @@ import Sidebar from "@/components/Sidebar";
 import SocialShare from "@/components/SocialShare";
 import AuthorBio from "@/components/AuthorBio";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Grid } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import leopardoNebulosoImage from "@/assets/felinos/leopardo-nebuloso.jpg";
 
@@ -38,12 +38,20 @@ const Felinos01LeopardoNebuloso = () => {
                   18 Espécies de Felinos ao Redor do Mundo — Incluindo as que Vivem no Brasil
                 </h1>
 
+                <div className="mb-8">
+                  <img 
+                    src={leopardoNebulosoImage} 
+                    alt="Leopardo nebuloso exibindo seus caninos impressionantes" 
+                    className="w-full rounded-lg shadow-md"
+                  />
+                </div>
+
                 <div className="bg-muted p-4 rounded-lg mb-6">
                   <p className="text-lg leading-relaxed text-foreground">
                     Se você já observou seu gato doméstico espreitar um brinquedo com olhos fixos, músculos em tensão e um silêncio absoluto antes do ataque, saiba que está diante de um comportamento ancestral: o mesmo instinto que guia tigres nas selvas da Ásia ou onças nos corações da Amazônia. Apesar das diferenças de escala, os gatos que dividem nossas casas compartilham cerca de 96% do seu DNA com os maiores felinos selvagens, herança de uma linhagem evolutiva que remonta a mais de 25 milhões de anos.
                   </p>
                   <p className="text-lg leading-relaxed text-foreground mt-4">
-                    Ao longo desse tempo, os felinos se espalharam por quase todos os cantos do planeta — da África aos desertos da Ásia, das florestas tropicais da América do Sul às montanhas geladas da Sibéria —, adaptando-se a ambientes dos mais diversos, com exceção apenas da Antártida. Eles variam impressionantemente em tamanho, comportamento e habitat: há espécies menores que um coelho doméstico e outras capazes de derrubar presas maiores que elas mesmas.
+                    Ao longo desse tempo, os felinos se espalharam por quase todos os cantos do planeta — da África aos desertos da Ásia, das florestas tropicais da América do Sul às montanhas geladas da Sibéria —, adaptando-se a ambientes dos mais diversos, com exceção apenas da Antártida. Eles variam impressionantemente em tamanho, comportamento e habitat: há espécies menores que um coelho doméstico e outras capazes de derrubar presas maiores que um coelho doméstico e outras capazes de derrubar presas maiores que elas mesmas.
                   </p>
                   <p className="text-lg leading-relaxed text-foreground mt-4">
                     Reverenciados como deuses no Egito Antigo, temidos como feras lendárias em culturas indígenas e celebrados hoje como ícones da vida selvagem, os felinos sempre exerceram um fascínio profundo sobre os seres humanos. Dotados de sentidos extremamente apurados, reflexos relâmpago e uma capacidade quase sobrenatural de se mover sem serem notados, esses animais são o auge da eficiência predatória na natureza.
@@ -56,14 +64,6 @@ const Felinos01LeopardoNebuloso = () => {
                 <h2 className="text-2xl md:text-3xl font-bold mb-6 text-primary">
                   #1 - Leopardo Nebuloso: O Misterioso Predador das Copas
                 </h2>
-
-                <div className="mb-8">
-                  <img 
-                    src={leopardoNebulosoImage} 
-                    alt="Leopardo nebuloso exibindo seus caninos impressionantes" 
-                    className="w-full rounded-lg shadow-md"
-                  />
-                </div>
 
                 <div className="bg-muted p-4 rounded-lg mb-6">
                   <h3 className="text-xl font-bold mb-3 text-foreground">Ficha Técnica</h3>
@@ -105,12 +105,7 @@ const Felinos01LeopardoNebuloso = () => {
 
                 <AuthorBio />
 
-                <div className="mt-8 flex justify-between items-center">
-                  <Link to="/felinos">
-                    <Button variant="outline" size="lg" className="text-lg px-6 py-6">
-                      <Grid className="mr-2" /> Ver Todos os Felinos
-                    </Button>
-                  </Link>
+                <div className="mt-8 text-center">
                   <Link to="/gato-bravo-dourado-asia-felino">
                     <Button size="lg" className="text-lg px-8 py-6">
                       Próximo <ArrowRight className="ml-2" />
