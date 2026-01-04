@@ -100,17 +100,11 @@ const Felinos10GatoMarmorado = () => {
                       <ArrowLeft className="mr-2" /> Anterior
                     </Button>
                   </Link>
-                  <Link to="/">
+                  <Link to="/gato-pescador-felino-asia">
                     <Button size="lg" className="text-lg px-8 py-6">
-                      Ver Mais Artigos <ArrowRight className="ml-2" />
+                      Próximo <ArrowRight className="ml-2" />
                     </Button>
                   </Link>
-                </div>
-
-                <div className="mt-6 p-4 bg-primary/10 rounded-lg text-center">
-                  <p className="text-foreground font-medium">
-                    Continue acompanhando! Em breve mais 8 espécies de felinos serão adicionadas a esta série.
-                  </p>
                 </div>
               </article>
             </div>

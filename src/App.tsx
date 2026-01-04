@@ -45,6 +45,14 @@ import Felinos07GatoDoMato from "./pages/felinos/Felinos07GatoDoMato";
 import Felinos08GatoDosPampas from "./pages/felinos/Felinos08GatoDosPampas";
 import Felinos09GatoMaracaja from "./pages/felinos/Felinos09GatoMaracaja";
 import Felinos10GatoMarmorado from "./pages/felinos/Felinos10GatoMarmorado";
+import Felinos11GatoPescador from "./pages/felinos/Felinos11GatoPescador";
+import Felinos12Jaguarundi from "./pages/felinos/Felinos12Jaguarundi";
+import Felinos13Jaguatirica from "./pages/felinos/Felinos13Jaguatirica";
+import Felinos14LeopardoDasNeves from "./pages/felinos/Felinos14LeopardoDasNeves";
+import Felinos15LinceDoCanada from "./pages/felinos/Felinos15LinceDoCanada";
+import Felinos16LinceEuroasiatico from "./pages/felinos/Felinos16LinceEuroasiatico";
+import Felinos17LinceIberico from "./pages/felinos/Felinos17LinceIberico";
+import Felinos18Serval from "./pages/felinos/Felinos18Serval";
 
 const queryClient = new QueryClient();
 
@@ -96,6 +104,14 @@ const App = () => (
           <Route path="/gato-dos-pampas-palheiro-felino" element={<Felinos08GatoDosPampas />} />
           <Route path="/gato-maracaja-felino-acrobata-brasil" element={<Felinos09GatoMaracaja />} />
           <Route path="/gato-marmorado-felino-asia" element={<Felinos10GatoMarmorado />} />
+          <Route path="/gato-pescador-felino-asia" element={<Felinos11GatoPescador />} />
+          <Route path="/jaguarundi-felino-americas" element={<Felinos12Jaguarundi />} />
+          <Route path="/jaguatirica-felino-brasil" element={<Felinos13Jaguatirica />} />
+          <Route path="/leopardo-das-neves-felino-montanhas" element={<Felinos14LeopardoDasNeves />} />
+          <Route path="/lince-do-canada-felino" element={<Felinos15LinceDoCanada />} />
+          <Route path="/lince-euroasiatico-felino" element={<Felinos16LinceEuroasiatico />} />
+          <Route path="/lince-iberico-felino-europa" element={<Felinos17LinceIberico />} />
+          <Route path="/serval-felino-africa" element={<Felinos18Serval />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
