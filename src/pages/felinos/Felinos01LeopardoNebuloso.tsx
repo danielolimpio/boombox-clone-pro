@@ -6,7 +6,7 @@ import Sidebar from "@/components/Sidebar";
 import SocialShare from "@/components/SocialShare";
 import AuthorBio from "@/components/AuthorBio";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Grid } from "lucide-react";
 import { Link } from "react-router-dom";
 import leopardoNebulosoImage from "@/assets/felinos/leopardo-nebuloso.jpg";
 
@@ -105,7 +105,12 @@ const Felinos01LeopardoNebuloso = () => {
 
                 <AuthorBio />
 
-                <div className="mt-8 text-center">
+                <div className="mt-8 flex justify-between items-center">
+                  <Link to="/felinos">
+                    <Button variant="outline" size="lg" className="text-lg px-6 py-6">
+                      <Grid className="mr-2" /> Ver Todos os Felinos
+                    </Button>
+                  </Link>
                   <Link to="/gato-bravo-dourado-asia-felino">
                     <Button size="lg" className="text-lg px-8 py-6">
                       Próximo <ArrowRight className="ml-2" />
