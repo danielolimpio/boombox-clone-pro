@@ -100,7 +100,7 @@ const Felinos11GatoPescador = () => {
                       <ArrowLeft className="mr-2" /> Anterior
                     </Button>
                   </Link>
-                  <Link to="/jaguarundi-gato-mourisco-brasil">
+                  <Link to="/jaguarundi-felino-americas">
                     <Button size="lg" className="text-lg px-8 py-6">
                       Próximo <ArrowRight className="ml-2" />
                     </Button>
