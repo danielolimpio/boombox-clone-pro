@@ -95,12 +95,12 @@ const Felinos12Jaguarundi = () => {
                 <AuthorBio />
 
                 <div className="mt-8 flex justify-between items-center">
-                  <Link to="/gato-pescador-felino-aquatico">
+                  <Link to="/gato-pescador-felino-asia">
                     <Button variant="outline" size="lg" className="text-lg px-6 py-6">
                       <ArrowLeft className="mr-2" /> Anterior
                     </Button>
                   </Link>
-                  <Link to="/jaguatirica-felino-brasileiro">
+                  <Link to="/jaguatirica-felino-brasil">
                     <Button size="lg" className="text-lg px-8 py-6">
                       Próximo <ArrowRight className="ml-2" />
                     </Button>
