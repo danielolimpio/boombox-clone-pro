@@ -100,7 +100,7 @@ const Felinos16LinceEuroasiatico = () => {
                       <ArrowLeft className="mr-2" /> Anterior
                     </Button>
                   </Link>
-                  <Link to="/lince-iberico-felino-ameacado">
+                  <Link to="/lince-iberico-felino-europa">
                     <Button size="lg" className="text-lg px-8 py-6">
                       Próximo <ArrowRight className="ml-2" />
                     </Button>
