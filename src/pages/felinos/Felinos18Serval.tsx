@@ -104,7 +104,7 @@ const Felinos18Serval = () => {
                 <AuthorBio />
 
                 <div className="mt-8 flex justify-between items-center">
-                  <Link to="/lince-iberico-felino-ameacado">
+                  <Link to="/lince-iberico-felino-europa">
                     <Button variant="outline" size="lg" className="text-lg px-6 py-6">
                       <ArrowLeft className="mr-2" /> Anterior
                     </Button>
