@@ -76,7 +76,7 @@ const routes = [
 ];
 
 // Template HTML base para páginas estáticas
-function generateStaticHTML(route, mainHtmlContent) {
+function generateStaticHTML(route, mainHtmlContent, scriptTag) {
   const canonical = route.path === '/' ? 'https://efuxico.com.br' : `https://efuxico.com.br${route.path}`;
   const ogUrl = canonical;
   
@@ -148,7 +148,7 @@ ${mainHtmlContent}
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/assets/index.js"></script>
+    ${scriptTag}
   </body>
 </html>`;
 }
@@ -163,9 +163,10 @@ async function generateStaticPages() {
     process.exit(1);
   }
   
-  // Ler o index.html original para extrair os scripts e styles
+// Ler o index.html original para extrair os scripts e styles
   const originalIndexPath = path.join(distDir, 'index.html');
   let mainHtmlContent = '';
+  let scriptTag = '<script type="module" src="/assets/index.js"></script>';
   
   if (fs.existsSync(originalIndexPath)) {
     const originalHtml = fs.readFileSync(originalIndexPath, 'utf-8');
@@ -173,6 +174,12 @@ async function generateStaticPages() {
     const cssLinks = originalHtml.match(/<link[^>]*rel="stylesheet"[^>]*>/g) || [];
     const modulePreloads = originalHtml.match(/<link[^>]*rel="modulepreload"[^>]*>/g) || [];
     mainHtmlContent = '\n    ' + [...cssLinks, ...modulePreloads].join('\n    ');
+    
+    // Extrair o script principal com hash correto
+    const scriptMatch = originalHtml.match(/<script[^>]*type="module"[^>]*src="([^"]+)"[^>]*>/);
+    if (scriptMatch) {
+      scriptTag = scriptMatch[0];
+    }
   }
   
   let created = 0;
@@ -188,7 +195,7 @@ async function generateStaticPages() {
     }
     
     // Gerar HTML estático
-    const html = generateStaticHTML(route, mainHtmlContent);
+    const html = generateStaticHTML(route, mainHtmlContent, scriptTag);
     fs.writeFileSync(filePath, html);
     
     console.log(`✅ Criado: ${route.path === '/' ? '/index.html' : route.path + '/index.html'}`);
