@@ -23,8 +23,15 @@ jobs:
       - name: Build do projeto
         run: npm run build
 
+      - name: Gerar páginas estáticas para SEO
+        run: node scripts/generate-static-pages.js
+
       - name: Mostrar arquivos gerados
-        run: ls -la dist/
+        run: |
+          echo "=== Estrutura do dist ==="
+          find dist -type f -name "*.html" | head -50
+          echo "=== Total de páginas HTML ==="
+          find dist -type f -name "*.html" | wc -l
 
       - name: Deploy FTP para Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4

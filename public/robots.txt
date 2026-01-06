@@ -1,11 +1,13 @@
 # eFuxico - Robots.txt
 # https://efuxico.com.br
+# Otimizado para SEO com páginas estáticas
 
 # Permitir todos os bots de busca
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# Sitemap
+# Sitemap principal
 Sitemap: https://efuxico.com.br/sitemap.xml
 
 # Bots específicos - otimização para SEO
@@ -26,6 +28,15 @@ Crawl-delay: 0
 User-agent: Slurp
 Allow: /
 
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
 # Redes sociais - permitir indexação para compartilhamento
 User-agent: Twitterbot
 Allow: /
@@ -37,6 +48,12 @@ User-agent: Pinterestbot
 Allow: /
 
 User-agent: WhatsApp
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TelegramBot
 Allow: /
 
 # Bloquear bots maliciosos e scrapers
@@ -51,3 +68,13 @@ Disallow: /
 
 User-agent: DotBot
 Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+# Bloquear diretórios de assets (não precisam ser indexados)
+User-agent: *
+Disallow: /assets/
