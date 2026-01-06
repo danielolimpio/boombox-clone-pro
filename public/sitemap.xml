@@ -1,197 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
+
   <!-- Página Principal -->
   <url>
     <loc>https://efuxico.com.br/</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>hourly</changefreq>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Páginas de Navegação -->
-  <url>
-    <loc>https://efuxico.com.br/recentes</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://efuxico.com.br/tendencias</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://efuxico.com.br/hot</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://efuxico.com.br/populares</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
+
   <!-- Páginas Institucionais -->
   <url>
-    <loc>https://efuxico.com.br/contato</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/sobre/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/privacidade</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/contato/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/termos</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://efuxico.com.br/privacidade/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
-  
-  <!-- Categorias -->
   <url>
-    <loc>https://efuxico.com.br/categoria/curiosidades</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/termos/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Páginas de Navegação -->
+  <url>
+    <loc>https://efuxico.com.br/recentes/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/categoria/celebridades</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/tendencias/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/categoria/entretenimento</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/hot/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/categoria/questionarios</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/populares/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Índice de Felinos -->
+  <url>
+    <loc>https://efuxico.com.br/felinos/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://efuxico.com.br/categoria/tecnologia</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Tags de Exemplo -->
+  <!-- Série: Celebridades Antes e Depois da Maquiagem -->
   <url>
-    <loc>https://efuxico.com.br/tag/tendencias</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <loc>https://efuxico.com.br/xuxa-meneghel-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/sandy-cantora-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/ludmilla-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/luana-piovani-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/leticia-spiller-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/giovanna-antonelli-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/eliane-apresentadora-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/juliana-paes-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/ana-hickmann-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/carolina-ferraz-antes-depois-maquiagem/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
+  <!-- Série: Fotos de Duplo Sentido -->
   <url>
-    <loc>https://efuxico.com.br/tag/viral</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-crianca-praia-ilusao/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-casal-barco/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-nado-sincronizado/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-jogador-basquete/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-mulher-espelho/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-casal-sofa/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-amigos-festa/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-pier-luneta/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-amigas-festa/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/foto-duplo-sentido-selfie-espelho/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
+  <!-- Série: 18 Espécies de Felinos -->
   <url>
-    <loc>https://efuxico.com.br/tag/famosos</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- Posts de Exemplo -->
-  <url>
-    <loc>https://efuxico.com.br/25-fatos-incriveis-sobre-animais-selvagens</loc>
-    <lastmod>2025-11-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <news:news>
-      <news:publication>
-        <news:name>eFuxico</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2025-11-16</news:publication_date>
-      <news:title>25 Fatos Incríveis Que Você Não Sabia Sobre Animais Selvagens</news:title>
-    </news:news>
-  </url>
-  
-  <url>
-    <loc>https://efuxico.com.br/coisas-que-voce-pode-dizer-ao-inves-de-eu-nao-sei</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/leopardo-nebuloso-felino-florestas-asiaticas/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/audios-escolhidos-soundcloud-melhores-2025</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-dourado-asiatico-felino-temperamental/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/tudo-sobre-amor-mas-tinha-medo-de-perguntar</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-chileno-felino-america-sul/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/entrevista-especial-dia-dos-pais</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-chines-deserto-felino-endemico/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/luzes-natalinas-himalaias</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-de-pallas-manul-felino-estepes/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/melhores-lugares-acampar-mundo</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-do-deserto-felino-norte-africa/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
-    <loc>https://efuxico.com.br/quiz-melhores-destinos-camping</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-do-mato-pequeno-felino-brasil/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  <!-- Outras Páginas Institucionais -->
   <url>
-    <loc>https://efuxico.com.br/sobre</loc>
-    <lastmod>2025-11-16</lastmod>
+    <loc>https://efuxico.com.br/gato-dos-pampas-felino-america-sul/</loc>
+    <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
-  
+  <url>
+    <loc>https://efuxico.com.br/gato-maracaja-felino-florestas-brasil/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/gato-marmorado-felino-asia-sudeste/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/gato-pescador-felino-asia-umida/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/jaguarundi-felino-americas/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/jaguatirica-felino-americas/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/leopardo-das-neves-felino-himalaia/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/lince-do-canada-felino-america-norte/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/lince-euroasiatico-felino-europa-asia/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/lince-iberico-felino-europa/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://efuxico.com.br/serval-felino-africa/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
