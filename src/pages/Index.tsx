@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
 import duploSentidoImage from "@/assets/duplo-sentido/duplo-01.jpg";
 import felinosImage from "@/assets/felinos/leopardo-nebuloso.jpg";
+import { lugaresProibidos } from "@/data/lugaresProibidos";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -17,6 +18,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "20 Lugares Proibidos que Você Nunca Poderá Visitar",
+      author: "Daniel Olimpio",
+      date: "há 5 minutos",
+      views: "72,1K",
+      votes: "4,2K",
+      image: lugaresProibidos[0].imageUrl,
+      category: "CURIOSIDADES",
+      description: "De ilhas mortais a bunkers secretos, conheça os 20 locais mais restritos do planeta que você jamais poderá visitar. Mistérios, segredos e proibições reveladas.",
+      reaction: "🚫",
+      large: true,
+      tags: ["mistério", "lugares proibidos", "viral"],
+      link: `/lugar-proibido/${lugaresProibidos[0].slug}`,
+    },
     {
       title: "18 Espécies de Felinos ao Redor do Mundo — Incluindo as que Vivem no Brasil",
       author: "Daniel Olimpio",

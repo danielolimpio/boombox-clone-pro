@@ -54,6 +54,7 @@ import Felinos15LinceDoCanada from "./pages/felinos/Felinos15LinceDoCanada";
 import Felinos16LinceEuroasiatico from "./pages/felinos/Felinos16LinceEuroasiatico";
 import Felinos17LinceIberico from "./pages/felinos/Felinos17LinceIberico";
 import Felinos18Serval from "./pages/felinos/Felinos18Serval";
+import LugarProibidoPage from "./pages/lugares-proibidos/LugarProibidoPage";
 
 const queryClient = new QueryClient();
 
@@ -114,6 +115,7 @@ const App = () => (
           <Route path="/lince-euroasiatico-felino" element={<Felinos16LinceEuroasiatico />} />
           <Route path="/lince-iberico-felino-europa" element={<Felinos17LinceIberico />} />
           <Route path="/serval-felino-africa" element={<Felinos18Serval />} />
+          <Route path="/lugar-proibido/:slug" element={<LugarProibidoPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
