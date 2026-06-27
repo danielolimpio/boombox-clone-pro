@@ -79,6 +79,34 @@ const routes = [
   { path: '/serval-felino-africa', title: 'Serval: O Felino Saltador da África | eFuxico', description: 'Conheça o Serval, o felino de pernas longas das savanas africanas.', category: 'felinos' },
 ];
 
+// Série Lugares Proibidos — gerada automaticamente
+const lugaresProibidosRoutes = [
+  ['ilha-da-queimada-grande-cobras-brasil', 'Ilha da Queimada Grande: A Ilha das Cobras do Brasil | Efuxico', 'Conheça a Ilha da Queimada Grande, no litoral de São Paulo, proibida pela Marinha brasileira por abrigar a jararaca-ilhoa, uma das cobras mais letais do mundo.'],
+  ['ilha-sentinela-do-norte-india', 'Ilha Sentinela do Norte: A Tribo Mais Isolada do Mundo | Efuxico', 'Visite virtualmente a Ilha Sentinela do Norte, no Oceano Índico, lar dos sentinelenses — povo isolado há 60 mil anos e protegido por lei pelo governo da Índia.'],
+  ['area-51-base-secreta-nevada-eua', 'Área 51: A Base Militar Mais Secreta do Mundo | Efuxico', 'Conheça a Área 51, base ultrassecreta da Força Aérea Americana em Nevada que alimenta teorias sobre OVNIs e tecnologias militares classificadas há mais de 70 anos.'],
+  ['arquivos-secretos-do-vaticano', 'Arquivos Secretos do Vaticano: 85 km de Documentos | Efuxico', 'Descubra os Arquivos Apostólicos do Vaticano, com 85 km de prateleiras, 1.200 anos de história e acesso restrito a pesquisadores credenciados pela Santa Sé.'],
+  ['ilha-de-surtsey-islandia-reserva-cientifica', 'Ilha de Surtsey: A Ilha Vulcânica Proibida da Islândia | Efuxico', 'Conheça Surtsey, ilha vulcânica nascida em 1963 na costa da Islândia, fechada ao público e dedicada exclusivamente a estudos científicos sobre colonização biológica.'],
+  ['meca-arabia-saudita-cidade-sagrada', 'Meca: A Cidade Sagrada Proibida a Não-Muçulmanos | Efuxico', 'Conheça Meca, na Arábia Saudita, cidade mais sagrada do Islã onde a entrada é restrita por lei apenas a fiéis muçulmanos durante todo o ano.'],
+  ['clube-33-disneyland-california', 'Clube 33: O Bar Secreto Bilionário da Disneyland | Efuxico', 'Descubra o Clube 33, restaurante e bar privado escondido dentro da Disneyland na Califórnia, com taxa de adesão de 50 mil dólares e lista de espera de 14 anos.'],
+  ['bohemian-grove-californiamcalifornia', 'Bohemian Grove: O Encontro Secreto da Elite Mundial | Efuxico', 'Conheça o Bohemian Grove, acampamento privado de 1.090 hectares na Califórnia onde presidentes, CEOs e magnatas se reúnem anualmente sob sigilo absoluto.'],
+  ['santuario-de-ise-japao-xintoismo', 'Santuário de Ise: O Templo Sagrado Proibido do Japão | Efuxico', 'Conheça o Santuário de Ise, no Japão, templo xintoísta com 2 mil anos de história cuja área interna é restrita à família imperial e aos sacerdotes consagrados.'],
+  ['cavernas-de-lascaux-franca-arte-rupestre', 'Cavernas de Lascaux: A Arte Rupestre Proibida na França | Efuxico', 'Descubra as cavernas de Lascaux, no sudoeste da França, com pinturas rupestres de 17 mil anos fechadas ao público desde 1963 para evitar danos irreversíveis.'],
+  ['mount-weather-bunker-virginia-eua', 'Mount Weather: O Bunker Antinuclear dos EUA | Efuxico', 'Conheça Mount Weather, instalação subterrânea da FEMA em Virginia projetada para abrigar o governo americano em caso de guerra nuclear ou catástrofe nacional.'],
+  ['ilha-de-poveglia-italia-assombrada', 'Ilha de Poveglia: A Ilha Mais Assombrada do Mundo | Efuxico', 'Visite virtualmente Poveglia, ilha proibida na Laguna de Veneza onde funcionaram uma estação de quarentena para peste e um asilo psiquiátrico até 1968.'],
+  ['zona-de-exclusao-de-chernobyl-ucrania', 'Zona de Exclusão de Chernobyl: 30 km Proibidos | Efuxico', 'Conheça a Zona de Exclusão de Chernobyl, perímetro de 30 km no norte da Ucrânia ainda contaminado pelo desastre nuclear de 1986, com acesso altamente controlado.'],
+  ['north-brother-island-nova-york-eua', 'North Brother Island: A Ilha Proibida em Nova York | Efuxico', 'Conheça North Brother Island, ilha abandonada no East River entre o Bronx e Rikers Island, fechada ao público e transformada em santuário ecológico para aves.'],
+  ['fort-knox-reserva-de-ouro-eua', 'Fort Knox: O Cofre de Ouro Mais Seguro do Planeta | Efuxico', 'Conheça Fort Knox, o lendário depósito de ouro dos Estados Unidos em Kentucky, com mais de 4.500 toneladas do metal precioso e segurança de nível militar.'],
+  ['cofre-da-coca-cola-formula-secreta', 'Cofre da Coca-Cola: A Fórmula Secreta Trancada | Efuxico', 'Descubra o cofre da Coca-Cola em Atlanta, onde a fórmula original de 1886 é guardada sob extrema segurança e apenas dois executivos conhecem a receita completa.'],
+  ['svalbard-global-seed-vault-noruega', 'Svalbard: O Cofre de Sementes do Fim do Mundo | Efuxico', 'Conheça o Svalbard Global Seed Vault, cofre subterrâneo no Ártico norueguês que armazena mais de 1 milhão de amostras de sementes para salvar a humanidade.'],
+  ['metro-2-tuneis-secretos-moscou-russia', 'Metro-2: O Sistema Secreto de Metrô do Kremlin | Efuxico', 'Conheça o Metro-2, sistema paralelo de metrô supostamente construído por Stalin sob Moscou para conectar o Kremlin a bunkers secretos da era soviética.'],
+  ['base-de-dulce-novo-mexico-eua', 'Base de Dulce: A Instalação Subterrânea Misteriosa | Efuxico', 'Conheça as alegações sobre a Base de Dulce, suposta instalação subterrânea no Novo México que alimenta teorias sobre experimentos secretos do governo americano.'],
+  ['ilha-das-bonecas-xochimilco-mexico', 'Ilha das Bonecas de Xochimilco: A Mais Assombrosa | Efuxico', 'Conheça a Ilha das Bonecas, em Xochimilco no México, onde mais de mil bonecas deterioradas pendem de árvores em homenagem a uma trágica história infantil.'],
+];
+
+lugaresProibidosRoutes.forEach(([slug, title, description]) => {
+  routes.push({ path: `/lugar-proibido/${slug}`, title, description, category: 'lugares-proibidos' });
+});
+
 // Gerar links de navegação HTML (não React Router) para permitir crawling
 function generateNavigationLinks() {
   // Navegação principal
