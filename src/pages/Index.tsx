@@ -10,6 +10,7 @@ import xuxaImage from "@/assets/celebs/xuxa-meneghel.jpeg";
 import duploSentidoImage from "@/assets/duplo-sentido/duplo-01.jpg";
 import felinosImage from "@/assets/felinos/leopardo-nebuloso.jpg";
 import { lugaresProibidos } from "@/data/lugaresProibidos";
+import { objetosFuncoes } from "@/data/objetosFuncoes";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -18,6 +19,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "20 Objetos Cotidianos que Têm Funções Secretas que Ninguém Conhece",
+      author: "Daniel Olimpio",
+      date: "há 2 minutos",
+      views: "84,5K",
+      votes: "5,1K",
+      image: objetosFuncoes[0].imageUrl,
+      category: "CURIOSIDADES",
+      description: "Você usa esses objetos todos os dias, mas nunca percebeu o detalhe escondido neles. Descubra 20 funções secretas de engenharia que vão mudar sua percepção.",
+      reaction: "🤯",
+      large: true,
+      tags: ["curiosidades", "objetos", "viral"],
+      link: `/objeto-funcao/${objetosFuncoes[0].slug}`,
+    },
     {
       title: "20 Lugares Proibidos que Você Nunca Poderá Visitar",
       author: "Daniel Olimpio",
