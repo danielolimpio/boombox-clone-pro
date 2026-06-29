@@ -107,6 +107,34 @@ lugaresProibidosRoutes.forEach(([slug, title, description]) => {
   routes.push({ path: `/lugar-proibido/${slug}`, title, description, category: 'lugares-proibidos' });
 });
 
+// Série Objetos Cotidianos com Funções Secretas — gerada automaticamente
+const objetosFuncoesRoutes = [
+  ['furo-tampa-caneta-bic-funcao-secreta', 'Por que existe um furo na tampa da caneta Bic? | eFuxico', 'Descubra a função secreta do pequeno furo no topo da tampa da caneta Bic. Não é para a tinta — é um detalhe de engenharia que pode literalmente salvar vidas todos os anos.'],
+  ['buraco-cabo-panela-funcao-secreta', 'Para que serve o furo no cabo da panela? | eFuxico', 'Aquele buraco no final do cabo da panela tem uma função genial que vai além de pendurar utensílios. Descubra o uso secreto que poucos cozinheiros conhecem.'],
+  ['bolso-pequeno-jeans-funcao-secreta', 'Para que serve o bolso pequeno do jeans? | eFuxico', 'O bolsinho dentro do bolso do jeans tem mais de 150 anos de história. Saiba para que ele foi criado originalmente pela Levis e por que continua existindo até hoje.'],
+  ['rebites-metal-jeans-funcao-secreta', 'Para que servem os rebites de metal nos jeans? | eFuxico', 'Os botões de metal nos cantos dos bolsos do jeans não são apenas decorativos. Conheca a função estrutural por trás dessa invenção patenteada em 1873.'],
+  ['ponta-azul-borracha-lapis-funcao-secreta', 'Para que serve a parte azul da borracha de lápis? | eFuxico', 'Você cresceu acreditando que a parte azul da borracha apagava tinta de caneta? Descubra o que ela realmente faz e por que a maioria das pessoas usa errado.'],
+  ['dispenser-tampa-tic-tac-funcao-secreta', 'Como usar a tampa do Tic Tac corretamente | eFuxico', 'A tampa da embalagem de Tic Tac é um dispenser perfeito de uma bala por vez, mas quase todo mundo agita o pote como se fosse maracá. Veja o método certo.'],
+  ['setinha-painel-combustivel-funcao-secreta', 'Setinha do combustível: para que lado fica o tanque? | eFuxico', 'Nunca mais erre o lado do tanque ao parar no posto. A setinha discreta no painel do carro indica exatamente onde está a tampa de combustível.'],
+  ['cilindro-ferrita-cabo-usb-funcao-secreta', 'Para que serve o cilindro nos cabos USB e de monitor? | eFuxico', 'Aquele cilindro grosso perto da extremidade dos cabos USB e de monitor não é peso aleatório. É uma bobina de ferrita que protege seus equipamentos eletrônicos.'],
+  ['furo-chave-cadeado-funcao-secreta', 'Para que serve o furo na chave do cadeado? | eFuxico', 'Toda chave de cadeado tem um pequeno furo na ponta. Ele tem duas funções importantes que poucos usuários conhecem e que prolongam a vida do mecanismo.'],
+  ['dentes-papel-aluminio-funcao-secreta', 'Como travar o rolo de papel alumínio na caixa | eFuxico', 'Sua caixa de papel alumínio tem abas laterais que travam o rolo dentro da caixa. Pare de perder o rolo no meio da gaveta e aprenda a usar o sistema certo.'],
+  ['furos-laterais-converse-funcao-secreta', 'Para que servem os furos no Converse All Star? | eFuxico', 'Os dois pequenos ilhoses metálicos nas laterais do Converse All Star não estão ali só para ventilar o pé. Descubra a função original criada na década de 1920.'],
+  ['furo-tampa-panela-funcao-secreta', 'Para que serve o furo na tampa de vidro da panela? | eFuxico', 'O pequeno furo no botão da tampa de vidro da panela tem função crítica para cozimentos: descubra como ele evita derramamento e melhora a textura da comida.'],
+  ['ferrita-cabo-monitor-funcao-secreta', 'Cilindro grosso no cabo de monitor: para que serve? | eFuxico', 'Cabos de monitor, impressora e equipamentos de áudio profissional têm cilindros grandes próximos ao conector. Saiba a função vital deles na qualidade do sinal.'],
+  ['marca-colorida-tubo-pasta-dente-funcao-secreta', 'O que significa a marca colorida do tubo de pasta de dente? | eFuxico', 'A barra colorida no fim do tubo de pasta de dente não revela a composição do produto, como muitos acreditam. Descubra o que ela realmente faz na fábrica.'],
+  ['silica-gel-saquinho-do-not-eat-funcao-secreta', 'Para que serve o saquinho de sílica gel das embalagens? | eFuxico', 'O saquinho com bolinhas brancas escrito Do Not Eat que vem em sapatos, bolsas e eletrônicos tem função preciosa. Saiba o porquê e como reutilizar em casa.'],
+  ['aba-lata-refrigerante-segurar-canudo-funcao-secreta', 'Para que serve a aba da lata de refrigerante? | eFuxico', 'A pequena argola da lata de refrigerante tem outra função além de abrir a bebida. Aprenda como ela vira um suporte natural para o canudo, evitando que ele flutue.'],
+  ['ponta-trena-furo-buracos-pretos-funcao-secreta', 'Para que servem o furo e os pontos pretos da trena? | eFuxico', 'A ponta metálica da trena tem furo, dente serrilhado e marcas pretas espaçadas. Cada detalhe foi projetado para facilitar a vida de marceneiros e pedreiros.'],
+  ['rolha-vinho-tampa-funcao-secreta', 'Para que serve a rolha de cortiça do vinho? | eFuxico', 'A rolha de cortiça do vinho não é apenas uma tampa: ela respira, envelhece o vinho e protege a bebida. Conheça os mistérios desse pequeno cilindro vegetal.'],
+  ['codigo-embalagem-alimento-funcao-secreta', 'Para que serve o código gravado nas embalagens? | eFuxico', 'Aquele código de números e letras gravado no fundo das embalagens de alimento, remédio ou cosmético tem função vital. Saiba como ele pode salvar sua saúde.'],
+  ['anel-plastico-tampa-garrafa-funcao-secreta', 'Para que serve o anel plástico da tampa da garrafa? | eFuxico', 'O pequeno anel de plástico que sobra na boca da garrafa depois de aberta tem função crítica: ele é seu primeiro indicador de segurança e proteção contra adulteração.'],
+];
+
+objetosFuncoesRoutes.forEach(([slug, title, description]) => {
+  routes.push({ path: `/objeto-funcao/${slug}`, title, description, category: 'objetos-funcoes' });
+});
+
 // Gerar links de navegação HTML (não React Router) para permitir crawling
 function generateNavigationLinks() {
   // Navegação principal
