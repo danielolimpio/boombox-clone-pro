@@ -135,6 +135,29 @@ objetosFuncoesRoutes.forEach(([slug, title, description]) => {
   routes.push({ path: `/objeto-funcao/${slug}`, title, description, category: 'objetos-funcoes' });
 });
 
+// Série Fenômenos Naturais Impossíveis — gerada automaticamente
+const fenomenosNaturaisRoutes = [
+  ['relampago-catatumbo-venezuela-tempestade-eterna', 'Relâmpago de Catatumbo: a tempestade eterna da Venezuela | eFuxico', 'Conheça o Relâmpago de Catatumbo, fenômeno na foz do rio Catatumbo na Venezuela onde até 280 raios por hora caem sem trovão audível há séculos.'],
+  ['pedras-deslizantes-vale-da-morte-california', 'Pedras Deslizantes do Vale da Morte: rochas que se movem | eFuxico', 'Conheça as Sailing Stones do Racetrack Playa, no Vale da Morte, Califórnia: pedras de até 320 kg que deslizam sozinhas pelo deserto deixando rastros.'],
+  ['blood-falls-cataratas-de-sangue-antartida', 'Blood Falls: as cataratas de sangue da Antártida explicadas | eFuxico', 'Descubra Blood Falls, fluxo vermelho-sangue que escorre da geleira Taylor na Antártida — mistério oceanográfico que intrigou cientistas por mais de um século.'],
+  ['luzes-de-hessdalen-noruega-fenomeno-inexplicavel', 'Luzes de Hessdalen: o fenômeno luminoso inexplicável da Noruega | eFuxico', 'Conheça as Luzes de Hessdalen, esferas luminosas que aparecem há décadas em vale norueguês e desafiam física, meteorologia e ufologia até hoje.'],
+  ['taos-hum-zumbido-novo-mexico-eua', 'Taos Hum: o misterioso zumbido constante do Novo México | eFuxico', 'Descubra o Taos Hum, zumbido grave persistente ouvido por apenas 2% dos moradores da cidade de Taos, no Novo México, sem origem identificada desde os anos 1990.'],
+  ['circulos-de-fadas-namibia-deserto-namib', 'Círculos de Fadas: o mistério dos anéis no deserto da Namíbia | eFuxico', 'Conheça os Círculos de Fadas, padrões circulares perfeitos que se espalham pelo deserto da Namíbia há séculos sem que a ciência consiga explicar plenamente.'],
+  ['bolas-de-fogo-naga-rio-mekong-tailandia', 'Bolas de Fogo de Naga: o mistério das esferas no rio Mekong | eFuxico', 'Conheça as Bolas de Fogo de Naga, esferas luminosas que emergem todo ano do rio Mekong na Tailândia durante o fim do Pousada Budista de outubro.'],
+  ['mar-de-estrelas-bioluminescencia-maldivas', 'Mar de Estrelas: o mistério da praia luminosa nas Maldivas | eFuxico', 'Conheça o Mar de Estrelas, fenômeno luminoso azul que transforma as praias das Maldivas em céu noturno e cuja intensidade ainda desafia previsões científicas.'],
+  ['horsetail-fall-cascata-de-fogo-yosemite', 'Horsetail Fall: a cachoeira que vira fogo em Yosemite | eFuxico', 'Conheça o Firefall de Yosemite: por apenas duas semanas ao ano, a cachoeira Horsetail Fall ganha aparência de lava ao refletir o pôr-do-sol em El Capitan.'],
+  ['floresta-torcida-gryfino-polonia', 'Floresta Torcida de Gryfino: o mistério dos pinheiros curvados | eFuxico', 'Conheça a Crooked Forest da Polônia: 400 pinheiros com troncos curvados em J perfeito plantados nos anos 1930 sem explicação científica até hoje.'],
+  ['luzes-min-min-outback-australia', 'Luzes de Min Min: o fenômeno luminoso do interior da Austrália | eFuxico', 'Conheça as Luzes de Min Min, esferas luminosas que perseguem viajantes no outback australiano há mais de um século sem explicação consensual.'],
+  ['moeraki-boulders-esferas-perfeitas-nova-zelandia', 'Moeraki Boulders: as esferas naturais perfeitas da Nova Zelândia | eFuxico', 'Conheça os Moeraki Boulders, rochas perfeitamente esféricas espalhadas em praia da Nova Zelândia, com até 2,2 metros de diâmetro e idade de 60 milhões de anos.'],
+  ['chuva-vermelha-kerala-india', 'Chuva Vermelha de Kerala: a precipitação misteriosa da Índia | eFuxico', 'Em 2001, o estado de Kerala, na Índia, registrou chuvas com coloração vermelho-sangue por dois meses. Origem das partículas ainda divide cientistas.'],
+  ['the-bloop-som-oceano-pacifico', 'The Bloop: o som submarino que confundiu a NOAA por 15 anos | eFuxico', 'Conheça The Bloop, som ultragrave detectado pela NOAA no Oceano Pacífico em 1997, audível a 5.000 km de distância, com origem oficial revisada recentemente.'],
+  ['pilares-de-luz-canada-fenomeno-atmosferico', 'Pilares de Luz: as colunas luminosas no céu do Canadá | eFuxico', 'Conheça os Pilares de Luz: colunas verticais coloridas que aparecem no céu canadense em noites geladas e ainda intrigam pela perfeição geométrica.'],
+];
+
+fenomenosNaturaisRoutes.forEach(([slug, title, description]) => {
+  routes.push({ path: `/fenomeno-natural/${slug}`, title, description, category: 'fenomenos-naturais' });
+});
+
 // Gerar links de navegação HTML (não React Router) para permitir crawling
 function generateNavigationLinks() {
   // Navegação principal
