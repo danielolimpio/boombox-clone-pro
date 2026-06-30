@@ -56,6 +56,7 @@ import Felinos17LinceIberico from "./pages/felinos/Felinos17LinceIberico";
 import Felinos18Serval from "./pages/felinos/Felinos18Serval";
 import LugarProibidoPage from "./pages/lugares-proibidos/LugarProibidoPage";
 import ObjetoFuncaoPage from "./pages/objetos-funcoes/ObjetoFuncaoPage";
+import FenomenoNaturalPage from "./pages/fenomenos-naturais/FenomenoNaturalPage";
 
 const queryClient = new QueryClient();
 
@@ -118,6 +119,7 @@ const App = () => (
           <Route path="/serval-felino-africa" element={<Felinos18Serval />} />
           <Route path="/lugar-proibido/:slug" element={<LugarProibidoPage />} />
           <Route path="/objeto-funcao/:slug" element={<ObjetoFuncaoPage />} />
+          <Route path="/fenomeno-natural/:slug" element={<FenomenoNaturalPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

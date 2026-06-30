@@ -11,6 +11,7 @@ import duploSentidoImage from "@/assets/duplo-sentido/duplo-01.jpg";
 import felinosImage from "@/assets/felinos/leopardo-nebuloso.jpg";
 import { lugaresProibidos } from "@/data/lugaresProibidos";
 import { objetosFuncoes } from "@/data/objetosFuncoes";
+import { fenomenosNaturais } from "@/data/fenomenosNaturais";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -19,6 +20,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "15 Fenômenos Naturais Impossíveis que a Ciência Ainda Não Consegue Explicar",
+      author: "Daniel Olimpio",
+      date: "há 1 minuto",
+      views: "91,2K",
+      votes: "5,8K",
+      image: fenomenosNaturais[0].imageUrl,
+      category: "CURIOSIDADES",
+      description: "De cataratas vermelho-sangue na Antártida a pedras que caminham sozinhas no Vale da Morte: 15 fenômenos reais que continuam desafiando os maiores cientistas do mundo.",
+      reaction: "⚡",
+      large: true,
+      tags: ["mistério", "natureza", "ciência"],
+      link: `/fenomeno-natural/${fenomenosNaturais[0].slug}`,
+    },
     {
       title: "20 Objetos Cotidianos que Têm Funções Secretas que Ninguém Conhece",
       author: "Daniel Olimpio",
