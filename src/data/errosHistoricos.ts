@@ -42,7 +42,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Naufrágio na madrugada de 15 de abril de 1912",
     location: "Oceano Atlântico Norte, a 600 km da Terra Nova (Canadá)",
     consequence: "1.517 mortes, mudança total das regulamentações marítimas internacionais e criação da Convenção SOLAS em 1914",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/2560px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg",
     imageAlt: "RMS Titanic zarpando do porto de Southampton em 10 de abril de 1912",
     paragraphs: [
       "O RMS Titanic era, em 1912, o maior objeto móvel já construído pela humanidade — um transatlântico de 269 metros considerado \"praticamente inafundável\" por seus construtores da White Star Line. A tragédia que se seguiu não foi causada apenas pelo iceberg, mas por uma cadeia de erros históricos que começou anos antes do navio tocar a água. O mais grave: os regulamentos marítimos britânicos da época exigiam apenas 16 botes salva-vidas para navios acima de 10 mil toneladas, uma regra escrita décadas antes, quando os navios eram muito menores.",
@@ -137,7 +137,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "7 de dezembro de 1941, 07h48",
     location: "Base Naval de Pearl Harbor, Havaí, Estados Unidos",
     consequence: "2.403 mortes, destruição de 8 encouraçados e entrada oficial dos EUA na Segunda Guerra Mundial",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg/2560px-Attack_on_Pearl_Harbor_Japanese_planes_view.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg",
     imageAlt: "Encouraçado USS Arizona em chamas após o ataque japonês a Pearl Harbor em 7 de dezembro de 1941",
     paragraphs: [
       "Na manhã de domingo de 7 de dezembro de 1941, 353 aeronaves japonesas atacaram de surpresa a base naval americana de Pearl Harbor, no Havaí. Em menos de duas horas, quatro encouraçados foram afundados, outros quatro danificados, 188 aeronaves destruídas e 2.403 americanos mortos. O ataque foi descrito pelo presidente Franklin Roosevelt como \"uma data que viverá em infâmia\". Mas o que quase nunca é lembrado é que os Estados Unidos tiveram múltiplas oportunidades de prever o ataque — e ignoraram cada uma delas por uma cadeia de erros históricos de inteligência.",
@@ -175,7 +175,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Assinatura em 28 de junho de 1919",
     location: "Salão dos Espelhos, Palácio de Versalhes, França",
     consequence: "Colapso econômico alemão, ascensão do nazismo e eclosão da Segunda Guerra Mundial 20 anos depois, com 70 milhões de mortos",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg/2560px-William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Orpen%2C_William_%28Sir%29_%28RA%29_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles%2C_28th_June_1919_-_Google_Art_Project.jpg",
     imageAlt: "Assinatura do Tratado de Versalhes em 28 de junho de 1919 no Salão dos Espelhos, pintura de William Orpen",
     paragraphs: [
       "Em 28 de junho de 1919, exatamente cinco anos após o assassinato do arquiduque Franz Ferdinand em Sarajevo, os delegados alemães assinaram no Salão dos Espelhos do Palácio de Versalhes o tratado que oficialmente encerrava a Primeira Guerra Mundial. O documento de 440 artigos foi negociado por seis meses entre as potências vitoriosas — Reino Unido, França, EUA e Itália — sem qualquer participação alemã. A Alemanha só foi chamada para assinar, sob ameaça de retomada imediata das hostilidades. O resultado foi um dos maiores erros históricos da diplomacia moderna.",
@@ -194,7 +194,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Câmera digital inventada em 1975; falência declarada em 19 de janeiro de 2012",
     location: "Sede da Eastman Kodak, Rochester, Nova York, EUA",
     consequence: "Falência de uma das empresas mais valiosas do mundo (US$ 31 bilhões em 1997) e demissão de mais de 100 mil funcionários ao longo de 15 anos",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2014-365-233_The_Basic_Brownie_Camera_%2814809795240%29.jpg/2560px-2014-365-233_The_Basic_Brownie_Camera_%2814809795240%29.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c7/2014-365-233_The_Basic_Brownie_Camera_%2814809795240%29.jpg",
     imageAlt: "Câmera Kodak clássica em couro marrom sobre superfície neutra, representando a era analógica da empresa",
     paragraphs: [
       "Em dezembro de 1975, o engenheiro Steven Sasson, então com 24 anos, apresentou aos executivos da Eastman Kodak um dispositivo estranho: uma caixa de aproximadamente 4 kg feita de peças recicladas, capaz de capturar uma imagem em preto e branco de 0,01 megapixel e gravá-la em uma fita cassete. Levava 23 segundos para gravar cada foto. Era a primeira câmera digital da história — inventada não em uma startup do Vale do Silício, mas dentro da maior empresa fotográfica do mundo. A reação dos executivos entrou para a história como um dos maiores erros históricos empresariais: \"Legal, mas não conte para ninguém\".",
