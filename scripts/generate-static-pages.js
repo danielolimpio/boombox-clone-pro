@@ -158,6 +158,23 @@ fenomenosNaturaisRoutes.forEach(([slug, title, description]) => {
   routes.push({ path: `/fenomeno-natural/${slug}`, title, description, category: 'fenomenos-naturais' });
 });
 
+const errosHistoricosRoutes = [
+  ['torre-de-pisa-erro-fundacao-arquitetura', 'Torre de Pisa: o erro histórico de engenharia que criou um ícone | eFuxico', 'Descubra como um erro de cálculo nas fundações da Torre de Pisa em 1173 transformou uma falha arquitetônica em um dos monumentos mais visitados do mundo.'],
+  ['titanic-poucos-botes-salva-vidas-1912', 'Titanic 1912: o erro dos botes salva-vidas que matou 1.500 pessoas | eFuxico', 'Entenda por que o Titanic tinha botes salva-vidas apenas para 1/3 dos passageiros, um erro histórico que causou a morte de mais de 1.500 pessoas em 15 de abril de 1912.'],
+  ['chernobyl-teste-seguranca-erro-1986', 'Chernobyl 1986: o erro do teste de segurança que causou o desastre nuclear | eFuxico', 'Descubra como um teste de segurança mal executado no reator 4 de Chernobyl causou a maior catástrofe nuclear da história em 26 de abril de 1986.'],
+  ['hindenburg-hidrogenio-erro-1937', 'Hindenburg 1937: o erro do hidrogênio que matou a era dos dirigíveis | eFuxico', 'Entenda como o dirigível Hindenburg foi condenado a usar hidrogênio inflamável em vez de hélio, causando o desastre em Nova Jersey em 6 de maio de 1937.'],
+  ['napoleao-invasao-russia-1812-inverno', 'Napoleão 1812: o erro da invasão da Rússia que destruiu a Grande Armée | eFuxico', 'Como Napoleão Bonaparte cometeu o erro histórico de invadir a Rússia em 1812 com 600 mil soldados e voltou com apenas 30 mil, iniciando o fim de seu império.'],
+  ['operacao-barbarossa-hitler-uniao-sovietica-1941', 'Operação Barbarossa 1941: o erro de Hitler ao invadir a URSS | eFuxico', 'Descubra como Hitler cometeu o mesmo erro histórico de Napoleão ao invadir a União Soviética em 22 de junho de 1941, decisão que selaria o destino da Alemanha nazista.'],
+  ['pearl-harbor-avisos-ignorados-1941', 'Pearl Harbor 1941: os avisos ignorados antes do ataque japonês | eFuxico', 'Como falhas de inteligência e avisos ignorados permitiram o ataque surpresa japonês a Pearl Harbor em 7 de dezembro de 1941 e a entrada dos EUA na Segunda Guerra.'],
+  ['mars-climate-orbiter-erro-unidades-metricas-nasa-1999', 'Mars Climate Orbiter 1999: o erro de conversão métrica da NASA | eFuxico', 'Como uma simples confusão entre pés e metros fez a NASA perder a sonda Mars Climate Orbiter de US$ 327 milhões em 23 de setembro de 1999.'],
+  ['tratado-versalhes-erro-1919-segunda-guerra-mundial', 'Tratado de Versalhes 1919: o erro histórico que causou a Segunda Guerra | eFuxico', 'Entenda como o Tratado de Versalhes assinado em 28 de junho de 1919 humilhou a Alemanha e plantou as bases da ascensão de Hitler e da Segunda Guerra Mundial.'],
+  ['kodak-cameras-digitais-erro-estrategico', 'Kodak: o erro histórico da empresa que inventou a câmera digital e faliu | eFuxico', 'Como a Kodak inventou a câmera digital em 1975 e engavetou a tecnologia por medo de canibalizar seu negócio de filmes, cometendo um erro que a levou à falência em 2012.'],
+];
+
+errosHistoricosRoutes.forEach(([slug, title, description]) => {
+  routes.push({ path: `/erro-historico/${slug}`, title, description, category: 'erros-historicos' });
+});
+
 // Gerar links de navegação HTML (não React Router) para permitir crawling
 function generateNavigationLinks() {
   // Navegação principal
