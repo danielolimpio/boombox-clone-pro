@@ -12,6 +12,7 @@ import felinosImage from "@/assets/felinos/leopardo-nebuloso.jpg";
 import { lugaresProibidos } from "@/data/lugaresProibidos";
 import { objetosFuncoes } from "@/data/objetosFuncoes";
 import { fenomenosNaturais } from "@/data/fenomenosNaturais";
+import { errosHistoricos } from "@/data/errosHistoricos";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -20,6 +21,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "10 Erros Históricos que Mudaram o Mundo Para Sempre",
+      author: "Daniel Olimpio",
+      date: "agora mesmo",
+      views: "12,4K",
+      votes: "812",
+      image: errosHistoricos[0].imageUrl,
+      category: "CURIOSIDADES",
+      description: "Da Torre de Pisa à falência da Kodak: 10 falhas humanas que redefiniram o rumo da humanidade — cada uma com contexto, consequências e lições aprendidas.",
+      reaction: "⏳",
+      large: true,
+      tags: ["história", "erros", "curiosidades"],
+      link: `/erro-historico/${errosHistoricos[0].slug}`,
+    },
     {
       title: "15 Fenômenos Naturais Impossíveis que a Ciência Ainda Não Consegue Explicar",
       author: "Daniel Olimpio",
