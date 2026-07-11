@@ -23,7 +23,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Início da construção em 9 de agosto de 1173",
     location: "Piazza dei Miracoli, Pisa, Itália",
     consequence: "Inclinação permanente de 3,97° que gerou 800 anos de tentativas de correção e um dos maiores ícones turísticos do planeta",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Leaning_Tower_of_Pisa_JD.jpg/1600px-Leaning_Tower_of_Pisa_JD.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg",
     imageAlt: "Torre de Pisa inclinada vista da Piazza dei Miracoli em dia ensolarado",
     paragraphs: [
       "Em 9 de agosto de 1173, os pedreiros da cidade de Pisa iniciaram a construção daquele que deveria ser apenas mais um campanário para a catedral local. Ninguém imaginava que aquele projeto se tornaria, séculos depois, um dos maiores exemplos de erro histórico da engenharia mundial. O terreno escolhido era composto por argila mole, areia fina e sedimentos deixados por antigos rios — uma combinação péssima para sustentar uma torre de mármore com quase 15 mil toneladas.",
@@ -42,7 +42,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Naufrágio na madrugada de 15 de abril de 1912",
     location: "Oceano Atlântico Norte, a 600 km da Terra Nova (Canadá)",
     consequence: "1.517 mortes, mudança total das regulamentações marítimas internacionais e criação da Convenção SOLAS em 1914",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1600px-RMS_Titanic_3.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/2560px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
     imageAlt: "RMS Titanic zarpando do porto de Southampton em 10 de abril de 1912",
     paragraphs: [
       "O RMS Titanic era, em 1912, o maior objeto móvel já construído pela humanidade — um transatlântico de 269 metros considerado \"praticamente inafundável\" por seus construtores da White Star Line. A tragédia que se seguiu não foi causada apenas pelo iceberg, mas por uma cadeia de erros históricos que começou anos antes do navio tocar a água. O mais grave: os regulamentos marítimos britânicos da época exigiam apenas 16 botes salva-vidas para navios acima de 10 mil toneladas, uma regra escrita décadas antes, quando os navios eram muito menores.",
@@ -61,7 +61,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "26 de abril de 1986, 01h23min",
     location: "Usina Nuclear V.I. Lenin, Pripyat, RSS Ucraniana (URSS)",
     consequence: "Contaminação radioativa de 200 mil km², cerca de 4.000 mortes atribuíveis segundo a OMS e a criação de zona de exclusão de 2.600 km²",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/IAEA_02790015_%285613115146%29.jpg/1600px-IAEA_02790015_%285613115146%29.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/87/IAEA_02790015_%285613115146%29.jpg",
     imageAlt: "Vista aérea do reator 4 de Chernobyl coberto pelo sarcófago de contenção",
     paragraphs: [
       "Na madrugada de 26 de abril de 1986, engenheiros da usina nuclear de Chernobyl, na Ucrânia soviética, iniciaram um teste de segurança que já vinha sendo adiado há oito anos. O objetivo era simular uma falha de energia e verificar se as turbinas em movimento inercial seriam capazes de manter as bombas de refrigeração funcionando por tempo suficiente até os geradores diesel entrarem em operação. O que era para ser um exercício rotineiro se transformou no maior desastre nuclear da história.",
@@ -80,7 +80,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "6 de maio de 1937, 19h25",
     location: "Estação Aérea Naval de Lakehurst, Nova Jersey, EUA",
     consequence: "36 mortes, fim imediato da era comercial dos dirigíveis e reorientação da aviação civil para aviões de asa fixa",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hindenburg_burning.jpg/1600px-Hindenburg_burning.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Hindenburg_disaster.jpg",
     imageAlt: "Dirigível Hindenburg em chamas ao tocar o solo em Lakehurst, Nova Jersey, em 1937",
     paragraphs: [
       "O LZ 129 Hindenburg era, em 1937, o maior objeto voador já construído: 245 metros de comprimento — quase três vezes o tamanho de um Boeing 747 moderno. Símbolo do orgulho tecnológico da Alemanha nazista, o dirigível fazia a rota transatlântica entre Frankfurt e Nova Jersey em apenas dois dias, com poltronas de luxo, salão de fumantes e um piano de alumínio a bordo. Mas por trás do luxo escondia-se um erro histórico de decisão política que condenaria a nave desde o projeto: ela foi projetada para hélio, mas voava com hidrogênio.",
@@ -99,7 +99,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "24 de junho a 14 de dezembro de 1812",
     location: "Do rio Niemen (Lituânia) até Moscou, Rússia",
     consequence: "Perda de 570 mil soldados da Grande Armée, início da queda do Império Napoleônico e reconfiguração do mapa político europeu",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Napoleons_retreat_from_moscow.jpg/1600px-Napoleons_retreat_from_moscow.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c8/IV_corpo_durante_la_campagna_di_Russia.jpg",
     imageAlt: "Retirada do exército de Napoleão de Moscou em pintura histórica de Adolph Northen",
     paragraphs: [
       "Em junho de 1812, Napoleão Bonaparte reuniu a maior força militar já vista na história europeia até então: 685 mil soldados de 20 nacionalidades diferentes, batizada de Grande Armée. O objetivo era punir o czar Alexandre I da Rússia, que havia rompido o Bloqueio Continental contra a Inglaterra. Napoleão estava no auge do poder, controlava quase toda a Europa Ocidental e nunca havia perdido uma campanha militar de grande escala. Confiava tanto na superioridade de suas tropas que planejou uma guerra de apenas 20 dias.",
@@ -118,7 +118,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "22 de junho de 1941 (invasão inicial)",
     location: "Frente Oriental, da Polônia até Moscou, Leningrado e Stalingrado",
     consequence: "Mais de 26 milhões de mortes soviéticas, 5 milhões de mortes alemãs e derrota decisiva do Terceiro Reich",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bundesarchiv_Bild_101I-268-0176-11A%2C_Russland%2C_Herbstschlacht_bei_Wjasma_und_Brjansk.jpg/1600px-Bundesarchiv_Bild_101I-268-0176-11A%2C_Russland%2C_Herbstschlacht_bei_Wjasma_und_Brjansk.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Operation_Barbarossa_collage.jpg",
     imageAlt: "Soldados alemães avançando durante a Operação Barbarossa em 1941 na frente oriental",
     paragraphs: [
       "Em 22 de junho de 1941, Adolf Hitler cometeu aquele que muitos historiadores consideram o maior erro estratégico do século XX: rompeu o Pacto Molotov-Ribbentrop assinado em 1939 com Stálin e lançou a Operação Barbarossa, a invasão da União Soviética. A ofensiva mobilizou 3,8 milhões de soldados do Eixo, 3.500 tanques, 2.700 aeronaves e 600 mil cavalos em uma frente de 2.900 quilômetros — a maior operação militar da história. Hitler previa uma vitória em apenas oito semanas. Mas o generalíssimo alemão não havia aprendido a lição de Napoleão.",
@@ -137,7 +137,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "7 de dezembro de 1941, 07h48",
     location: "Base Naval de Pearl Harbor, Havaí, Estados Unidos",
     consequence: "2.403 mortes, destruição de 8 encouraçados e entrada oficial dos EUA na Segunda Guerra Mundial",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg/1600px-The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Attack_on_Pearl_Harbor_Japanese_planes_view.jpg/2560px-Attack_on_Pearl_Harbor_Japanese_planes_view.jpg",
     imageAlt: "Encouraçado USS Arizona em chamas após o ataque japonês a Pearl Harbor em 7 de dezembro de 1941",
     paragraphs: [
       "Na manhã de domingo de 7 de dezembro de 1941, 353 aeronaves japonesas atacaram de surpresa a base naval americana de Pearl Harbor, no Havaí. Em menos de duas horas, quatro encouraçados foram afundados, outros quatro danificados, 188 aeronaves destruídas e 2.403 americanos mortos. O ataque foi descrito pelo presidente Franklin Roosevelt como \"uma data que viverá em infâmia\". Mas o que quase nunca é lembrado é que os Estados Unidos tiveram múltiplas oportunidades de prever o ataque — e ignoraram cada uma delas por uma cadeia de erros históricos de inteligência.",
@@ -156,7 +156,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "23 de setembro de 1999",
     location: "Atmosfera superior do planeta Marte",
     consequence: "Perda total da sonda de US$ 327,6 milhões e revisão global dos padrões de engenharia interinstitucional na NASA",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Mars_Climate_Orbiter_2.jpg/1600px-Mars_Climate_Orbiter_2.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/Mars_Climate_Orbiter_2.jpg",
     imageAlt: "Concepção artística da sonda Mars Climate Orbiter da NASA orbitando o planeta Marte",
     paragraphs: [
       "Em 23 de setembro de 1999, após uma viagem de 286 dias e 669 milhões de quilômetros pelo espaço, a sonda Mars Climate Orbiter da NASA se aproximou de Marte para entrar em órbita. O objetivo da missão era estudar o clima marciano, a atmosfera e servir de retransmissora de comunicações para a sonda irmã Mars Polar Lander. Em vez disso, a MCO desapareceu para sempre atrás do planeta vermelho — desintegrada na atmosfera marciana por causa de um dos erros históricos mais embaraçosos da engenharia moderna: uma simples confusão entre unidades métricas e imperiais.",
@@ -175,7 +175,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Assinatura em 28 de junho de 1919",
     location: "Salão dos Espelhos, Palácio de Versalhes, França",
     consequence: "Colapso econômico alemão, ascensão do nazismo e eclosão da Segunda Guerra Mundial 20 anos depois, com 70 milhões de mortos",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/William_Orpen_%E2%80%93_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg/1600px-William_Orpen_%E2%80%93_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg/2560px-William_Orpen_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors%2C_Versailles.jpg",
     imageAlt: "Assinatura do Tratado de Versalhes em 28 de junho de 1919 no Salão dos Espelhos, pintura de William Orpen",
     paragraphs: [
       "Em 28 de junho de 1919, exatamente cinco anos após o assassinato do arquiduque Franz Ferdinand em Sarajevo, os delegados alemães assinaram no Salão dos Espelhos do Palácio de Versalhes o tratado que oficialmente encerrava a Primeira Guerra Mundial. O documento de 440 artigos foi negociado por seis meses entre as potências vitoriosas — Reino Unido, França, EUA e Itália — sem qualquer participação alemã. A Alemanha só foi chamada para assinar, sob ameaça de retomada imediata das hostilidades. O resultado foi um dos maiores erros históricos da diplomacia moderna.",
@@ -194,7 +194,7 @@ export const errosHistoricos: ErroHistorico[] = [
     date: "Câmera digital inventada em 1975; falência declarada em 19 de janeiro de 2012",
     location: "Sede da Eastman Kodak, Rochester, Nova York, EUA",
     consequence: "Falência de uma das empresas mais valiosas do mundo (US$ 31 bilhões em 1997) e demissão de mais de 100 mil funcionários ao longo de 15 anos",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Kodak_no.2_Brownie_Model_F_02.jpg/1600px-Kodak_no.2_Brownie_Model_F_02.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2014-365-233_The_Basic_Brownie_Camera_%2814809795240%29.jpg/2560px-2014-365-233_The_Basic_Brownie_Camera_%2814809795240%29.jpg",
     imageAlt: "Câmera Kodak clássica em couro marrom sobre superfície neutra, representando a era analógica da empresa",
     paragraphs: [
       "Em dezembro de 1975, o engenheiro Steven Sasson, então com 24 anos, apresentou aos executivos da Eastman Kodak um dispositivo estranho: uma caixa de aproximadamente 4 kg feita de peças recicladas, capaz de capturar uma imagem em preto e branco de 0,01 megapixel e gravá-la em uma fita cassete. Levava 23 segundos para gravar cada foto. Era a primeira câmera digital da história — inventada não em uma startup do Vale do Silício, mas dentro da maior empresa fotográfica do mundo. A reação dos executivos entrou para a história como um dos maiores erros históricos empresariais: \"Legal, mas não conte para ninguém\".",
