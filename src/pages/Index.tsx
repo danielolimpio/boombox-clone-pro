@@ -13,6 +13,7 @@ import { lugaresProibidos } from "@/data/lugaresProibidos";
 import { objetosFuncoes } from "@/data/objetosFuncoes";
 import { fenomenosNaturais } from "@/data/fenomenosNaturais";
 import { errosHistoricos } from "@/data/errosHistoricos";
+import { testesPersonalidade } from "@/data/testesPersonalidade";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -22,9 +23,23 @@ const Index = () => {
 
   const initialPosts = [
     {
-      title: "10 Erros Históricos que Mudaram o Mundo Para Sempre",
+      title: "15 Testes de Personalidade que Revelam Quem Você Realmente É",
       author: "Daniel Olimpio",
       date: "agora mesmo",
+      views: "18,7K",
+      votes: "1,2K",
+      image: testesPersonalidade[0].imageUrl,
+      category: "CURIOSIDADES",
+      description: "Do Rorschach ao Big Five: 15 testes psicológicos usados por especialistas para revelar traços profundos, motivações inconscientes e caminhos de autoconhecimento.",
+      reaction: "🧠",
+      large: true,
+      tags: ["autoconhecimento", "psicologia", "personalidade"],
+      link: `/teste-personalidade/${testesPersonalidade[0].slug}`,
+    },
+    {
+      title: "10 Erros Históricos que Mudaram o Mundo Para Sempre",
+      author: "Daniel Olimpio",
+      date: "há 1 minuto",
       views: "12,4K",
       votes: "812",
       image: errosHistoricos[0].imageUrl,

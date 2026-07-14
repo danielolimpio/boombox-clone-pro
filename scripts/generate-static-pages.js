@@ -175,6 +175,28 @@ errosHistoricosRoutes.forEach(([slug, title, description]) => {
   routes.push({ path: `/erro-historico/${slug}`, title, description, category: 'erros-historicos' });
 });
 
+const testesPersonalidadeRoutes = [
+  ['teste-de-rorschach-manchas-tinta-personalidade', 'Teste de Rorschach: o que as manchas de tinta revelam sobre você | eFuxico', 'Descubra como o teste de Rorschach usa 10 manchas de tinta simétricas para revelar traços profundos da personalidade, emoções reprimidas e forma de pensar.'],
+  ['teste-mbti-16-personalidades-myers-briggs', 'Teste MBTI: as 16 personalidades de Myers-Briggs explicadas | eFuxico', 'Entenda como o teste MBTI classifica pessoas em 16 tipos de personalidade (INTJ, ENFP, ISTP e outros) com base na tipologia de Carl Jung.'],
+  ['teste-big-five-ocean-cinco-grandes-fatores-personalidade', 'Teste Big Five (OCEAN): os 5 grandes fatores da personalidade | eFuxico', 'Entenda o modelo Big Five ou OCEAN, considerado o padrão-ouro da psicologia científica para medir os 5 grandes fatores da personalidade humana.'],
+  ['eneagrama-personalidade-9-tipos-autoconhecimento', 'Eneagrama: os 9 tipos de personalidade e como descobrir o seu | eFuxico', 'Conheça o Eneagrama da Personalidade, sistema com 9 tipos que revela sua motivação central, medos profundos e caminho de crescimento pessoal.'],
+  ['teste-disc-comportamento-4-perfis-profissional', 'Teste DISC: os 4 perfis comportamentais D, I, S e C explicados | eFuxico', 'Entenda o teste DISC e os 4 perfis comportamentais (Dominância, Influência, Estabilidade e Conformidade) usados por milhões de empresas no mundo todo.'],
+  ['teste-vocacional-riasec-holland-6-perfis-carreira', 'Teste RIASEC de Holland: descubra sua carreira ideal em 6 perfis | eFuxico', 'Descubra o teste RIASEC de John Holland, referência mundial em orientação vocacional, que classifica pessoas em 6 perfis de carreira e ambiente de trabalho.'],
+  ['teste-de-cores-luscher-personalidade-preferencia-cor', 'Teste das Cores de Lüscher: o que sua cor favorita revela | eFuxico', 'Descubra o teste das cores de Max Lüscher, criado em 1947, que revela traços de personalidade, estado emocional e conflitos psicológicos pela preferência por cores.'],
+  ['teste-tat-apercepcao-tematica-historias-personalidade', 'Teste TAT (Apercepção Temática): as histórias que revelam sua personalidade | eFuxico', 'Conheça o TAT, teste projetivo criado em Harvard em 1935 que analisa a personalidade através das histórias que você inventa sobre imagens ambíguas.'],
+  ['teste-htp-casa-arvore-pessoa-desenho-personalidade', 'Teste HTP (Casa-Árvore-Pessoa): o que seus desenhos revelam | eFuxico', 'Entenda o teste HTP (House-Tree-Person), criado em 1948, que analisa personalidade através de três desenhos simples: uma casa, uma árvore e uma pessoa.'],
+  ['teste-wartegg-desenho-8-quadrados-personalidade', 'Teste Wartegg: o que você desenha em 8 quadrados revela sobre você | eFuxico', 'Descubra o teste Wartegg, criado em 1939, que analisa personalidade a partir de desenhos que você completa em 8 pequenos quadrados com estímulos gráficos.'],
+  ['teste-16pf-cattell-16-fatores-personalidade', 'Teste 16PF de Cattell: os 16 fatores da personalidade explicados | eFuxico', 'Entenda o teste 16PF criado por Raymond Cattell em 1949, que mede a personalidade em 16 fatores primários e é referência em psicologia científica.'],
+  ['teste-de-zulliger-z-test-versao-rapida-rorschach', 'Teste de Zulliger (Z-Test): a versão rápida do Rorschach | eFuxico', 'Conheça o teste de Zulliger ou Z-Test, versão coletiva e rápida do Rorschach criada em 1948, muito usada em concursos e seleções psicológicas no Brasil.'],
+  ['teste-palografico-personalidade-atencao-concentracao', 'Teste Palográfico: personalidade, atenção e concentração em traços | eFuxico', 'Descubra o Teste Palográfico, análise de traços verticais que revela atenção, concentração, emocionalidade e organização em concursos e seleções.'],
+  ['teste-szondi-8-fotos-personalidade-inconsciente', 'Teste de Szondi: as 8 fotos que revelam impulsos inconscientes | eFuxico', 'Conheça o Teste de Szondi, criado em 1937, que analisa personalidade e impulsos inconscientes através de escolhas entre 48 fotografias de rostos.'],
+  ['inventario-beck-depressao-teste-emocional', 'Inventário Beck (BDI): o teste padrão-ouro para avaliar saúde emocional | eFuxico', 'Descubra o Inventário Beck de Depressão (BDI), instrumento criado em 1961 e considerado padrão-ouro mundial para avaliar sintomas emocionais e depressivos.'],
+];
+
+testesPersonalidadeRoutes.forEach(([slug, title, description]) => {
+  routes.push({ path: `/teste-personalidade/${slug}`, title, description, category: 'testes-personalidade' });
+});
+
 // Gerar links de navegação HTML (não React Router) para permitir crawling
 function generateNavigationLinks() {
   // Navegação principal
