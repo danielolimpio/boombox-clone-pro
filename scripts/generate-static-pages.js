@@ -197,6 +197,34 @@ testesPersonalidadeRoutes.forEach(([slug, title, description]) => {
   routes.push({ path: `/teste-personalidade/${slug}`, title, description, category: 'testes-personalidade' });
 });
 
+// Série 20 Segredos de Profissões
+const segredosProfissoesRoutes = [
+  ['segredos-medicos-nunca-contam-consultorio', 'Segredos de médicos: o que os doutores nunca contam aos pacientes | eFuxico', 'Descubra os segredos que médicos nunca contam sobre consultas, plantões, indústria farmacêutica e prontuários — verdades reais do dia a dia da medicina que impactam sua saúde.'],
+  ['segredos-enfermeiros-plantao-hospital', 'Segredos de enfermeiros: o que a enfermagem nunca conta sobre plantões | eFuxico', 'Enfermeiros revelam os segredos do plantão hospitalar: escala esgotante, protocolos que salvam vidas, erros escondidos e a hierarquia oculta que domina o hospital brasileiro.'],
+  ['segredos-pilotos-aviacao-comercial-cabine', 'Segredos de pilotos: o que a aviação comercial nunca conta aos passageiros | eFuxico', 'Pilotos comerciais revelam segredos da cabine: turbulência real, piloto automático, cochilos autorizados, atrasos programados e o que realmente acontece antes da decolagem.'],
+  ['segredos-chefs-cozinha-restaurante', 'Segredos de chefs: verdades da cozinha profissional que ninguém conta | eFuxico', 'Chefs revelam os segredos da cozinha profissional: reaproveitamento, congelamento, pratos do dia, custo real do prato e o que acontece quando o cliente devolve a comida.'],
+  ['segredos-advogados-tribunal-cliente', 'Segredos de advogados: verdades da advocacia que ninguém conta | eFuxico', 'Advogados revelam segredos do escritório e do tribunal: honorários, acordos, prazos processuais, ética profissional e o que realmente aumenta suas chances de vencer uma ação.'],
+  ['segredos-professores-sala-aula-educacao', 'Segredos de professores: verdades da educação que ninguém conta | eFuxico', 'Professores revelam segredos da sala de aula: salário real, correção de provas em casa, indisciplina, sistema de notas e o impacto invisível na vida dos alunos.'],
+  ['segredos-policiais-abordagem-plantao', 'Segredos de policiais: verdades da polícia que ninguém conta | eFuxico', 'Policiais revelam segredos do plantão: abordagem, escala esgotante, saúde mental, produtividade, corregedoria e o que a farda esconde do cidadão comum.'],
+  ['segredos-bombeiros-resgate-incendio', 'Segredos de bombeiros: verdades do resgate e combate a incêndio | eFuxico', 'Bombeiros militares revelam segredos do quartel: escala, treinamento, resgate em altura, incêndio residencial, primeiros socorros e mitos que colocam vidas em risco.'],
+  ['segredos-dentistas-consultorio-tratamento', 'Segredos de dentistas: verdades do consultório odontológico | eFuxico', 'Dentistas revelam segredos do consultório: convênios, custo real de implantes, clareamento, canal, ortodontia e o que realmente evita cárie e problema periodontal.'],
+  ['segredos-programadores-desenvolvedores-software', 'Segredos de programadores: verdades da carreira em tecnologia | eFuxico', 'Desenvolvedores revelam segredos da carreira em tech: stack real x hype, code review, dívida técnica, home office, salários e o que separa júnior de sênior no mercado.'],
+  ['segredos-jornalistas-redacao-noticia', 'Segredos de jornalistas: verdades da redação e da apuração | eFuxico', 'Jornalistas revelam segredos da redação: apuração, fontes, pressão de deadline, cliques, patrocínio disfarçado, fake news e o que separa notícia real de propaganda.'],
+  ['segredos-vendedores-loja-comissao', 'Segredos de vendedores: técnicas de venda que ninguém conta | eFuxico', 'Vendedores revelam segredos da loja física e digital: gatilhos mentais, comissão, meta, upsell, cross-sell e as frases prontas que aumentam sua chance de comprar.'],
+  ['segredos-corretores-imoveis-imobiliaria', 'Segredos de corretores de imóveis: verdades do mercado imobiliário | eFuxico', 'Corretores revelam segredos da compra e venda de imóveis: negociação, avaliação, comissão, financiamento, defeitos ocultos e o que fazer antes de assinar o contrato.'],
+  ['segredos-baristas-cafeteria-cafe-especial', 'Segredos de baristas: verdades sobre café especial e cafeteria | eFuxico', 'Baristas revelam segredos da cafeteria: extração, moagem, temperatura, leite vaporizado, custo do grão especial e como preparar espresso profissional em casa.'],
+  ['segredos-personal-trainer-academia-treino', 'Segredos de personal trainer: verdades sobre treino e resultado | eFuxico', 'Personal trainers revelam segredos da academia: hipertrofia real, emagrecimento, suplementação, recuperação, hormônios e o que separa treino que funciona de moda passageira.'],
+  ['segredos-cabeleireiros-salao-beleza', 'Segredos de cabeleireiros: verdades do salão de beleza | eFuxico', 'Cabeleireiros revelam segredos do salão: química capilar, coloração, corte, escova, hidratação e o que realmente cuida do fio versus o que só vende produto.'],
+  ['segredos-mecanicos-oficina-carro', 'Segredos de mecânicos: verdades da oficina automotiva | eFuxico', 'Mecânicos revelam segredos da oficina: revisão obrigatória, peça original, orçamento inflado, diagnóstico eletrônico e como identificar oficina séria de golpista.'],
+  ['segredos-fotografos-fotografia-profissional', 'Segredos de fotógrafos: verdades da fotografia profissional | eFuxico', 'Fotógrafos revelam segredos do estúdio e do casamento: equipamento, luz, pós-produção, precificação e o que realmente separa fotografia amadora de trabalho profissional.'],
+  ['segredos-engenheiros-civis-obra-construcao', 'Segredos de engenheiros civis: verdades da construção civil | eFuxico', 'Engenheiros civis revelam segredos da obra: projeto, fundação, concreto, cronograma, ART, medição de mestre de obra e o que fiscalizar para evitar prejuízos.'],
+  ['segredos-motoristas-aplicativo-uber-99', 'Segredos de motoristas de aplicativo: verdades da Uber e 99 | eFuxico', 'Motoristas de app revelam segredos da corrida: cálculo da tarifa, ganho real por hora, taxa de cancelamento, avaliação, jornada esgotante e como funciona o algoritmo dinâmico.'],
+];
+
+segredosProfissoesRoutes.forEach(([slug, title, description]) => {
+  routes.push({ path: `/segredo-profissao/${slug}`, title, description, category: 'segredos-profissoes' });
+});
+
 // Gerar links de navegação HTML (não React Router) para permitir crawling
 function generateNavigationLinks() {
   // Navegação principal
