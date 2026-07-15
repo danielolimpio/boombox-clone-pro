@@ -59,6 +59,7 @@ import ObjetoFuncaoPage from "./pages/objetos-funcoes/ObjetoFuncaoPage";
 import FenomenoNaturalPage from "./pages/fenomenos-naturais/FenomenoNaturalPage";
 import ErroHistoricoPage from "./pages/erros-historicos/ErroHistoricoPage";
 import TestePersonalidadePage from "./pages/testes-personalidade/TestePersonalidadePage";
+import SegredoProfissaoPage from "./pages/segredos-profissoes/SegredoProfissaoPage";
 
 const queryClient = new QueryClient();
 
@@ -124,6 +125,7 @@ const App = () => (
           <Route path="/fenomeno-natural/:slug" element={<FenomenoNaturalPage />} />
           <Route path="/erro-historico/:slug" element={<ErroHistoricoPage />} />
           <Route path="/teste-personalidade/:slug" element={<TestePersonalidadePage />} />
+          <Route path="/segredo-profissao/:slug" element={<SegredoProfissaoPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

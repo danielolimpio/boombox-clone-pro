@@ -14,6 +14,7 @@ import { objetosFuncoes } from "@/data/objetosFuncoes";
 import { fenomenosNaturais } from "@/data/fenomenosNaturais";
 import { errosHistoricos } from "@/data/errosHistoricos";
 import { testesPersonalidade } from "@/data/testesPersonalidade";
+import { segredosProfissoes } from "@/data/segredosProfissoes";
 
 const Index = () => {
   const [page, setPage] = useState(1);
@@ -22,6 +23,20 @@ const Index = () => {
   const observerTarget = useRef(null);
 
   const initialPosts = [
+    {
+      title: "20 Segredos de Profissões que os Profissionais Nunca Contam",
+      author: "Daniel Olimpio",
+      date: "agora mesmo",
+      views: "24,3K",
+      votes: "1,6K",
+      image: segredosProfissoes[0].imageUrl,
+      category: "MERCADO DE TRABALHO",
+      description: "De médicos a motoristas de aplicativo: 20 verdades reveladas por quem vive o dia a dia das profissões — com contexto, curiosidades e lições aprendidas em cada página.",
+      reaction: "🤫",
+      large: true,
+      tags: ["profissões", "mercado de trabalho", "carreira"],
+      link: `/segredo-profissao/${segredosProfissoes[0].slug}`,
+    },
     {
       title: "15 Testes de Personalidade que Revelam Quem Você Realmente É",
       author: "Daniel Olimpio",
