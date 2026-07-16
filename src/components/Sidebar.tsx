@@ -2,6 +2,8 @@ import { Facebook, Instagram, Share2, Globe } from "lucide-react";
 import { XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Link } from "react-router-dom";
+import { getTrending } from "@/data/allPosts";
 
 const Sidebar = () => {
   const leaderboard = [
@@ -12,11 +14,7 @@ const Sidebar = () => {
     { name: "Carla Souza", points: "8.567", avatar: "CS" },
   ];
 
-  const trending = [
-    { title: "25 Fatos Incríveis Que Você Não Sabia", image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=100&h=100&fit=crop" },
-    { title: "Áudios Escolhidos do Soundcloud", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=100&h=100&fit=crop" },
-    { title: "Coisas Que Você Pode Dizer Com Poder", image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&h=100&fit=crop" },
-  ];
+  const trending = getTrending().slice(0, 5);
 
   return (
     <aside className="space-y-6">
@@ -43,15 +41,21 @@ const Sidebar = () => {
         <h3 className="font-bold text-lg mb-4">Em Alta</h3>
         <div className="space-y-3">
           {trending.map((post, index) => (
-            <div key={index} className="flex items-start gap-3">
+            <Link
+              to={post.link}
+              key={index}
+              className="flex items-start gap-3 group"
+            >
               <span className="text-primary font-bold text-lg">{index + 1}</span>
               <img
                 src={post.image}
                 alt={post.title}
-                className="w-16 h-16 rounded object-cover"
+                className="w-16 h-16 rounded object-cover shrink-0"
               />
-              <p className="text-sm flex-1 line-clamp-2">{post.title}</p>
-            </div>
+              <p className="text-sm flex-1 line-clamp-2 group-hover:text-primary transition-colors">
+                {post.title}
+              </p>
+            </Link>
           ))}
         </div>
       </div>
