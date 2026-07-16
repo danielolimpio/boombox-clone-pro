@@ -76,8 +76,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/20 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-            <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-center md:text-left">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               <Link to="/" className="hover:text-primary transition-colors">Home</Link>
               <Link to="/sobre" className="hover:text-primary transition-colors">Sobre</Link>
               <Link to="/contato" className="hover:text-primary transition-colors">Contato</Link>
