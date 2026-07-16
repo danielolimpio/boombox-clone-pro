@@ -12,11 +12,11 @@ const ReactionBar = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center gap-4 py-6 border-b bg-card">
+    <div className="flex items-center justify-center gap-2 sm:gap-3 md:gap-4 py-4 md:py-6 border-b bg-card overflow-x-auto">
       {reactions.map((reaction) => (
         <button
           key={reaction.label}
-          className="text-3xl hover:scale-125 transition-transform cursor-pointer"
+          className="text-2xl sm:text-3xl hover:scale-125 transition-transform cursor-pointer shrink-0"
           title={reaction.label}
         >
           {reaction.emoji}
