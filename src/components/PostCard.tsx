@@ -40,6 +40,10 @@ const PostCard = ({
         <img
           src={image}
           alt={title}
+          width={large ? 800 : 400}
+          height={large ? 450 : 300}
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "auto"}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           style={{ aspectRatio: large ? "16/9" : "4/3" }}
         />
