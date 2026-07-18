@@ -21,6 +21,10 @@ const DuploSentido08 = () => {
         <title>Telescópio no Píer: A Foto Turística que Confundiu Milhões | eFuxico</title>
         <meta name="description" content="Descubra a verdade por trás da foto viral de uma turista usando um telescópio que criou uma das ilusões de ótica mais engraçadas da internet." />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-telescopio" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Telescópio no Píer: A Foto Turística que Confundiu Milhões | eFuxico" />
+        <meta property="og:description" content="Descubra a verdade por trás da foto viral de uma turista usando um telescópio que criou uma das ilusões de ótica mais engraçadas da internet." />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-telescopio" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

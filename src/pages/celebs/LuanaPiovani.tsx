@@ -22,6 +22,10 @@ const LuanaPiovani = () => {
         <meta name="description" content="Veja a transformação de Luana Piovani antes e depois da maquiagem. A atriz mostra sua beleza natural e autenticidade sem filtros." />
         <meta name="keywords" content="luana piovani antes e depois, luana piovani sem maquiagem, atriz maquiagem, beleza natural luana" />
         <link rel="canonical" href="https://efuxico.com.br/luana-piovani-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Luana Piovani Antes e Depois da Maquiagem - Beleza Autêntica | eFuxico" />
+        <meta property="og:description" content="Veja a transformação de Luana Piovani antes e depois da maquiagem. A atriz mostra sua beleza natural e autenticidade sem filtros." />
+        <meta property="og:url" content="https://efuxico.com.br/luana-piovani-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

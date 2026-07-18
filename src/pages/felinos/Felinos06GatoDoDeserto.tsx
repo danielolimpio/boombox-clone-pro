@@ -22,8 +22,11 @@ const Felinos06GatoDoDeserto = () => {
         <meta name="description" content="Conheça o gato do deserto ou gato-das-areias, o único felino verdadeiramente adaptado à vida nos desertos mais áridos do planeta." />
         <meta name="keywords" content="gato do deserto, gato das areias, felis margarita, felinos deserto, gatos selvagens" />
         <link rel="canonical" href="https://efuxico.com.br/gato-do-deserto-areia-felino" />
-        <meta property="og:title" content="Gato do Deserto: O Felino Adaptado às Areias Escaldantes" />
-        <meta property="og:description" content="Conheça o gato do deserto, o único felino verdadeiramente adaptado à vida nos desertos." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-do-deserto-areia-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato do Deserto: O Felino Adaptado às Areias Escaldantes | eFuxico" />
+        <meta property="og:description" content="Conheça o gato do deserto ou gato-das-areias, o único felino verdadeiramente adaptado à vida nos desertos mais áridos do planeta." />
         <meta property="og:url" content="https://efuxico.com.br/gato-do-deserto-areia-felino" />
       </Helmet>
 

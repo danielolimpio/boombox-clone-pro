@@ -22,8 +22,11 @@ const Felinos09GatoMaracaja = () => {
         <meta name="description" content="Conheça o gato maracajá, o felino mais adaptado à vida nas árvores. Descubra suas habilidades acrobáticas únicas nas florestas brasileiras." />
         <meta name="keywords" content="gato maracajá, leopardus wiedii, felinos brasileiros, gatos selvagens brasil, felino acrobata" />
         <link rel="canonical" href="https://efuxico.com.br/gato-maracaja-felino-acrobata-brasil" />
-        <meta property="og:title" content="Gato Maracajá: O Acrobata das Florestas Brasileiras" />
-        <meta property="og:description" content="Conheça o gato maracajá, o felino mais adaptado à vida nas árvores." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-maracaja-felino-acrobata-brasil" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato Maracajá: O Acrobata das Florestas Brasileiras | eFuxico" />
+        <meta property="og:description" content="Conheça o gato maracajá, o felino mais adaptado à vida nas árvores. Descubra suas habilidades acrobáticas únicas nas florestas brasileiras." />
         <meta property="og:url" content="https://efuxico.com.br/gato-maracaja-felino-acrobata-brasil" />
       </Helmet>
 

@@ -21,6 +21,10 @@ const DuploSentido06 = () => {
         <title>Casal no Sofá: A Foto Caseira que Confundiu a Internet Inteira | eFuxico</title>
         <meta name="description" content="Entenda a ilusão de ótica criada por uma foto casual de um casal no sofá que deixou milhões de pessoas confusas nas redes sociais." />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-casal-sofa" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Casal no Sofá: A Foto Caseira que Confundiu a Internet Inteira | eFuxico" />
+        <meta property="og:description" content="Entenda a ilusão de ótica criada por uma foto casual de um casal no sofá que deixou milhões de pessoas confusas nas redes sociais." />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-casal-sofa" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

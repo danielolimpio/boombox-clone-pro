@@ -21,6 +21,10 @@ const DuploSentido02 = () => {
         <title>Casal no Barco: A Foto que Enganou Milhões de Pessoas | eFuxico</title>
         <meta name="description" content="Entenda como a foto de um casal em um barco criou uma das ilusões de ótica mais compartilhadas da internet. A verdade vai te surpreender!" />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-casal-barco" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Casal no Barco: A Foto que Enganou Milhões de Pessoas | eFuxico" />
+        <meta property="og:description" content="Entenda como a foto de um casal em um barco criou uma das ilusões de ótica mais compartilhadas da internet. A verdade vai te surpreender!" />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-casal-barco" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -21,6 +21,10 @@ const DuploSentido03 = () => {
         <title>Nado Sincronizado: A Foto Esportiva que Confundiu a Internet | eFuxico</title>
         <meta name="description" content="Veja como uma foto de nado sincronizado criou uma ilusão de ótica hilária que viralizou nas redes sociais. A explicação é surpreendente!" />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-nado-sincronizado" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Nado Sincronizado: A Foto Esportiva que Confundiu a Internet | eFuxico" />
+        <meta property="og:description" content="Veja como uma foto de nado sincronizado criou uma ilusão de ótica hilária que viralizou nas redes sociais. A explicação é surpreendente!" />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-nado-sincronizado" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

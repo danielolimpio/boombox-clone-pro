@@ -22,6 +22,10 @@ const GiovannaAntonelli = () => {
         <meta name="description" content="Veja a transformação de Giovanna Antonelli antes e depois da maquiagem. A atriz encanta com sua beleza radiante e natural." />
         <meta name="keywords" content="giovanna antonelli antes e depois, giovanna antonelli sem maquiagem, atriz beleza, giovanna maquiagem" />
         <link rel="canonical" href="https://efuxico.com.br/giovanna-antonelli-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Giovanna Antonelli Antes e Depois da Maquiagem - Beleza Radiante | eFuxico" />
+        <meta property="og:description" content="Veja a transformação de Giovanna Antonelli antes e depois da maquiagem. A atriz encanta com sua beleza radiante e natural." />
+        <meta property="og:url" content="https://efuxico.com.br/giovanna-antonelli-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

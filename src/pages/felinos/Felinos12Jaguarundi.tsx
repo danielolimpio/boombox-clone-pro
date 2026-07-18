@@ -22,8 +22,11 @@ const Felinos12Jaguarundi = () => {
         <meta name="description" content="Conheça o jaguarundi ou gato-mourisco, felino brasileiro de aparência única. Descubra por que é chamado de gato-lontra e suas características." />
         <meta name="keywords" content="jaguarundi, gato mourisco, herpailurus yagouaroundi, felinos brasileiros, gato lontra" />
         <link rel="canonical" href="https://efuxico.com.br/jaguarundi-gato-mourisco-brasil" />
-        <meta property="og:title" content="Jaguarundi (Gato-Mourisco): O Felino Brasileiro Mais Incomum" />
-        <meta property="og:description" content="Conheça o jaguarundi ou gato-mourisco, felino brasileiro de aparência única." />
+
+        <meta property="og:url" content="https://efuxico.com.br/jaguarundi-gato-mourisco-brasil" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Jaguarundi (Gato-Mourisco): O Felino Brasileiro Mais Incomum | eFuxico" />
+        <meta property="og:description" content="Conheça o jaguarundi ou gato-mourisco, felino brasileiro de aparência única. Descubra por que é chamado de gato-lontra e suas características." />
         <meta property="og:url" content="https://efuxico.com.br/jaguarundi-gato-mourisco-brasil" />
       </Helmet>
 

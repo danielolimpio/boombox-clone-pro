@@ -22,8 +22,11 @@ const Felinos03GatoChileno = () => {
         <meta name="description" content="Conheça o gato chileno ou kodkod, o menor felino selvagem das Américas. Descubra onde vive, características e curiosidades deste raro predador." />
         <meta name="keywords" content="gato chileno, kodkod, leopardus guigna, menor felino américas, felinos chile" />
         <link rel="canonical" href="https://efuxico.com.br/gato-chileno-kodkod-felino" />
-        <meta property="og:title" content="Gato Chileno (Kodkod): O Menor Felino das Américas" />
-        <meta property="og:description" content="Conheça o gato chileno ou kodkod, o menor felino selvagem das Américas." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-chileno-kodkod-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato Chileno (Kodkod): O Menor Felino das Américas | eFuxico" />
+        <meta property="og:description" content="Conheça o gato chileno ou kodkod, o menor felino selvagem das Américas. Descubra onde vive, características e curiosidades deste raro predador." />
         <meta property="og:url" content="https://efuxico.com.br/gato-chileno-kodkod-felino" />
       </Helmet>
 

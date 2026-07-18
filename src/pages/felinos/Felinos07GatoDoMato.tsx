@@ -22,8 +22,11 @@ const Felinos07GatoDoMato = () => {
         <meta name="description" content="Conheça o gato do mato pequeno, felino nativo do Brasil que habita a Mata Atlântica. Descubra suas características e importância ecológica." />
         <meta name="keywords" content="gato do mato, gato do mato pequeno, leopardus tigrinus, felinos brasileiros, mata atlântica" />
         <link rel="canonical" href="https://efuxico.com.br/gato-do-mato-pequeno-felino-brasil" />
-        <meta property="og:title" content="Gato do Mato Pequeno: O Felino Brasileiro da Mata Atlântica" />
-        <meta property="og:description" content="Conheça o gato do mato pequeno, felino nativo do Brasil que habita a Mata Atlântica." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-do-mato-pequeno-felino-brasil" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato do Mato Pequeno: O Felino Brasileiro da Mata Atlântica | eFuxico" />
+        <meta property="og:description" content="Conheça o gato do mato pequeno, felino nativo do Brasil que habita a Mata Atlântica. Descubra suas características e importância ecológica." />
         <meta property="og:url" content="https://efuxico.com.br/gato-do-mato-pequeno-felino-brasil" />
       </Helmet>
 

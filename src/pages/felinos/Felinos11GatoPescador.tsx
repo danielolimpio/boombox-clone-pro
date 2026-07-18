@@ -22,8 +22,11 @@ const Felinos11GatoPescador = () => {
         <meta name="description" content="Conheça o gato pescador, único felino que mergulha para capturar peixes. Descubra suas adaptações aquáticas únicas nas zonas úmidas asiáticas." />
         <meta name="keywords" content="gato pescador, prionailurus viverrinus, felinos aquáticos, gatos selvagens ásia" />
         <link rel="canonical" href="https://efuxico.com.br/gato-pescador-felino-aquatico" />
-        <meta property="og:title" content="Gato Pescador: O Felino que Caça Debaixo d'Água" />
-        <meta property="og:description" content="Conheça o gato pescador, único felino que mergulha para capturar peixes." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-pescador-felino-aquatico" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato Pescador: O Felino que Caça Debaixo d'Água | eFuxico" />
+        <meta property="og:description" content="Conheça o gato pescador, único felino que mergulha para capturar peixes. Descubra suas adaptações aquáticas únicas nas zonas úmidas asiáticas." />
         <meta property="og:url" content="https://efuxico.com.br/gato-pescador-felino-aquatico" />
       </Helmet>
 

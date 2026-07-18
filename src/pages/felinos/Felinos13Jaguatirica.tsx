@@ -22,8 +22,11 @@ const Felinos13Jaguatirica = () => {
         <meta name="description" content="Conheça a jaguatirica, o terceiro maior felino do Brasil. Descubra suas características, habitat e por que é considerada a mais bela das Américas." />
         <meta name="keywords" content="jaguatirica, leopardus pardalis, felinos brasileiros, gatos selvagens brasil, ocelote" />
         <link rel="canonical" href="https://efuxico.com.br/jaguatirica-felino-brasileiro" />
-        <meta property="og:title" content="Jaguatirica: A Rainha dos Felinos Brasileiros" />
-        <meta property="og:description" content="Conheça a jaguatirica, o terceiro maior felino do Brasil." />
+
+        <meta property="og:url" content="https://efuxico.com.br/jaguatirica-felino-brasileiro" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Jaguatirica: A Rainha dos Felinos Brasileiros | eFuxico" />
+        <meta property="og:description" content="Conheça a jaguatirica, o terceiro maior felino do Brasil. Descubra suas características, habitat e por que é considerada a mais bela das Américas." />
         <meta property="og:url" content="https://efuxico.com.br/jaguatirica-felino-brasileiro" />
       </Helmet>
 
