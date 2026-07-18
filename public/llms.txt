@@ -1,0 +1,41 @@
+# eFuxico
+
+> Portal de entretenimento, curiosidades e cultura pop com conteúdo 100% em português sobre celebridades, natureza, ciência, história, testes de personalidade e segredos do cotidiano.
+
+O eFuxico é um blog digital brasileiro dedicado a artigos virais, listas de curiosidades, fofocas do mundo dos famosos, fenômenos naturais, história, tecnologia e questionários interativos. Todo o conteúdo é publicado em português (PT-BR) e organizado em categorias claras para facilitar a navegação. As matérias são apresentadas como séries paginadas, com imagens, barra de progresso e botões de navegação entre os itens.
+
+## Páginas principais
+
+- [Página inicial](/): Capa do eFuxico com os artigos em destaque e acesso às principais séries.
+- [Recentes](/recentes/): Artigos publicados mais recentemente.
+- [Tendências](/tendencias/): Matérias que estão em alta no momento.
+- [Hot](/hot/): Conteúdo mais comentado e popular.
+- [Populares](/populares/): Artigos com maior engajamento do público.
+- [Sobre](/sobre/): Informações sobre o eFuxico, missão e equipe editorial.
+- [Contato](/contato/): Canal de contato com a redação.
+- [Privacidade](/privacidade/): Política de privacidade e uso de dados.
+- [Termos de uso](/termos/): Termos e condições do site.
+
+## Categorias
+
+- [Curiosidades](/categoria/curiosidades/): Curiosidades do cotidiano, ciência, história e natureza.
+- [Celebridades](/categoria/celebridades/): Notícias, fofocas e transformações de famosos.
+- [Entretenimento](/categoria/entretenimento/): Listas, memes e conteúdo leve para entreter.
+- [Questionários](/categoria/questionarios/): Testes de personalidade e quizzes interativos.
+- [Tecnologia](/categoria/tecnologia/): Segredos de objetos, inovações e curiosidades tech.
+
+## Artigos em destaque
+
+- [10 Celebridades Antes e Depois da Maquiagem](/xuxa-meneghel-antes-depois-maquiagem/): Série de 10 páginas comparando o visual de famosas com e sem maquiagem.
+- [10 Fotos de Duplo Sentido que Vão Confundir Sua Mente](/foto-duplo-sentido-crianca-praia/): Série paginada com imagens ilusórias explicadas uma a uma.
+- [18 Espécies de Felinos](/leopardo-nebuloso-felino-florestas-asiaticas/): Série de 18 páginas sobre espécies raras de felinos, com ficha técnica e descrição científica.
+- [20 Lugares Proibidos que Você Nunca Poderá Visitar](/lugar-proibido/ilha-da-queimada-grande-cobras-brasil/): Artigo viral paginado com locais restritos ao redor do mundo.
+- [20 Objetos Cotidianos que Têm Funções Secretas que Ninguém Conhece](/objeto-funcao/tampa-da-caneta-bic-funcao-secreta/): Série de 20 páginas revelando usos ocultos de objetos do dia a dia.
+- [15 Fenômenos Naturais Impossíveis que a Ciência Ainda Não Consegue Explicar](/fenomeno-natural/relampagos-catatumbo-venezuela/): Série sobre mistérios naturais e teorias científicas.
+- [10 Erros Históricos que Mudaram o Mundo Para Sempre](/erro-historico/torre-pisa-inclinada-engenharia/): Artigo histórico paginado com contexto, consequências e lições aprendidas.
+- [15 Testes de Personalidade que Revelam Quem Você Realmente É](/teste-personalidade/teste-mbti-personalidade/): Série de questionários com interpretação, base científica e curiosidades.
+- [20 Segredos de Profissões que os Profissionais Nunca Contam](/segredo-profissao/chef-de-cozinha-segredos-restaurante/): Série paginada revelando segredos de diferentes profissões.
+
+## Sobre este arquivo
+
+Use este resumo para entender rapidamente a estrutura do eFuxico. Os links apontam para rotas públicas e seguras para leitura, sem áreas de administrador, autenticação ou dados pessoais. Para a lista completa de URLs indexadas, consulte o sitemap em [/sitemap.xml](/sitemap.xml).
