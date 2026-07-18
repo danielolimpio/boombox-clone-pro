@@ -19,7 +19,12 @@ const Index = () => {
           <div className="lg:col-span-2">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
               {posts.map((post, index) => (
-                <PostCard key={`${index}-${post.title}`} {...post} large />
+                <PostCard
+                  key={`${index}-${post.title}`}
+                  {...post}
+                  large
+                  priority={index === 0}
+                />
               ))}
             </div>
           </div>
