@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import { ChevronLeft, ChevronRight, MapPin, AlertTriangle, Clock, ListOrdered } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -56,6 +57,16 @@ const LugarProibidoPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
+            <Helmet>
+        <title>{lugar.metaTitle}</title>
+        <meta name="description" content={lugar.metaDescription} />
+        <link rel="canonical" href={`https://efuxico.com.br/lugar-proibido/${lugar.slug}`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={lugar.metaTitle} />
+        <meta property="og:description" content={lugar.metaDescription} />
+        <meta property="og:url" content={`https://efuxico.com.br/lugar-proibido/${lugar.slug}`} />
+        <meta property="og:image" content={lugar.imageUrl.startsWith("http") ? lugar.imageUrl : `https://efuxico.com.br${lugar.imageUrl}`} />
+      </Helmet>
       <Header />
 
       <main className="container mx-auto px-4 py-6">

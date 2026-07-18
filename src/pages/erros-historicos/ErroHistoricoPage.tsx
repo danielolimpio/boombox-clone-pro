@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import { ChevronLeft, ChevronRight, MapPin, AlertTriangle, Clock, ListOrdered, Lightbulb, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -56,6 +57,16 @@ const ErroHistoricoPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
+            <Helmet>
+        <title>{item.metaTitle}</title>
+        <meta name="description" content={item.metaDescription} />
+        <link rel="canonical" href={`https://efuxico.com.br/erro-historico/${item.slug}`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={item.metaTitle} />
+        <meta property="og:description" content={item.metaDescription} />
+        <meta property="og:url" content={`https://efuxico.com.br/erro-historico/${item.slug}`} />
+        <meta property="og:image" content={item.imageUrl.startsWith("http") ? item.imageUrl : `https://efuxico.com.br${item.imageUrl}`} />
+      </Helmet>
       <Header />
 
       <main className="container mx-auto px-4 py-6">
