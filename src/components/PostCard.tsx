@@ -16,6 +16,7 @@ interface PostCardProps {
   large?: boolean;
   showAuthor?: boolean;
   link?: string;
+  priority?: boolean;
 }
 
 const PostCard = ({
