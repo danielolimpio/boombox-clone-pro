@@ -32,6 +32,7 @@ const PostCard = ({
   large = false,
   showAuthor = false,
   link,
+  priority = false,
 }: PostCardProps) => {
   const CardContent = (
     <article className={`group cursor-pointer ${large ? "col-span-2 row-span-2" : ""}`}>
