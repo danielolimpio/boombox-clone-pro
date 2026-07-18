@@ -22,8 +22,11 @@ const Felinos01LeopardoNebuloso = () => {
         <meta name="description" content="Conheça o leopardo nebuloso, felino misterioso das florestas asiáticas com caninos proporcionalmente maiores que qualquer outro gato selvagem." />
         <meta name="keywords" content="leopardo nebuloso, neofelis nebulosa, felinos asiáticos, gatos selvagens, felinos do mundo" />
         <link rel="canonical" href="https://efuxico.com.br/leopardo-nebuloso-felino-florestas-asiaticas" />
-        <meta property="og:title" content="Leopardo Nebuloso: O Felino das Florestas Asiáticas" />
-        <meta property="og:description" content="Conheça o leopardo nebuloso, felino misterioso das florestas asiáticas com caninos impressionantes." />
+
+        <meta property="og:url" content="https://efuxico.com.br/leopardo-nebuloso-felino-florestas-asiaticas" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Leopardo Nebuloso: O Felino das Florestas Asiáticas | eFuxico" />
+        <meta property="og:description" content="Conheça o leopardo nebuloso, felino misterioso das florestas asiáticas com caninos proporcionalmente maiores que qualquer outro gato selvagem." />
         <meta property="og:url" content="https://efuxico.com.br/leopardo-nebuloso-felino-florestas-asiaticas" />
       </Helmet>
 

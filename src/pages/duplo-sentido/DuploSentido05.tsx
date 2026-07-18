@@ -21,6 +21,10 @@ const DuploSentido05 = () => {
         <title>Fonte no Parque: A Foto de Passeio que Viralizou nas Redes | eFuxico</title>
         <meta name="description" content="Veja a foto de uma moça em frente a uma fonte que criou uma ilusão de ótica impressionante e confundiu milhares de pessoas na internet." />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-fonte-parque" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Fonte no Parque: A Foto de Passeio que Viralizou nas Redes | eFuxico" />
+        <meta property="og:description" content="Veja a foto de uma moça em frente a uma fonte que criou uma ilusão de ótica impressionante e confundiu milhares de pessoas na internet." />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-fonte-parque" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

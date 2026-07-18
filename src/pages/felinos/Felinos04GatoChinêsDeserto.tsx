@@ -22,8 +22,11 @@ const Felinos04GatoChinêsDeserto = () => {
         <meta name="description" content="Conheça o gato chinês do deserto, único felino endêmico da China. Descubra onde vive, características e por que é tão raro na natureza." />
         <meta name="keywords" content="gato chinês do deserto, felis bieti, gato montês chinês, felinos china, gatos selvagens raros" />
         <link rel="canonical" href="https://efuxico.com.br/gato-chines-deserto-felino" />
-        <meta property="og:title" content="Gato Chinês do Deserto: O Felino Endêmico da China" />
-        <meta property="og:description" content="Conheça o gato chinês do deserto, único felino endêmico da China." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-chines-deserto-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato Chinês do Deserto: O Felino Endêmico da China | eFuxico" />
+        <meta property="og:description" content="Conheça o gato chinês do deserto, único felino endêmico da China. Descubra onde vive, características e por que é tão raro na natureza." />
         <meta property="og:url" content="https://efuxico.com.br/gato-chines-deserto-felino" />
       </Helmet>
 

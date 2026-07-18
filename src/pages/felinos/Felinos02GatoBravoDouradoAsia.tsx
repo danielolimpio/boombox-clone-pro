@@ -22,8 +22,11 @@ const Felinos02GatoBravoDouradoAsia = () => {
         <meta name="description" content="Descubra o gato bravo dourado asiático, felino raro e misterioso das florestas do Sudeste Asiático. Conheça seus hábitos e características." />
         <meta name="keywords" content="gato bravo dourado asiático, catopuma temminckii, felinos asiáticos, gatos selvagens raros" />
         <link rel="canonical" href="https://efuxico.com.br/gato-bravo-dourado-asia-felino" />
-        <meta property="og:title" content="Gato Bravo Dourado da Ásia: O Felino Secreto das Florestas" />
-        <meta property="og:description" content="Descubra o gato bravo dourado asiático, felino raro e misterioso das florestas do Sudeste Asiático." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-bravo-dourado-asia-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato Bravo Dourado da Ásia: O Felino Secreto das Florestas | eFuxico" />
+        <meta property="og:description" content="Descubra o gato bravo dourado asiático, felino raro e misterioso das florestas do Sudeste Asiático. Conheça seus hábitos e características." />
         <meta property="og:url" content="https://efuxico.com.br/gato-bravo-dourado-asia-felino" />
       </Helmet>
 

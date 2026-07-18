@@ -22,8 +22,11 @@ const Felinos10GatoMarmorado = () => {
         <meta name="description" content="Descubra o gato marmorado, um dos felinos mais raros e elusivos da Ásia. Conheça suas características únicas e estilo de vida noturno." />
         <meta name="keywords" content="gato marmorado, pardofelis marmorata, felinos asiáticos, gatos selvagens raros, felinos noturnos" />
         <link rel="canonical" href="https://efuxico.com.br/gato-marmorado-felino-asia" />
-        <meta property="og:title" content="Gato Marmorado: O Felino Fantasma das Florestas Asiáticas" />
-        <meta property="og:description" content="Descubra o gato marmorado, um dos felinos mais raros e elusivos da Ásia." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-marmorado-felino-asia" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato Marmorado: O Felino Fantasma das Florestas Asiáticas | eFuxico" />
+        <meta property="og:description" content="Descubra o gato marmorado, um dos felinos mais raros e elusivos da Ásia. Conheça suas características únicas e estilo de vida noturno." />
         <meta property="og:url" content="https://efuxico.com.br/gato-marmorado-felino-asia" />
       </Helmet>
 

@@ -22,8 +22,11 @@ const Felinos16LinceEuroasiatico = () => {
         <meta name="description" content="Conheça o lince euroasiático, o maior de todos os linces. Descubra suas características, habitat nas florestas da Europa e Ásia, e esforços de conservação." />
         <meta name="keywords" content="lince euroasiático, lynx lynx, maior lince, felinos europa, gatos selvagens" />
         <link rel="canonical" href="https://efuxico.com.br/lince-euroasiatico-felino" />
-        <meta property="og:title" content="Lince Euroasiático: O Maior Lince do Mundo" />
-        <meta property="og:description" content="Conheça o lince euroasiático, o maior de todos os linces." />
+
+        <meta property="og:url" content="https://efuxico.com.br/lince-euroasiatico-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Lince Euroasiático: O Maior Lince do Mundo | eFuxico" />
+        <meta property="og:description" content="Conheça o lince euroasiático, o maior de todos os linces. Descubra suas características, habitat nas florestas da Europa e Ásia, e esforços de conservação." />
         <meta property="og:url" content="https://efuxico.com.br/lince-euroasiatico-felino" />
       </Helmet>
 

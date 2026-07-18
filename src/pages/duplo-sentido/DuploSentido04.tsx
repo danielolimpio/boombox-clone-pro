@@ -21,6 +21,10 @@ const DuploSentido04 = () => {
         <title>Jogador de Basquete: A Ilusão de Ótica na NBA que Viralizou | eFuxico</title>
         <meta name="description" content="Descubra a verdade por trás da foto viral de um jogador de basquete da NBA que criou uma ilusão de ótica inacreditável nas quadras." />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-jogador-basquete" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Jogador de Basquete: A Ilusão de Ótica na NBA que Viralizou | eFuxico" />
+        <meta property="og:description" content="Descubra a verdade por trás da foto viral de um jogador de basquete da NBA que criou uma ilusão de ótica inacreditável nas quadras." />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-jogador-basquete" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

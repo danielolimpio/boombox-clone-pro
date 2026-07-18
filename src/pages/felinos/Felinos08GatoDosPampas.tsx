@@ -22,8 +22,11 @@ const Felinos08GatoDosPampas = () => {
         <meta name="description" content="Descubra o gato dos pampas ou gato palheiro, felino sul-americano das planícies e campos abertos. Conheça onde vive e suas características." />
         <meta name="keywords" content="gato dos pampas, gato palheiro, leopardus colocola, felinos sul americanos, felinos brasil" />
         <link rel="canonical" href="https://efuxico.com.br/gato-dos-pampas-palheiro-felino" />
-        <meta property="og:title" content="Gato dos Pampas (Gato Palheiro): O Felino das Planícies" />
-        <meta property="og:description" content="Descubra o gato dos pampas ou gato palheiro, felino sul-americano das planícies." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-dos-pampas-palheiro-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato dos Pampas (Gato Palheiro): O Felino das Planícies | eFuxico" />
+        <meta property="og:description" content="Descubra o gato dos pampas ou gato palheiro, felino sul-americano das planícies e campos abertos. Conheça onde vive e suas características." />
         <meta property="og:url" content="https://efuxico.com.br/gato-dos-pampas-palheiro-felino" />
       </Helmet>
 

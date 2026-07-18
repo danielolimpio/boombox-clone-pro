@@ -22,6 +22,10 @@ const ElianeApresentadora = () => {
         <meta name="description" content="Descubra a transformação de Eliane antes e depois da maquiagem. A apresentadora revela elegância e profissionalismo em suas aparições." />
         <meta name="keywords" content="eliane antes e depois, eliane sem maquiagem, apresentadora maquiagem, eliane beleza" />
         <link rel="canonical" href="https://efuxico.com.br/eliane-apresentadora-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Eliane Antes e Depois da Maquiagem - Elegância e Profissionalismo | eFuxico" />
+        <meta property="og:description" content="Descubra a transformação de Eliane antes e depois da maquiagem. A apresentadora revela elegância e profissionalismo em suas aparições." />
+        <meta property="og:url" content="https://efuxico.com.br/eliane-apresentadora-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

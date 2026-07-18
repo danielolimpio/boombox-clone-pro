@@ -22,6 +22,10 @@ const LeticiaSpiller = () => {
         <meta name="description" content="Descubra a transformação de Letícia Spiller antes e depois da maquiagem. A atriz revela sua beleza atemporal e naturalidade aos 50 anos." />
         <meta name="keywords" content="leticia spiller antes e depois, leticia spiller sem maquiagem, atriz beleza natural, leticia spiller maquiagem" />
         <link rel="canonical" href="https://efuxico.com.br/leticia-spiller-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Letícia Spiller Antes e Depois da Maquiagem - Beleza Atemporal | eFuxico" />
+        <meta property="og:description" content="Descubra a transformação de Letícia Spiller antes e depois da maquiagem. A atriz revela sua beleza atemporal e naturalidade aos 50 anos." />
+        <meta property="og:url" content="https://efuxico.com.br/leticia-spiller-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

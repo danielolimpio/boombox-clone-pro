@@ -22,8 +22,11 @@ const Felinos17LinceIberico = () => {
         <meta name="description" content="Conheça o lince ibérico, considerado o felino mais ameaçado do mundo. Descubra sua incrível recuperação e esforços de conservação na Espanha e Portugal." />
         <meta name="keywords" content="lince ibérico, lynx pardinus, felinos ameaçados, gatos selvagens espanha portugal" />
         <link rel="canonical" href="https://efuxico.com.br/lince-iberico-felino-ameacado" />
-        <meta property="og:title" content="Lince Ibérico: O Felino Mais Ameaçado do Mundo" />
-        <meta property="og:description" content="Conheça o lince ibérico, considerado o felino mais ameaçado do mundo." />
+
+        <meta property="og:url" content="https://efuxico.com.br/lince-iberico-felino-ameacado" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Lince Ibérico: O Felino Mais Ameaçado do Mundo | eFuxico" />
+        <meta property="og:description" content="Conheça o lince ibérico, considerado o felino mais ameaçado do mundo. Descubra sua incrível recuperação e esforços de conservação na Espanha e Portugal." />
         <meta property="og:url" content="https://efuxico.com.br/lince-iberico-felino-ameacado" />
       </Helmet>
 

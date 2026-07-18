@@ -22,6 +22,10 @@ const Ludmilla = () => {
         <meta name="description" content="Descubra a transformação impressionante de Ludmilla antes e depois da maquiagem. A cantora mostra sua beleza natural e poder de transformação." />
         <meta name="keywords" content="ludmilla antes e depois, ludmilla sem maquiagem, ludmilla cantora maquiagem, transformação ludmilla" />
         <link rel="canonical" href="https://efuxico.com.br/ludmilla-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Ludmilla Antes e Depois da Maquiagem - Transformação Poderosa | eFuxico" />
+        <meta property="og:description" content="Descubra a transformação impressionante de Ludmilla antes e depois da maquiagem. A cantora mostra sua beleza natural e poder de transformação." />
+        <meta property="og:url" content="https://efuxico.com.br/ludmilla-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

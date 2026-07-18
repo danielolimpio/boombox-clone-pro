@@ -22,8 +22,11 @@ const Felinos18Serval = () => {
         <meta name="description" content="Conheça o serval, o felino africano de pernas extraordinariamente longas. Descubra suas habilidades de salto impressionantes e adaptações únicas." />
         <meta name="keywords" content="serval, leptailurus serval, felinos africanos, gatos selvagens africa, felino pernas longas" />
         <link rel="canonical" href="https://efuxico.com.br/serval-felino-africano" />
-        <meta property="og:title" content="Serval: O Felino de Pernas Longas da África" />
-        <meta property="og:description" content="Conheça o serval, o felino africano de pernas extraordinariamente longas." />
+
+        <meta property="og:url" content="https://efuxico.com.br/serval-felino-africano" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Serval: O Felino de Pernas Longas da África | eFuxico" />
+        <meta property="og:description" content="Conheça o serval, o felino africano de pernas extraordinariamente longas. Descubra suas habilidades de salto impressionantes e adaptações únicas." />
         <meta property="og:url" content="https://efuxico.com.br/serval-felino-africano" />
       </Helmet>
 

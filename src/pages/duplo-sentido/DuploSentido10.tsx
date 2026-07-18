@@ -21,6 +21,10 @@ const DuploSentido10 = () => {
         <title>Selfie no Espelho: A Foto de Quarto que Enganou a Internet | eFuxico</title>
         <meta name="description" content="Descubra a verdade por trás da selfie no espelho que confundiu milhões de pessoas. Uma ilusão de ótica clássica que continua viralizando!" />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-selfie-espelho" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Selfie no Espelho: A Foto de Quarto que Enganou a Internet | eFuxico" />
+        <meta property="og:description" content="Descubra a verdade por trás da selfie no espelho que confundiu milhões de pessoas. Uma ilusão de ótica clássica que continua viralizando!" />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-selfie-espelho" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

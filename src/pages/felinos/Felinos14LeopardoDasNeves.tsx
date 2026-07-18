@@ -22,8 +22,11 @@ const Felinos14LeopardoDasNeves = () => {
         <meta name="description" content="Conheça o leopardo das neves, o misterioso felino do Himalaia. Descubra suas adaptações incríveis para sobreviver nas montanhas mais altas do mundo." />
         <meta name="keywords" content="leopardo das neves, panthera uncia, felinos himalaia, snow leopard, gatos selvagens" />
         <link rel="canonical" href="https://efuxico.com.br/leopardo-das-neves-felino-himalaia" />
-        <meta property="og:title" content="Leopardo das Neves: O Fantasma das Montanhas" />
-        <meta property="og:description" content="Conheça o leopardo das neves, o misterioso felino do Himalaia." />
+
+        <meta property="og:url" content="https://efuxico.com.br/leopardo-das-neves-felino-himalaia" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Leopardo das Neves: O Fantasma das Montanhas | eFuxico" />
+        <meta property="og:description" content="Conheça o leopardo das neves, o misterioso felino do Himalaia. Descubra suas adaptações incríveis para sobreviver nas montanhas mais altas do mundo." />
         <meta property="og:url" content="https://efuxico.com.br/leopardo-das-neves-felino-himalaia" />
       </Helmet>
 

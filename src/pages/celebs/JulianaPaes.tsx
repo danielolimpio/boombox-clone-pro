@@ -21,6 +21,10 @@ const JulianaPaes = () => {
         <title>Juliana Paes Antes e Depois da Maquiagem - Beleza Brasileira | eFuxico</title>
         <meta name="description" content="Veja a transformação de Juliana Paes antes e depois da maquiagem. A atriz revela sua beleza brasileira e sensualidade natural." />
         <link rel="canonical" href="https://efuxico.com.br/juliana-paes-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Juliana Paes Antes e Depois da Maquiagem - Beleza Brasileira | eFuxico" />
+        <meta property="og:description" content="Veja a transformação de Juliana Paes antes e depois da maquiagem. A atriz revela sua beleza brasileira e sensualidade natural." />
+        <meta property="og:url" content="https://efuxico.com.br/juliana-paes-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

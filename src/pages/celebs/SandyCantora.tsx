@@ -22,6 +22,10 @@ const SandyCantora = () => {
         <meta name="description" content="Veja a transformação de Sandy antes e depois da maquiagem. A cantora revela sua beleza natural e elegância aos 40 anos." />
         <meta name="keywords" content="sandy antes e depois, sandy sem maquiagem, sandy cantora maquiagem, beleza natural sandy" />
         <link rel="canonical" href="https://efuxico.com.br/sandy-cantora-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Sandy Antes e Depois da Maquiagem - Beleza Natural e Elegância | eFuxico" />
+        <meta property="og:description" content="Veja a transformação de Sandy antes e depois da maquiagem. A cantora revela sua beleza natural e elegância aos 40 anos." />
+        <meta property="og:url" content="https://efuxico.com.br/sandy-cantora-antes-depois-maquiagem" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

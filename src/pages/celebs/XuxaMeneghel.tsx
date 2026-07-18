@@ -22,8 +22,11 @@ const XuxaMeneghel = () => {
         <meta name="description" content="Descubra a transformação incrível de Xuxa Meneghel antes e depois da maquiagem. Veja como a Rainha dos Baixinhos mantém sua beleza natural aos 60 anos." />
         <meta name="keywords" content="xuxa antes e depois, xuxa sem maquiagem, xuxa meneghel maquiagem, beleza natural xuxa, xuxa 2025" />
         <link rel="canonical" href="https://efuxico.com.br/xuxa-meneghel-antes-depois-maquiagem" />
-        <meta property="og:title" content="Xuxa Meneghel Antes e Depois da Maquiagem - Transformação Natural" />
-        <meta property="og:description" content="Descubra a transformação incrível de Xuxa Meneghel antes e depois da maquiagem." />
+
+        <meta property="og:url" content="https://efuxico.com.br/xuxa-meneghel-antes-depois-maquiagem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Xuxa Meneghel Antes e Depois da Maquiagem - Transformação Natural | eFuxico" />
+        <meta property="og:description" content="Descubra a transformação incrível de Xuxa Meneghel antes e depois da maquiagem. Veja como a Rainha dos Baixinhos mantém sua beleza natural aos 60 anos." />
         <meta property="og:url" content="https://efuxico.com.br/xuxa-meneghel-antes-depois-maquiagem" />
       </Helmet>
 

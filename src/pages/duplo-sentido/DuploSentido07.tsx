@@ -21,6 +21,10 @@ const DuploSentido07 = () => {
         <title>Grupo de Amigos: A Foto de Balada que Viralizou na Internet | eFuxico</title>
         <meta name="description" content="Veja como uma foto de grupo de amigos em uma balada criou uma ilusão de ótica que deixou milhões confusos. A explicação vai te surpreender!" />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-grupo-amigos" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Grupo de Amigos: A Foto de Balada que Viralizou na Internet | eFuxico" />
+        <meta property="og:description" content="Veja como uma foto de grupo de amigos em uma balada criou uma ilusão de ótica que deixou milhões confusos. A explicação vai te surpreender!" />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-grupo-amigos" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

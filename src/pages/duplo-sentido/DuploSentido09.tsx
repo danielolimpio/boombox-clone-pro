@@ -21,6 +21,10 @@ const DuploSentido09 = () => {
         <title>Amigas na Festa: A Foto com Mão Misteriosa que Viralizou | eFuxico</title>
         <meta name="description" content="Veja a foto viral de duas amigas em uma festa onde uma mão misteriosa aparece de forma inexplicável. A verdade é mais simples do que parece!" />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-amigas-festa" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Amigas na Festa: A Foto com Mão Misteriosa que Viralizou | eFuxico" />
+        <meta property="og:description" content="Veja a foto viral de duas amigas em uma festa onde uma mão misteriosa aparece de forma inexplicável. A verdade é mais simples do que parece!" />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-amigas-festa" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -22,8 +22,11 @@ const Felinos05GatoDePallas = () => {
         <meta name="description" content="Descubra o gato de Pallas ou manul, famoso por suas expressões faciais únicas. Conheça este felino peludo das estepes da Ásia Central." />
         <meta name="keywords" content="gato de pallas, manul, otocolobus manul, felinos ásia central, gatos selvagens expressivos" />
         <link rel="canonical" href="https://efuxico.com.br/gato-de-pallas-manul-felino" />
-        <meta property="og:title" content="Gato de Pallas (Manul): O Felino Mais Expressivo do Mundo" />
-        <meta property="og:description" content="Descubra o gato de Pallas ou manul, famoso por suas expressões faciais únicas." />
+
+        <meta property="og:url" content="https://efuxico.com.br/gato-de-pallas-manul-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Gato de Pallas (Manul): O Felino Mais Expressivo do Mundo | eFuxico" />
+        <meta property="og:description" content="Descubra o gato de Pallas ou manul, famoso por suas expressões faciais únicas. Conheça este felino peludo das estepes da Ásia Central." />
         <meta property="og:url" content="https://efuxico.com.br/gato-de-pallas-manul-felino" />
       </Helmet>
 

@@ -21,6 +21,10 @@ const DuploSentido01 = () => {
         <title>Criança na Praia: A Ilusão de Ótica que Viralizou na Internet | eFuxico</title>
         <meta name="description" content="Descubra a verdade por trás da foto viral de uma criança na praia que confundiu milhões de pessoas com sua ilusão de ótica incrível." />
         <link rel="canonical" href="https://efuxico.com.br/foto-duplo-sentido-crianca-praia" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Criança na Praia: A Ilusão de Ótica que Viralizou na Internet | eFuxico" />
+        <meta property="og:description" content="Descubra a verdade por trás da foto viral de uma criança na praia que confundiu milhões de pessoas com sua ilusão de ótica incrível." />
+        <meta property="og:url" content="https://efuxico.com.br/foto-duplo-sentido-crianca-praia" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

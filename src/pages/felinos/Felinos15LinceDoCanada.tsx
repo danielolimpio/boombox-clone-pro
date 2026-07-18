@@ -22,8 +22,11 @@ const Felinos15LinceDoCanada = () => {
         <meta name="description" content="Conheça o lince do Canadá, felino especialista em caçar lebres nas florestas geladas. Descubra suas patas gigantes e adaptações ao frio extremo." />
         <meta name="keywords" content="lince do canadá, lynx canadensis, felinos américa norte, lince boreal, gatos selvagens" />
         <link rel="canonical" href="https://efuxico.com.br/lince-do-canada-felino" />
-        <meta property="og:title" content="Lince do Canadá: O Caçador das Florestas Boreais" />
-        <meta property="og:description" content="Conheça o lince do Canadá, felino especialista em caçar lebres nas florestas geladas." />
+
+        <meta property="og:url" content="https://efuxico.com.br/lince-do-canada-felino" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Lince do Canadá: O Caçador das Florestas Boreais | eFuxico" />
+        <meta property="og:description" content="Conheça o lince do Canadá, felino especialista em caçar lebres nas florestas geladas. Descubra suas patas gigantes e adaptações ao frio extremo." />
         <meta property="og:url" content="https://efuxico.com.br/lince-do-canada-felino" />
       </Helmet>
 
