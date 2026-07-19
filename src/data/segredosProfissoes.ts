@@ -1,3 +1,6 @@
+import policialImg from "@/assets/profissoes/policial.jpg";
+import bombeiroImg from "@/assets/profissoes/bombeiro.jpg";
+
 export interface SegredoProfissao {
   slug: string;
   number: number;
@@ -142,7 +145,7 @@ export const segredosProfissoes: SegredoProfissao[] = [
     profession: "Policial Militar, Civil e Federal",
     updatedAt: UPDATED,
     secret: "Boa parte das abordagens começa por leitura corporal e contexto — a suspeita raramente é aleatória, mas raramente pode ser justificada em relatório.",
-    imageUrl: img("photo-1591792535069-d5c5b0e30d55"),
+    imageUrl: policialImg,
     imageAlt: "Policial fardado com colete tático em viatura durante policiamento ostensivo",
     paragraphs: [
       "A polícia moderna nasceu em Londres em 1829, com Sir Robert Peel e sua Metropolitan Police, os primeiros bobbies fardados que atuavam de forma preventiva. No Brasil, as polícias militares descendem do Império, e as polícias civis existem desde 1841. Hoje, mais de 700 mil profissionais fardados atuam no país, em uma das rotinas mais estressantes do mercado de trabalho, com taxas de suicídio maiores do que a média nacional.",
@@ -161,7 +164,7 @@ export const segredosProfissoes: SegredoProfissao[] = [
     profession: "Bombeiro Militar e Bombeiro Civil",
     updatedAt: UPDATED,
     secret: "Mais de 70% das ocorrências de bombeiros no Brasil são resgates e primeiros socorros — não incêndios, como imagina o senso comum.",
-    imageUrl: img("photo-1599685315640-4a9ba2613f46"),
+    imageUrl: bombeiroImg,
     imageAlt: "Bombeiro militar em ação com equipamento de proteção individual completo",
     paragraphs: [
       "A profissão de bombeiro moderno começa em Roma, no ano de 6 d.C., quando o imperador Augusto criou os Vigiles Urbani, primeiro corpo público de combate a incêndios. No Brasil, o Corpo de Bombeiros foi criado em 1856 por decreto de Dom Pedro II. Hoje, o país tem mais de 60 mil bombeiros militares divididos entre estados, atuando em uma rotina que combina resgate, incêndio, salvamento aquático e defesa civil.",
