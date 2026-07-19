@@ -90,22 +90,22 @@ const Sidebar = () => {
           </div>
           <div className="flex justify-center gap-3">
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Daniel Olimpio">
                 <Facebook className="h-4 w-4" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) de Daniel Olimpio">
                 <XIcon className="h-4 w-4" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Daniel Olimpio">
                 <Instagram className="h-4 w-4" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer" aria-label="Site de Daniel Olimpio">
                 <Globe className="h-4 w-4" />
               </a>
             </Button>
@@ -117,22 +117,22 @@ const Sidebar = () => {
         <h3 className="font-bold text-lg mb-4">Encontre-nos Em</h3>
         <div className="flex justify-center gap-3">
           <Button variant="outline" size="icon" asChild>
-            <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer" aria-label="Facebook do eFuxico">
               <Facebook className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram do eFuxico">
               <Instagram className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) do eFuxico">
               <XIcon className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial">
               <Globe className="h-5 w-5" />
             </a>
           </Button>

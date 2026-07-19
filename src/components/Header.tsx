@@ -48,7 +48,7 @@ const Header = () => {
             <div className="flex items-center gap-2 sm:gap-4 min-w-0">
               <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
                 <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon" className="lg:hidden shrink-0">
+                  <Button variant="ghost" size="icon" className="lg:hidden shrink-0" aria-label="Abrir menu">
                     <Menu className="h-5 w-5" />
                   </Button>
                 </SheetTrigger>
@@ -97,23 +97,31 @@ const Header = () => {
 
             <div className="flex items-center gap-1 sm:gap-2 shrink-0">
               <div className="hidden xl:flex items-center gap-1 mr-2">
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
+                  <a href="https://www.facebook.com/danielolimpio.com.br" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <Facebook className="h-4 w-4" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
+                  <a href="https://www.instagram.com/danielolimpio_com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <Instagram className="h-4 w-4" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
+                  <a href="https://x.com/danielolimpio_" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
                   <Twitter className="h-4 w-4" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
+                  <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                   <Youtube className="h-4 w-4" />
+                  </a>
                 </Button>
               </div>
-              <Button variant="ghost" size="icon" onClick={toggleTheme}>
+              <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label={isDark ? "Ativar modo claro" : "Ativar modo escuro"}>
                 {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" aria-label="Buscar">
                 <Search className="h-5 w-5" />
               </Button>
             </div>

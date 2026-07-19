@@ -13,6 +13,7 @@ const Index = () => {
       <Header />
 
       <main className="container mx-auto px-4 py-6">
+        <h1 className="sr-only">eFuxico — Curiosidades, Celebridades e Entretenimento</h1>
         <ReactionBar />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 mt-6 lg:mt-8">
